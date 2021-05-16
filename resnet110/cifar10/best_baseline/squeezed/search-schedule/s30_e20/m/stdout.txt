@@ -1,0 +1,1372 @@
+start iteration 0
+(cache recomputed) Accuracy log [(0, 0.9428, {'top1': 0.9428}), (1, 0.9412, {'top1': 0.9412}), (2, 0.9486, {'top1': 0.9486}), (3, 0.9432, {'top1': 0.9432}), (4, 0.9458, {'top1': 0.9458}), (5, 0.9078, {'top1': 0.9078}), (6, 0.9438, {'top1': 0.9438}), (7, 0.9492, {'top1': 0.9492}), (8, 0.9452, {'top1': 0.9452}), (9, 0.948, {'top1': 0.948}), (10, 0.9426, {'top1': 0.9426}), (11, 0.9472, {'top1': 0.9472}), (12, 0.9438, {'top1': 0.9438}), (13, 0.9468, {'top1': 0.9468}), (14, 0.9452, {'top1': 0.9452}), (15, 0.9474, {'top1': 0.9474}), (16, 0.9456, {'top1': 0.9456}), (17, 0.9484, {'top1': 0.9484}), (18, 0.571, {'top1': 0.571}), (19, 0.9464, {'top1': 0.9464}), (20, 0.9466, {'top1': 0.9466}), (21, 0.9462, {'top1': 0.9462}), (22, 0.9484, {'top1': 0.9484}), (23, 0.9474, {'top1': 0.9474}), (24, 0.9488, {'top1': 0.9488}), (25, 0.9474, {'top1': 0.9474}), (26, 0.9478, {'top1': 0.9478}), (27, 0.9482, {'top1': 0.9482}), (28, 0.9468, {'top1': 0.9468}), (29, 0.9494, {'top1': 0.9494}), (30, 0.9492, {'top1': 0.9492}), (31, 0.9502, {'top1': 0.9502}), (32, 0.95, {'top1': 0.95}), (33, 0.949, {'top1': 0.949}), (34, 0.9508, {'top1': 0.9508}), (35, 0.9504, {'top1': 0.9504}), (36, 0.6922, {'top1': 0.6922}), (37, 0.9466, {'top1': 0.9466}), (38, 0.9484, {'top1': 0.9484}), (39, 0.9458, {'top1': 0.9458}), (40, 0.9486, {'top1': 0.9486}), (41, 0.9492, {'top1': 0.9492}), (42, 0.95, {'top1': 0.95}), (43, 0.9496, {'top1': 0.9496}), (44, 0.9478, {'top1': 0.9478}), (45, 0.9474, {'top1': 0.9474}), (46, 0.9484, {'top1': 0.9484}), (47, 0.945, {'top1': 0.945}), (48, 0.946, {'top1': 0.946}), (49, 0.9478, {'top1': 0.9478}), (50, 0.945, {'top1': 0.945}), (51, 0.9378, {'top1': 0.9378}), (52, 0.9456, {'top1': 0.9456}), (53, 0.931, {'top1': 0.931})]
+just computed impact of block 34 . accuracy after removing:  0.9508
+removed block 34 current accuracy 0.9508 loss from initial  0.0006000000000000449
+since last training loss: 0.0006000000000000449 threshold 0.01 training needed False
+start iteration 1
+(cache recomputed) Accuracy log [(0, 0.9402, {'top1': 0.9402}), (1, 0.941, {'top1': 0.941}), (2, 0.9462, {'top1': 0.9462}), (3, 0.942, {'top1': 0.942}), (4, 0.946, {'top1': 0.946}), (5, 0.9066, {'top1': 0.9066}), (6, 0.944, {'top1': 0.944}), (7, 0.948, {'top1': 0.948}), (8, 0.945, {'top1': 0.945}), (9, 0.947, {'top1': 0.947}), (10, 0.9418, {'top1': 0.9418}), (11, 0.947, {'top1': 0.947}), (12, 0.944, {'top1': 0.944}), (13, 0.9462, {'top1': 0.9462}), (14, 0.9456, {'top1': 0.9456}), (15, 0.9466, {'top1': 0.9466}), (16, 0.9444, {'top1': 0.9444}), (17, 0.949, {'top1': 0.949}), (18, 0.5722, {'top1': 0.5722}), (19, 0.9462, {'top1': 0.9462}), (20, 0.9458, {'top1': 0.9458}), (21, 0.9442, {'top1': 0.9442}), (22, 0.9474, {'top1': 0.9474}), (23, 0.9464, {'top1': 0.9464}), (24, 0.9472, {'top1': 0.9472}), (25, 0.9482, {'top1': 0.9482}), (26, 0.948, {'top1': 0.948}), (27, 0.9486, {'top1': 0.9486}), (28, 0.9474, {'top1': 0.9474}), (29, 0.9472, {'top1': 0.9472}), (30, 0.9486, {'top1': 0.9486}), (31, 0.9498, {'top1': 0.9498}), (32, 0.949, {'top1': 0.949}), (33, 0.9488, {'top1': 0.9488}), (35, 0.949, {'top1': 0.949}), (36, 0.6848, {'top1': 0.6848}), (37, 0.9456, {'top1': 0.9456}), (38, 0.9484, {'top1': 0.9484}), (39, 0.946, {'top1': 0.946}), (40, 0.9474, {'top1': 0.9474}), (41, 0.949, {'top1': 0.949}), (42, 0.949, {'top1': 0.949}), (43, 0.9492, {'top1': 0.9492}), (44, 0.9466, {'top1': 0.9466}), (45, 0.9474, {'top1': 0.9474}), (46, 0.9486, {'top1': 0.9486}), (47, 0.9442, {'top1': 0.9442}), (48, 0.944, {'top1': 0.944}), (49, 0.9454, {'top1': 0.9454}), (50, 0.9456, {'top1': 0.9456}), (51, 0.9358, {'top1': 0.9358}), (52, 0.9444, {'top1': 0.9444}), (53, 0.9288, {'top1': 0.9288})]
+just computed impact of block 31 . accuracy after removing:  0.9498
+removed block 31 current accuracy 0.9498 loss from initial  0.0016000000000000458
+since last training loss: 0.0016000000000000458 threshold 0.01 training needed False
+start iteration 2
+(cache recomputed) Accuracy log [(0, 0.939, {'top1': 0.939}), (1, 0.9386, {'top1': 0.9386}), (2, 0.9426, {'top1': 0.9426}), (3, 0.9402, {'top1': 0.9402}), (4, 0.9438, {'top1': 0.9438}), (5, 0.9042, {'top1': 0.9042}), (6, 0.9418, {'top1': 0.9418}), (7, 0.9464, {'top1': 0.9464}), (8, 0.9414, {'top1': 0.9414}), (9, 0.9456, {'top1': 0.9456}), (10, 0.9416, {'top1': 0.9416}), (11, 0.9458, {'top1': 0.9458}), (12, 0.9426, {'top1': 0.9426}), (13, 0.9456, {'top1': 0.9456}), (14, 0.9438, {'top1': 0.9438}), (15, 0.944, {'top1': 0.944}), (16, 0.9422, {'top1': 0.9422}), (17, 0.947, {'top1': 0.947}), (18, 0.568, {'top1': 0.568}), (19, 0.9434, {'top1': 0.9434}), (20, 0.9446, {'top1': 0.9446}), (21, 0.9438, {'top1': 0.9438}), (22, 0.9452, {'top1': 0.9452}), (23, 0.9454, {'top1': 0.9454}), (24, 0.946, {'top1': 0.946}), (25, 0.9458, {'top1': 0.9458}), (26, 0.946, {'top1': 0.946}), (27, 0.9468, {'top1': 0.9468}), (28, 0.945, {'top1': 0.945}), (29, 0.9476, {'top1': 0.9476}), (30, 0.9472, {'top1': 0.9472}), (32, 0.9476, {'top1': 0.9476}), (33, 0.9472, {'top1': 0.9472}), (35, 0.9466, {'top1': 0.9466}), (36, 0.6722, {'top1': 0.6722}), (37, 0.9456, {'top1': 0.9456}), (38, 0.947, {'top1': 0.947}), (39, 0.9446, {'top1': 0.9446}), (40, 0.9446, {'top1': 0.9446}), (41, 0.9484, {'top1': 0.9484}), (42, 0.9464, {'top1': 0.9464}), (43, 0.9468, {'top1': 0.9468}), (44, 0.9462, {'top1': 0.9462}), (45, 0.9464, {'top1': 0.9464}), (46, 0.9468, {'top1': 0.9468}), (47, 0.9428, {'top1': 0.9428}), (48, 0.9442, {'top1': 0.9442}), (49, 0.944, {'top1': 0.944}), (50, 0.9442, {'top1': 0.9442}), (51, 0.9336, {'top1': 0.9336}), (52, 0.941, {'top1': 0.941}), (53, 0.9262, {'top1': 0.9262})]
+just computed impact of block 41 . accuracy after removing:  0.9484
+removed block 41 current accuracy 0.9484 loss from initial  0.0030000000000000027
+since last training loss: 0.0030000000000000027 threshold 0.01 training needed False
+start iteration 3
+(cache recomputed) Accuracy log [(0, 0.9368, {'top1': 0.9368}), (1, 0.9384, {'top1': 0.9384}), (2, 0.9428, {'top1': 0.9428}), (3, 0.9374, {'top1': 0.9374}), (4, 0.9434, {'top1': 0.9434}), (5, 0.8978, {'top1': 0.8978}), (6, 0.9374, {'top1': 0.9374}), (7, 0.944, {'top1': 0.944}), (8, 0.939, {'top1': 0.939}), (9, 0.945, {'top1': 0.945}), (10, 0.9378, {'top1': 0.9378}), (11, 0.9426, {'top1': 0.9426}), (12, 0.9396, {'top1': 0.9396}), (13, 0.9414, {'top1': 0.9414}), (14, 0.9396, {'top1': 0.9396}), (15, 0.942, {'top1': 0.942}), (16, 0.939, {'top1': 0.939}), (17, 0.9466, {'top1': 0.9466}), (18, 0.5528, {'top1': 0.5528}), (19, 0.941, {'top1': 0.941}), (20, 0.9422, {'top1': 0.9422}), (21, 0.9424, {'top1': 0.9424}), (22, 0.9416, {'top1': 0.9416}), (23, 0.9442, {'top1': 0.9442}), (24, 0.9444, {'top1': 0.9444}), (25, 0.9454, {'top1': 0.9454}), (26, 0.9462, {'top1': 0.9462}), (27, 0.944, {'top1': 0.944}), (28, 0.945, {'top1': 0.945}), (29, 0.9454, {'top1': 0.9454}), (30, 0.9458, {'top1': 0.9458}), (32, 0.9456, {'top1': 0.9456}), (33, 0.9464, {'top1': 0.9464}), (35, 0.9444, {'top1': 0.9444}), (36, 0.6454, {'top1': 0.6454}), (37, 0.9442, {'top1': 0.9442}), (38, 0.9452, {'top1': 0.9452}), (39, 0.9392, {'top1': 0.9392}), (40, 0.945, {'top1': 0.945}), (42, 0.9432, {'top1': 0.9432}), (43, 0.9424, {'top1': 0.9424}), (44, 0.9422, {'top1': 0.9422}), (45, 0.9442, {'top1': 0.9442}), (46, 0.9452, {'top1': 0.9452}), (47, 0.9418, {'top1': 0.9418}), (48, 0.9456, {'top1': 0.9456}), (49, 0.9402, {'top1': 0.9402}), (50, 0.9404, {'top1': 0.9404}), (51, 0.9314, {'top1': 0.9314}), (52, 0.9404, {'top1': 0.9404}), (53, 0.9238, {'top1': 0.9238})]
+just computed impact of block 17 . accuracy after removing:  0.9466
+removed block 17 current accuracy 0.9466 loss from initial  0.0048000000000000265
+since last training loss: 0.0048000000000000265 threshold 0.01 training needed False
+start iteration 4
+(cache recomputed) Accuracy log [(0, 0.935, {'top1': 0.935}), (1, 0.9354, {'top1': 0.9354}), (2, 0.9388, {'top1': 0.9388}), (3, 0.9356, {'top1': 0.9356}), (4, 0.9408, {'top1': 0.9408}), (5, 0.8946, {'top1': 0.8946}), (6, 0.9364, {'top1': 0.9364}), (7, 0.941, {'top1': 0.941}), (8, 0.935, {'top1': 0.935}), (9, 0.9384, {'top1': 0.9384}), (10, 0.9354, {'top1': 0.9354}), (11, 0.9406, {'top1': 0.9406}), (12, 0.9386, {'top1': 0.9386}), (13, 0.9372, {'top1': 0.9372}), (14, 0.9372, {'top1': 0.9372}), (15, 0.9392, {'top1': 0.9392}), (16, 0.9316, {'top1': 0.9316}), (18, 0.5168, {'top1': 0.5168}), (19, 0.9374, {'top1': 0.9374}), (20, 0.9398, {'top1': 0.9398}), (21, 0.9388, {'top1': 0.9388}), (22, 0.9418, {'top1': 0.9418}), (23, 0.9422, {'top1': 0.9422}), (24, 0.9408, {'top1': 0.9408}), (25, 0.9426, {'top1': 0.9426}), (26, 0.9452, {'top1': 0.9452}), (27, 0.9438, {'top1': 0.9438}), (28, 0.944, {'top1': 0.944}), (29, 0.9428, {'top1': 0.9428}), (30, 0.9462, {'top1': 0.9462}), (32, 0.9444, {'top1': 0.9444}), (33, 0.9466, {'top1': 0.9466}), (35, 0.943, {'top1': 0.943}), (36, 0.6268, {'top1': 0.6268}), (37, 0.9392, {'top1': 0.9392}), (38, 0.9418, {'top1': 0.9418}), (39, 0.9366, {'top1': 0.9366}), (40, 0.9416, {'top1': 0.9416}), (42, 0.9402, {'top1': 0.9402}), (43, 0.943, {'top1': 0.943}), (44, 0.9428, {'top1': 0.9428}), (45, 0.9442, {'top1': 0.9442}), (46, 0.9416, {'top1': 0.9416}), (47, 0.9374, {'top1': 0.9374}), (48, 0.9432, {'top1': 0.9432}), (49, 0.9384, {'top1': 0.9384}), (50, 0.9406, {'top1': 0.9406}), (51, 0.9282, {'top1': 0.9282}), (52, 0.9388, {'top1': 0.9388}), (53, 0.9198, {'top1': 0.9198})]
+just computed impact of block 33 . accuracy after removing:  0.9466
+removed block 33 current accuracy 0.9466 loss from initial  0.0048000000000000265
+since last training loss: 0.0048000000000000265 threshold 0.01 training needed False
+start iteration 5
+(cache recomputed) Accuracy log [(0, 0.9318, {'top1': 0.9318}), (1, 0.9352, {'top1': 0.9352}), (2, 0.9384, {'top1': 0.9384}), (3, 0.9312, {'top1': 0.9312}), (4, 0.9384, {'top1': 0.9384}), (5, 0.893, {'top1': 0.893}), (6, 0.9374, {'top1': 0.9374}), (7, 0.9398, {'top1': 0.9398}), (8, 0.9334, {'top1': 0.9334}), (9, 0.9388, {'top1': 0.9388}), (10, 0.9366, {'top1': 0.9366}), (11, 0.9408, {'top1': 0.9408}), (12, 0.9372, {'top1': 0.9372}), (13, 0.9366, {'top1': 0.9366}), (14, 0.9368, {'top1': 0.9368}), (15, 0.9392, {'top1': 0.9392}), (16, 0.9306, {'top1': 0.9306}), (18, 0.5252, {'top1': 0.5252}), (19, 0.9364, {'top1': 0.9364}), (20, 0.9392, {'top1': 0.9392}), (21, 0.9386, {'top1': 0.9386}), (22, 0.9406, {'top1': 0.9406}), (23, 0.9412, {'top1': 0.9412}), (24, 0.9404, {'top1': 0.9404}), (25, 0.9426, {'top1': 0.9426}), (26, 0.9436, {'top1': 0.9436}), (27, 0.9426, {'top1': 0.9426}), (28, 0.9434, {'top1': 0.9434}), (29, 0.9422, {'top1': 0.9422}), (30, 0.9446, {'top1': 0.9446}), (32, 0.9432, {'top1': 0.9432}), (35, 0.9428, {'top1': 0.9428}), (36, 0.6138, {'top1': 0.6138}), (37, 0.9384, {'top1': 0.9384}), (38, 0.9404, {'top1': 0.9404}), (39, 0.9362, {'top1': 0.9362}), (40, 0.9406, {'top1': 0.9406}), (42, 0.9376, {'top1': 0.9376}), (43, 0.9422, {'top1': 0.9422}), (44, 0.9414, {'top1': 0.9414}), (45, 0.9428, {'top1': 0.9428}), (46, 0.9428, {'top1': 0.9428}), (47, 0.9362, {'top1': 0.9362}), (48, 0.9432, {'top1': 0.9432}), (49, 0.938, {'top1': 0.938}), (50, 0.938, {'top1': 0.938}), (51, 0.9292, {'top1': 0.9292}), (52, 0.9368, {'top1': 0.9368}), (53, 0.9158, {'top1': 0.9158})]
+just computed impact of block 30 . accuracy after removing:  0.9446
+removed block 30 current accuracy 0.9446 loss from initial  0.006800000000000028
+since last training loss: 0.006800000000000028 threshold 0.01 training needed False
+start iteration 6
+(cache recomputed) Accuracy log [(0, 0.9312, {'top1': 0.9312}), (1, 0.934, {'top1': 0.934}), (2, 0.936, {'top1': 0.936}), (3, 0.9304, {'top1': 0.9304}), (4, 0.9384, {'top1': 0.9384}), (5, 0.887, {'top1': 0.887}), (6, 0.9352, {'top1': 0.9352}), (7, 0.9384, {'top1': 0.9384}), (8, 0.9304, {'top1': 0.9304}), (9, 0.9368, {'top1': 0.9368}), (10, 0.9328, {'top1': 0.9328}), (11, 0.9388, {'top1': 0.9388}), (12, 0.9356, {'top1': 0.9356}), (13, 0.9352, {'top1': 0.9352}), (14, 0.9344, {'top1': 0.9344}), (15, 0.9392, {'top1': 0.9392}), (16, 0.9308, {'top1': 0.9308}), (18, 0.534, {'top1': 0.534}), (19, 0.9358, {'top1': 0.9358}), (20, 0.9394, {'top1': 0.9394}), (21, 0.9394, {'top1': 0.9394}), (22, 0.9382, {'top1': 0.9382}), (23, 0.941, {'top1': 0.941}), (24, 0.9382, {'top1': 0.9382}), (25, 0.941, {'top1': 0.941}), (26, 0.9404, {'top1': 0.9404}), (27, 0.9418, {'top1': 0.9418}), (28, 0.9416, {'top1': 0.9416}), (29, 0.9386, {'top1': 0.9386}), (32, 0.9414, {'top1': 0.9414}), (35, 0.9384, {'top1': 0.9384}), (36, 0.5938, {'top1': 0.5938}), (37, 0.9384, {'top1': 0.9384}), (38, 0.9382, {'top1': 0.9382}), (39, 0.933, {'top1': 0.933}), (40, 0.9406, {'top1': 0.9406}), (42, 0.9368, {'top1': 0.9368}), (43, 0.9414, {'top1': 0.9414}), (44, 0.9382, {'top1': 0.9382}), (45, 0.9412, {'top1': 0.9412}), (46, 0.9406, {'top1': 0.9406}), (47, 0.9336, {'top1': 0.9336}), (48, 0.9414, {'top1': 0.9414}), (49, 0.9364, {'top1': 0.9364}), (50, 0.9364, {'top1': 0.9364}), (51, 0.926, {'top1': 0.926}), (52, 0.9352, {'top1': 0.9352}), (53, 0.912, {'top1': 0.912})]
+just computed impact of block 27 . accuracy after removing:  0.9418
+removed block 27 current accuracy 0.9418 loss from initial  0.009600000000000053
+since last training loss: 0.009600000000000053 threshold 0.01 training needed False
+start iteration 7
+(cache recomputed) Accuracy log [(0, 0.9268, {'top1': 0.9268}), (1, 0.9296, {'top1': 0.9296}), (2, 0.9328, {'top1': 0.9328}), (3, 0.927, {'top1': 0.927}), (4, 0.9326, {'top1': 0.9326}), (5, 0.882, {'top1': 0.882}), (6, 0.931, {'top1': 0.931}), (7, 0.9342, {'top1': 0.9342}), (8, 0.9274, {'top1': 0.9274}), (9, 0.932, {'top1': 0.932}), (10, 0.9298, {'top1': 0.9298}), (11, 0.9366, {'top1': 0.9366}), (12, 0.9304, {'top1': 0.9304}), (13, 0.9338, {'top1': 0.9338}), (14, 0.9322, {'top1': 0.9322}), (15, 0.934, {'top1': 0.934}), (16, 0.9282, {'top1': 0.9282}), (18, 0.515, {'top1': 0.515}), (19, 0.931, {'top1': 0.931}), (20, 0.9364, {'top1': 0.9364}), (21, 0.9352, {'top1': 0.9352}), (22, 0.9342, {'top1': 0.9342}), (23, 0.937, {'top1': 0.937}), (24, 0.9376, {'top1': 0.9376}), (25, 0.9364, {'top1': 0.9364}), (26, 0.9376, {'top1': 0.9376}), (28, 0.9378, {'top1': 0.9378}), (29, 0.9356, {'top1': 0.9356}), (32, 0.9362, {'top1': 0.9362}), (35, 0.9352, {'top1': 0.9352}), (36, 0.5668, {'top1': 0.5668}), (37, 0.9336, {'top1': 0.9336}), (38, 0.9338, {'top1': 0.9338}), (39, 0.9294, {'top1': 0.9294}), (40, 0.9362, {'top1': 0.9362}), (42, 0.9342, {'top1': 0.9342}), (43, 0.9386, {'top1': 0.9386}), (44, 0.9364, {'top1': 0.9364}), (45, 0.9382, {'top1': 0.9382}), (46, 0.9368, {'top1': 0.9368}), (47, 0.9298, {'top1': 0.9298}), (48, 0.939, {'top1': 0.939}), (49, 0.9326, {'top1': 0.9326}), (50, 0.935, {'top1': 0.935}), (51, 0.9212, {'top1': 0.9212}), (52, 0.9314, {'top1': 0.9314}), (53, 0.9082, {'top1': 0.9082})]
+just computed impact of block 48 . accuracy after removing:  0.939
+removed block 48 current accuracy 0.939 loss from initial  0.012400000000000078
+since last training loss: 0.012400000000000078 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[34, 31, 41, 17, 33, 30, 27, 48]
+smoothly removing block [34, 31, 41, 17, 33, 30, 27, 48]
+training epoch 0 val accuracy 0.952 topk_dict {'top1': 0.952}
+training epoch 1 val accuracy 0.9514 topk_dict {'top1': 0.9514}
+training epoch 2 val accuracy 0.9506 topk_dict {'top1': 0.9506}
+training epoch 3 val accuracy 0.9494 topk_dict {'top1': 0.9494}
+training epoch 4 val accuracy 0.9504 topk_dict {'top1': 0.9504}
+training epoch 5 val accuracy 0.9494 topk_dict {'top1': 0.9494}
+training epoch 6 val accuracy 0.951 topk_dict {'top1': 0.951}
+training epoch 7 val accuracy 0.9492 topk_dict {'top1': 0.9492}
+training epoch 8 val accuracy 0.9488 topk_dict {'top1': 0.9488}
+training epoch 9 val accuracy 0.9498 topk_dict {'top1': 0.9498}
+training epoch 10 val accuracy 0.9492 topk_dict {'top1': 0.9492}
+training epoch 11 val accuracy 0.9498 topk_dict {'top1': 0.9498}
+training epoch 12 val accuracy 0.948 topk_dict {'top1': 0.948}
+training epoch 13 val accuracy 0.9484 topk_dict {'top1': 0.9484}
+training epoch 14 val accuracy 0.9474 topk_dict {'top1': 0.9474}
+training epoch 15 val accuracy 0.9482 topk_dict {'top1': 0.9482}
+training epoch 16 val accuracy 0.9478 topk_dict {'top1': 0.9478}
+training epoch 17 val accuracy 0.9484 topk_dict {'top1': 0.9484}
+training epoch 18 val accuracy 0.9472 topk_dict {'top1': 0.9472}
+training epoch 19 val accuracy 0.9462 topk_dict {'top1': 0.9462}
+training epoch 20 val accuracy 0.9474 topk_dict {'top1': 0.9474}
+training epoch 21 val accuracy 0.9474 topk_dict {'top1': 0.9474}
+training epoch 22 val accuracy 0.947 topk_dict {'top1': 0.947}
+training epoch 23 val accuracy 0.947 topk_dict {'top1': 0.947}
+training epoch 24 val accuracy 0.946 topk_dict {'top1': 0.946}
+training epoch 25 val accuracy 0.945 topk_dict {'top1': 0.945}
+training epoch 26 val accuracy 0.9446 topk_dict {'top1': 0.9446}
+training epoch 27 val accuracy 0.945 topk_dict {'top1': 0.945}
+training epoch 28 val accuracy 0.9442 topk_dict {'top1': 0.9442}
+training epoch 29 val accuracy 0.9434 topk_dict {'top1': 0.9434}
+training start
+training epoch 0 val accuracy 0.9448 topk_dict {'top1': 0.9448} is_best True
+training epoch 1 val accuracy 0.9444 topk_dict {'top1': 0.9444} is_best False
+training epoch 2 val accuracy 0.943 topk_dict {'top1': 0.943} is_best False
+training epoch 3 val accuracy 0.9444 topk_dict {'top1': 0.9444} is_best False
+training epoch 4 val accuracy 0.9444 topk_dict {'top1': 0.9444} is_best False
+training epoch 5 val accuracy 0.9446 topk_dict {'top1': 0.9446} is_best False
+training epoch 6 val accuracy 0.9444 topk_dict {'top1': 0.9444} is_best False
+training epoch 7 val accuracy 0.9438 topk_dict {'top1': 0.9438} is_best False
+training epoch 8 val accuracy 0.9448 topk_dict {'top1': 0.9448} is_best False
+training epoch 9 val accuracy 0.9444 topk_dict {'top1': 0.9444} is_best False
+training epoch 10 val accuracy 0.9446 topk_dict {'top1': 0.9446} is_best False
+training epoch 11 val accuracy 0.9454 topk_dict {'top1': 0.9454} is_best True
+training epoch 12 val accuracy 0.9432 topk_dict {'top1': 0.9432} is_best False
+training epoch 13 val accuracy 0.9454 topk_dict {'top1': 0.9454} is_best False
+training epoch 14 val accuracy 0.9464 topk_dict {'top1': 0.9464} is_best True
+training epoch 15 val accuracy 0.944 topk_dict {'top1': 0.944} is_best False
+training epoch 16 val accuracy 0.9454 topk_dict {'top1': 0.9454} is_best False
+training epoch 17 val accuracy 0.9444 topk_dict {'top1': 0.9444} is_best False
+training epoch 18 val accuracy 0.946 topk_dict {'top1': 0.946} is_best False
+training epoch 19 val accuracy 0.9444 topk_dict {'top1': 0.9444} is_best False
+loading model_best from epoch 14 (acc 0.946400)
+finished training. finished 20 epochs. accuracy 0.9464 topk_dict {'top1': 0.9464}
+start iteration 8
+(cache recomputed) Accuracy log [(0, 0.9386, {'top1': 0.9386}), (1, 0.9376, {'top1': 0.9376}), (2, 0.9422, {'top1': 0.9422}), (3, 0.9396, {'top1': 0.9396}), (4, 0.9418, {'top1': 0.9418}), (5, 0.9024, {'top1': 0.9024}), (6, 0.939, {'top1': 0.939}), (7, 0.94, {'top1': 0.94}), (8, 0.9398, {'top1': 0.9398}), (9, 0.9414, {'top1': 0.9414}), (10, 0.9368, {'top1': 0.9368}), (11, 0.9408, {'top1': 0.9408}), (12, 0.9394, {'top1': 0.9394}), (13, 0.9408, {'top1': 0.9408}), (14, 0.9388, {'top1': 0.9388}), (15, 0.9434, {'top1': 0.9434}), (16, 0.9408, {'top1': 0.9408}), (18, 0.5532, {'top1': 0.5532}), (19, 0.9398, {'top1': 0.9398}), (20, 0.9388, {'top1': 0.9388}), (21, 0.9416, {'top1': 0.9416}), (22, 0.9398, {'top1': 0.9398}), (23, 0.941, {'top1': 0.941}), (24, 0.943, {'top1': 0.943}), (25, 0.9418, {'top1': 0.9418}), (26, 0.945, {'top1': 0.945}), (28, 0.9402, {'top1': 0.9402}), (29, 0.9416, {'top1': 0.9416}), (32, 0.9414, {'top1': 0.9414}), (35, 0.9436, {'top1': 0.9436}), (36, 0.673, {'top1': 0.673}), (37, 0.9388, {'top1': 0.9388}), (38, 0.9444, {'top1': 0.9444}), (39, 0.941, {'top1': 0.941}), (40, 0.9416, {'top1': 0.9416}), (42, 0.9428, {'top1': 0.9428}), (43, 0.9426, {'top1': 0.9426}), (44, 0.9396, {'top1': 0.9396}), (45, 0.9416, {'top1': 0.9416}), (46, 0.9414, {'top1': 0.9414}), (47, 0.9394, {'top1': 0.9394}), (49, 0.9388, {'top1': 0.9388}), (50, 0.9394, {'top1': 0.9394}), (51, 0.9296, {'top1': 0.9296}), (52, 0.9398, {'top1': 0.9398}), (53, 0.9226, {'top1': 0.9226})]
+just computed impact of block 26 . accuracy after removing:  0.945
+removed block 26 current accuracy 0.945 loss from initial  0.006400000000000072
+since last training loss: 0.0014000000000000679 threshold 0.01 training needed False
+start iteration 9
+(cache recomputed) Accuracy log [(0, 0.9358, {'top1': 0.9358}), (1, 0.9356, {'top1': 0.9356}), (2, 0.9422, {'top1': 0.9422}), (3, 0.9374, {'top1': 0.9374}), (4, 0.9396, {'top1': 0.9396}), (5, 0.8956, {'top1': 0.8956}), (6, 0.937, {'top1': 0.937}), (7, 0.9386, {'top1': 0.9386}), (8, 0.938, {'top1': 0.938}), (9, 0.939, {'top1': 0.939}), (10, 0.935, {'top1': 0.935}), (11, 0.938, {'top1': 0.938}), (12, 0.9364, {'top1': 0.9364}), (13, 0.9398, {'top1': 0.9398}), (14, 0.9358, {'top1': 0.9358}), (15, 0.9408, {'top1': 0.9408}), (16, 0.937, {'top1': 0.937}), (18, 0.553, {'top1': 0.553}), (19, 0.937, {'top1': 0.937}), (20, 0.9386, {'top1': 0.9386}), (21, 0.9398, {'top1': 0.9398}), (22, 0.939, {'top1': 0.939}), (23, 0.9402, {'top1': 0.9402}), (24, 0.9422, {'top1': 0.9422}), (25, 0.9404, {'top1': 0.9404}), (28, 0.939, {'top1': 0.939}), (29, 0.9394, {'top1': 0.9394}), (32, 0.9406, {'top1': 0.9406}), (35, 0.941, {'top1': 0.941}), (36, 0.6508, {'top1': 0.6508}), (37, 0.9384, {'top1': 0.9384}), (38, 0.9414, {'top1': 0.9414}), (39, 0.939, {'top1': 0.939}), (40, 0.9408, {'top1': 0.9408}), (42, 0.9408, {'top1': 0.9408}), (43, 0.9426, {'top1': 0.9426}), (44, 0.9378, {'top1': 0.9378}), (45, 0.94, {'top1': 0.94}), (46, 0.94, {'top1': 0.94}), (47, 0.937, {'top1': 0.937}), (49, 0.9376, {'top1': 0.9376}), (50, 0.9364, {'top1': 0.9364}), (51, 0.9252, {'top1': 0.9252}), (52, 0.9348, {'top1': 0.9348}), (53, 0.921, {'top1': 0.921})]
+just computed impact of block 43 . accuracy after removing:  0.9426
+removed block 43 current accuracy 0.9426 loss from initial  0.00880000000000003
+since last training loss: 0.0038000000000000256 threshold 0.01 training needed False
+start iteration 10
+(cache recomputed) Accuracy log [(0, 0.934, {'top1': 0.934}), (1, 0.9342, {'top1': 0.9342}), (2, 0.9406, {'top1': 0.9406}), (3, 0.9358, {'top1': 0.9358}), (4, 0.9384, {'top1': 0.9384}), (5, 0.8874, {'top1': 0.8874}), (6, 0.9348, {'top1': 0.9348}), (7, 0.9374, {'top1': 0.9374}), (8, 0.935, {'top1': 0.935}), (9, 0.9368, {'top1': 0.9368}), (10, 0.9362, {'top1': 0.9362}), (11, 0.9364, {'top1': 0.9364}), (12, 0.9346, {'top1': 0.9346}), (13, 0.9352, {'top1': 0.9352}), (14, 0.9354, {'top1': 0.9354}), (15, 0.9368, {'top1': 0.9368}), (16, 0.9346, {'top1': 0.9346}), (18, 0.5418, {'top1': 0.5418}), (19, 0.9362, {'top1': 0.9362}), (20, 0.9356, {'top1': 0.9356}), (21, 0.9374, {'top1': 0.9374}), (22, 0.937, {'top1': 0.937}), (23, 0.9376, {'top1': 0.9376}), (24, 0.9398, {'top1': 0.9398}), (25, 0.9394, {'top1': 0.9394}), (28, 0.9384, {'top1': 0.9384}), (29, 0.939, {'top1': 0.939}), (32, 0.9388, {'top1': 0.9388}), (35, 0.9382, {'top1': 0.9382}), (36, 0.6392, {'top1': 0.6392}), (37, 0.937, {'top1': 0.937}), (38, 0.9376, {'top1': 0.9376}), (39, 0.9334, {'top1': 0.9334}), (40, 0.94, {'top1': 0.94}), (42, 0.9366, {'top1': 0.9366}), (44, 0.9356, {'top1': 0.9356}), (45, 0.9388, {'top1': 0.9388}), (46, 0.9392, {'top1': 0.9392}), (47, 0.9346, {'top1': 0.9346}), (49, 0.9344, {'top1': 0.9344}), (50, 0.936, {'top1': 0.936}), (51, 0.9244, {'top1': 0.9244}), (52, 0.9352, {'top1': 0.9352}), (53, 0.916, {'top1': 0.916})]
+just computed impact of block 2 . accuracy after removing:  0.9406
+removed block 2 current accuracy 0.9406 loss from initial  0.010800000000000032
+since last training loss: 0.005800000000000027 threshold 0.01 training needed False
+start iteration 11
+(cache recomputed) Accuracy log [(0, 0.9224, {'top1': 0.9224}), (1, 0.9192, {'top1': 0.9192}), (3, 0.9276, {'top1': 0.9276}), (4, 0.9352, {'top1': 0.9352}), (5, 0.861, {'top1': 0.861}), (6, 0.929, {'top1': 0.929}), (7, 0.9306, {'top1': 0.9306}), (8, 0.9272, {'top1': 0.9272}), (9, 0.9326, {'top1': 0.9326}), (10, 0.9218, {'top1': 0.9218}), (11, 0.9328, {'top1': 0.9328}), (12, 0.9296, {'top1': 0.9296}), (13, 0.9306, {'top1': 0.9306}), (14, 0.93, {'top1': 0.93}), (15, 0.9342, {'top1': 0.9342}), (16, 0.9298, {'top1': 0.9298}), (18, 0.4862, {'top1': 0.4862}), (19, 0.933, {'top1': 0.933}), (20, 0.937, {'top1': 0.937}), (21, 0.9348, {'top1': 0.9348}), (22, 0.9354, {'top1': 0.9354}), (23, 0.9356, {'top1': 0.9356}), (24, 0.9352, {'top1': 0.9352}), (25, 0.9384, {'top1': 0.9384}), (28, 0.939, {'top1': 0.939}), (29, 0.9356, {'top1': 0.9356}), (32, 0.9356, {'top1': 0.9356}), (35, 0.9348, {'top1': 0.9348}), (36, 0.6118, {'top1': 0.6118}), (37, 0.9316, {'top1': 0.9316}), (38, 0.9334, {'top1': 0.9334}), (39, 0.9292, {'top1': 0.9292}), (40, 0.9352, {'top1': 0.9352}), (42, 0.9324, {'top1': 0.9324}), (44, 0.9326, {'top1': 0.9326}), (45, 0.9366, {'top1': 0.9366}), (46, 0.9366, {'top1': 0.9366}), (47, 0.9296, {'top1': 0.9296}), (49, 0.9292, {'top1': 0.9292}), (50, 0.931, {'top1': 0.931}), (51, 0.9198, {'top1': 0.9198}), (52, 0.9276, {'top1': 0.9276}), (53, 0.9114, {'top1': 0.9114})]
+just computed impact of block 28 . accuracy after removing:  0.939
+removed block 28 current accuracy 0.939 loss from initial  0.012400000000000078
+since last training loss: 0.007400000000000073 threshold 0.01 training needed False
+start iteration 12
+(cache recomputed) Accuracy log [(0, 0.9212, {'top1': 0.9212}), (1, 0.918, {'top1': 0.918}), (3, 0.9244, {'top1': 0.9244}), (4, 0.9296, {'top1': 0.9296}), (5, 0.8572, {'top1': 0.8572}), (6, 0.927, {'top1': 0.927}), (7, 0.9282, {'top1': 0.9282}), (8, 0.9266, {'top1': 0.9266}), (9, 0.9302, {'top1': 0.9302}), (10, 0.9194, {'top1': 0.9194}), (11, 0.93, {'top1': 0.93}), (12, 0.9266, {'top1': 0.9266}), (13, 0.9284, {'top1': 0.9284}), (14, 0.9274, {'top1': 0.9274}), (15, 0.9322, {'top1': 0.9322}), (16, 0.9264, {'top1': 0.9264}), (18, 0.4806, {'top1': 0.4806}), (19, 0.9306, {'top1': 0.9306}), (20, 0.9326, {'top1': 0.9326}), (21, 0.931, {'top1': 0.931}), (22, 0.932, {'top1': 0.932}), (23, 0.9354, {'top1': 0.9354}), (24, 0.935, {'top1': 0.935}), (25, 0.9362, {'top1': 0.9362}), (29, 0.9348, {'top1': 0.9348}), (32, 0.9356, {'top1': 0.9356}), (35, 0.9336, {'top1': 0.9336}), (36, 0.593, {'top1': 0.593}), (37, 0.9296, {'top1': 0.9296}), (38, 0.935, {'top1': 0.935}), (39, 0.9266, {'top1': 0.9266}), (40, 0.9338, {'top1': 0.9338}), (42, 0.9328, {'top1': 0.9328}), (44, 0.9316, {'top1': 0.9316}), (45, 0.9368, {'top1': 0.9368}), (46, 0.934, {'top1': 0.934}), (47, 0.9268, {'top1': 0.9268}), (49, 0.9288, {'top1': 0.9288}), (50, 0.927, {'top1': 0.927}), (51, 0.9156, {'top1': 0.9156}), (52, 0.9292, {'top1': 0.9292}), (53, 0.9136, {'top1': 0.9136})]
+just computed impact of block 45 . accuracy after removing:  0.9368
+removed block 45 current accuracy 0.9368 loss from initial  0.014600000000000057
+since last training loss: 0.009600000000000053 threshold 0.01 training needed False
+start iteration 13
+(cache recomputed) Accuracy log [(0, 0.9156, {'top1': 0.9156}), (1, 0.9086, {'top1': 0.9086}), (3, 0.9168, {'top1': 0.9168}), (4, 0.9266, {'top1': 0.9266}), (5, 0.8314, {'top1': 0.8314}), (6, 0.9198, {'top1': 0.9198}), (7, 0.9198, {'top1': 0.9198}), (8, 0.9198, {'top1': 0.9198}), (9, 0.9238, {'top1': 0.9238}), (10, 0.9088, {'top1': 0.9088}), (11, 0.9218, {'top1': 0.9218}), (12, 0.9206, {'top1': 0.9206}), (13, 0.9238, {'top1': 0.9238}), (14, 0.923, {'top1': 0.923}), (15, 0.9284, {'top1': 0.9284}), (16, 0.9236, {'top1': 0.9236}), (18, 0.474, {'top1': 0.474}), (19, 0.9296, {'top1': 0.9296}), (20, 0.9298, {'top1': 0.9298}), (21, 0.9288, {'top1': 0.9288}), (22, 0.9284, {'top1': 0.9284}), (23, 0.9302, {'top1': 0.9302}), (24, 0.9336, {'top1': 0.9336}), (25, 0.9324, {'top1': 0.9324}), (29, 0.9322, {'top1': 0.9322}), (32, 0.933, {'top1': 0.933}), (35, 0.9286, {'top1': 0.9286}), (36, 0.5734, {'top1': 0.5734}), (37, 0.924, {'top1': 0.924}), (38, 0.9294, {'top1': 0.9294}), (39, 0.9228, {'top1': 0.9228}), (40, 0.9286, {'top1': 0.9286}), (42, 0.927, {'top1': 0.927}), (44, 0.9268, {'top1': 0.9268}), (46, 0.9272, {'top1': 0.9272}), (47, 0.9214, {'top1': 0.9214}), (49, 0.9226, {'top1': 0.9226}), (50, 0.9254, {'top1': 0.9254}), (51, 0.9074, {'top1': 0.9074}), (52, 0.919, {'top1': 0.919}), (53, 0.9044, {'top1': 0.9044})]
+just computed impact of block 24 . accuracy after removing:  0.9336
+removed block 24 current accuracy 0.9336 loss from initial  0.017800000000000038
+since last training loss: 0.012800000000000034 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[26, 43, 2, 28, 45, 24]
+smoothly removing block [26, 43, 2, 28, 45, 24]
+training epoch 0 val accuracy 0.9444 topk_dict {'top1': 0.9444}
+training epoch 1 val accuracy 0.9444 topk_dict {'top1': 0.9444}
+training epoch 2 val accuracy 0.9454 topk_dict {'top1': 0.9454}
+training epoch 3 val accuracy 0.945 topk_dict {'top1': 0.945}
+training epoch 4 val accuracy 0.943 topk_dict {'top1': 0.943}
+training epoch 5 val accuracy 0.9442 topk_dict {'top1': 0.9442}
+training epoch 6 val accuracy 0.9432 topk_dict {'top1': 0.9432}
+training epoch 7 val accuracy 0.9426 topk_dict {'top1': 0.9426}
+training epoch 8 val accuracy 0.9432 topk_dict {'top1': 0.9432}
+training epoch 9 val accuracy 0.9414 topk_dict {'top1': 0.9414}
+training epoch 10 val accuracy 0.9426 topk_dict {'top1': 0.9426}
+training epoch 11 val accuracy 0.9418 topk_dict {'top1': 0.9418}
+training epoch 12 val accuracy 0.9426 topk_dict {'top1': 0.9426}
+training epoch 13 val accuracy 0.9426 topk_dict {'top1': 0.9426}
+training epoch 14 val accuracy 0.942 topk_dict {'top1': 0.942}
+training epoch 15 val accuracy 0.9436 topk_dict {'top1': 0.9436}
+training epoch 16 val accuracy 0.942 topk_dict {'top1': 0.942}
+training epoch 17 val accuracy 0.9412 topk_dict {'top1': 0.9412}
+training epoch 18 val accuracy 0.9416 topk_dict {'top1': 0.9416}
+training epoch 19 val accuracy 0.9414 topk_dict {'top1': 0.9414}
+training epoch 20 val accuracy 0.942 topk_dict {'top1': 0.942}
+training epoch 21 val accuracy 0.9396 topk_dict {'top1': 0.9396}
+training epoch 22 val accuracy 0.9414 topk_dict {'top1': 0.9414}
+training epoch 23 val accuracy 0.9416 topk_dict {'top1': 0.9416}
+training epoch 24 val accuracy 0.9412 topk_dict {'top1': 0.9412}
+training epoch 25 val accuracy 0.939 topk_dict {'top1': 0.939}
+training epoch 26 val accuracy 0.9402 topk_dict {'top1': 0.9402}
+training epoch 27 val accuracy 0.9402 topk_dict {'top1': 0.9402}
+training epoch 28 val accuracy 0.9396 topk_dict {'top1': 0.9396}
+training epoch 29 val accuracy 0.9388 topk_dict {'top1': 0.9388}
+training start
+training epoch 0 val accuracy 0.9404 topk_dict {'top1': 0.9404} is_best True
+training epoch 1 val accuracy 0.9388 topk_dict {'top1': 0.9388} is_best False
+training epoch 2 val accuracy 0.9388 topk_dict {'top1': 0.9388} is_best False
+training epoch 3 val accuracy 0.9386 topk_dict {'top1': 0.9386} is_best False
+training epoch 4 val accuracy 0.9378 topk_dict {'top1': 0.9378} is_best False
+training epoch 5 val accuracy 0.9402 topk_dict {'top1': 0.9402} is_best False
+training epoch 6 val accuracy 0.9402 topk_dict {'top1': 0.9402} is_best False
+training epoch 7 val accuracy 0.9398 topk_dict {'top1': 0.9398} is_best False
+training epoch 8 val accuracy 0.9394 topk_dict {'top1': 0.9394} is_best False
+training epoch 9 val accuracy 0.94 topk_dict {'top1': 0.94} is_best False
+training epoch 10 val accuracy 0.9404 topk_dict {'top1': 0.9404} is_best False
+training epoch 11 val accuracy 0.9398 topk_dict {'top1': 0.9398} is_best False
+training epoch 12 val accuracy 0.9384 topk_dict {'top1': 0.9384} is_best False
+training epoch 13 val accuracy 0.9396 topk_dict {'top1': 0.9396} is_best False
+training epoch 14 val accuracy 0.9396 topk_dict {'top1': 0.9396} is_best False
+training epoch 15 val accuracy 0.9404 topk_dict {'top1': 0.9404} is_best False
+training epoch 16 val accuracy 0.9388 topk_dict {'top1': 0.9388} is_best False
+training epoch 17 val accuracy 0.9408 topk_dict {'top1': 0.9408} is_best True
+training epoch 18 val accuracy 0.9404 topk_dict {'top1': 0.9404} is_best False
+training epoch 19 val accuracy 0.94 topk_dict {'top1': 0.94} is_best False
+loading model_best from epoch 17 (acc 0.940800)
+finished training. finished 20 epochs. accuracy 0.9408 topk_dict {'top1': 0.9408}
+start iteration 14
+(cache recomputed) Accuracy log [(0, 0.9366, {'top1': 0.9366}), (1, 0.9366, {'top1': 0.9366}), (3, 0.9368, {'top1': 0.9368}), (4, 0.939, {'top1': 0.939}), (5, 0.8984, {'top1': 0.8984}), (6, 0.9352, {'top1': 0.9352}), (7, 0.9382, {'top1': 0.9382}), (8, 0.9382, {'top1': 0.9382}), (9, 0.937, {'top1': 0.937}), (10, 0.934, {'top1': 0.934}), (11, 0.9392, {'top1': 0.9392}), (12, 0.9364, {'top1': 0.9364}), (13, 0.9372, {'top1': 0.9372}), (14, 0.9374, {'top1': 0.9374}), (15, 0.9402, {'top1': 0.9402}), (16, 0.9364, {'top1': 0.9364}), (18, 0.53, {'top1': 0.53}), (19, 0.9374, {'top1': 0.9374}), (20, 0.937, {'top1': 0.937}), (21, 0.9384, {'top1': 0.9384}), (22, 0.9382, {'top1': 0.9382}), (23, 0.9382, {'top1': 0.9382}), (25, 0.9382, {'top1': 0.9382}), (29, 0.9384, {'top1': 0.9384}), (32, 0.9382, {'top1': 0.9382}), (35, 0.9388, {'top1': 0.9388}), (36, 0.647, {'top1': 0.647}), (37, 0.9362, {'top1': 0.9362}), (38, 0.9386, {'top1': 0.9386}), (39, 0.936, {'top1': 0.936}), (40, 0.9374, {'top1': 0.9374}), (42, 0.9378, {'top1': 0.9378}), (44, 0.9364, {'top1': 0.9364}), (46, 0.9386, {'top1': 0.9386}), (47, 0.9362, {'top1': 0.9362}), (49, 0.9324, {'top1': 0.9324}), (50, 0.9342, {'top1': 0.9342}), (51, 0.9248, {'top1': 0.9248}), (52, 0.9336, {'top1': 0.9336}), (53, 0.9204, {'top1': 0.9204})]
+just computed impact of block 15 . accuracy after removing:  0.9402
+removed block 15 current accuracy 0.9402 loss from initial  0.011199999999999988
+since last training loss: 0.0005999999999999339 threshold 0.01 training needed False
+start iteration 15
+(cache recomputed) Accuracy log [(0, 0.9272, {'top1': 0.9272}), (1, 0.9286, {'top1': 0.9286}), (3, 0.9306, {'top1': 0.9306}), (4, 0.9356, {'top1': 0.9356}), (5, 0.8902, {'top1': 0.8902}), (6, 0.9308, {'top1': 0.9308}), (7, 0.9352, {'top1': 0.9352}), (8, 0.9322, {'top1': 0.9322}), (9, 0.9344, {'top1': 0.9344}), (10, 0.929, {'top1': 0.929}), (11, 0.9344, {'top1': 0.9344}), (12, 0.9268, {'top1': 0.9268}), (13, 0.926, {'top1': 0.926}), (14, 0.9302, {'top1': 0.9302}), (16, 0.9244, {'top1': 0.9244}), (18, 0.4602, {'top1': 0.4602}), (19, 0.932, {'top1': 0.932}), (20, 0.9322, {'top1': 0.9322}), (21, 0.932, {'top1': 0.932}), (22, 0.9346, {'top1': 0.9346}), (23, 0.9354, {'top1': 0.9354}), (25, 0.9352, {'top1': 0.9352}), (29, 0.9372, {'top1': 0.9372}), (32, 0.939, {'top1': 0.939}), (35, 0.9366, {'top1': 0.9366}), (36, 0.6272, {'top1': 0.6272}), (37, 0.9326, {'top1': 0.9326}), (38, 0.9366, {'top1': 0.9366}), (39, 0.9328, {'top1': 0.9328}), (40, 0.9358, {'top1': 0.9358}), (42, 0.9352, {'top1': 0.9352}), (44, 0.9376, {'top1': 0.9376}), (46, 0.9348, {'top1': 0.9348}), (47, 0.9344, {'top1': 0.9344}), (49, 0.9326, {'top1': 0.9326}), (50, 0.9304, {'top1': 0.9304}), (51, 0.9218, {'top1': 0.9218}), (52, 0.9338, {'top1': 0.9338}), (53, 0.9146, {'top1': 0.9146})]
+just computed impact of block 32 . accuracy after removing:  0.939
+removed block 32 current accuracy 0.939 loss from initial  0.012400000000000078
+since last training loss: 0.0018000000000000238 threshold 0.01 training needed False
+start iteration 16
+(cache recomputed) Accuracy log [(0, 0.9256, {'top1': 0.9256}), (1, 0.9256, {'top1': 0.9256}), (3, 0.9268, {'top1': 0.9268}), (4, 0.9316, {'top1': 0.9316}), (5, 0.8872, {'top1': 0.8872}), (6, 0.927, {'top1': 0.927}), (7, 0.932, {'top1': 0.932}), (8, 0.9274, {'top1': 0.9274}), (9, 0.9326, {'top1': 0.9326}), (10, 0.9278, {'top1': 0.9278}), (11, 0.9328, {'top1': 0.9328}), (12, 0.9234, {'top1': 0.9234}), (13, 0.9226, {'top1': 0.9226}), (14, 0.9236, {'top1': 0.9236}), (16, 0.9226, {'top1': 0.9226}), (18, 0.4846, {'top1': 0.4846}), (19, 0.9306, {'top1': 0.9306}), (20, 0.9306, {'top1': 0.9306}), (21, 0.9288, {'top1': 0.9288}), (22, 0.9326, {'top1': 0.9326}), (23, 0.9316, {'top1': 0.9316}), (25, 0.9334, {'top1': 0.9334}), (29, 0.9328, {'top1': 0.9328}), (35, 0.9356, {'top1': 0.9356}), (36, 0.6068, {'top1': 0.6068}), (37, 0.9308, {'top1': 0.9308}), (38, 0.9322, {'top1': 0.9322}), (39, 0.932, {'top1': 0.932}), (40, 0.9348, {'top1': 0.9348}), (42, 0.9348, {'top1': 0.9348}), (44, 0.9354, {'top1': 0.9354}), (46, 0.9348, {'top1': 0.9348}), (47, 0.9324, {'top1': 0.9324}), (49, 0.9288, {'top1': 0.9288}), (50, 0.9274, {'top1': 0.9274}), (51, 0.9186, {'top1': 0.9186}), (52, 0.928, {'top1': 0.928}), (53, 0.9138, {'top1': 0.9138})]
+just computed impact of block 35 . accuracy after removing:  0.9356
+removed block 35 current accuracy 0.9356 loss from initial  0.015800000000000036
+since last training loss: 0.005199999999999982 threshold 0.01 training needed False
+start iteration 17
+(cache recomputed) Accuracy log [(0, 0.9174, {'top1': 0.9174}), (1, 0.9166, {'top1': 0.9166}), (3, 0.9184, {'top1': 0.9184}), (4, 0.9266, {'top1': 0.9266}), (5, 0.8606, {'top1': 0.8606}), (6, 0.9192, {'top1': 0.9192}), (7, 0.9244, {'top1': 0.9244}), (8, 0.9232, {'top1': 0.9232}), (9, 0.9232, {'top1': 0.9232}), (10, 0.918, {'top1': 0.918}), (11, 0.9236, {'top1': 0.9236}), (12, 0.9188, {'top1': 0.9188}), (13, 0.9204, {'top1': 0.9204}), (14, 0.9198, {'top1': 0.9198}), (16, 0.9102, {'top1': 0.9102}), (18, 0.4638, {'top1': 0.4638}), (19, 0.9244, {'top1': 0.9244}), (20, 0.9282, {'top1': 0.9282}), (21, 0.9244, {'top1': 0.9244}), (22, 0.9274, {'top1': 0.9274}), (23, 0.9254, {'top1': 0.9254}), (25, 0.93, {'top1': 0.93}), (29, 0.9288, {'top1': 0.9288}), (36, 0.531, {'top1': 0.531}), (37, 0.9238, {'top1': 0.9238}), (38, 0.9288, {'top1': 0.9288}), (39, 0.928, {'top1': 0.928}), (40, 0.9256, {'top1': 0.9256}), (42, 0.9296, {'top1': 0.9296}), (44, 0.928, {'top1': 0.928}), (46, 0.9302, {'top1': 0.9302}), (47, 0.925, {'top1': 0.925}), (49, 0.9246, {'top1': 0.9246}), (50, 0.9258, {'top1': 0.9258}), (51, 0.9116, {'top1': 0.9116}), (52, 0.9246, {'top1': 0.9246}), (53, 0.9006, {'top1': 0.9006})]
+just computed impact of block 46 . accuracy after removing:  0.9302
+removed block 46 current accuracy 0.9302 loss from initial  0.021199999999999997
+since last training loss: 0.010599999999999943 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[15, 32, 35, 46]
+smoothly removing block [15, 32, 35, 46]
+training epoch 0 val accuracy 0.9384 topk_dict {'top1': 0.9384}
+training epoch 1 val accuracy 0.9396 topk_dict {'top1': 0.9396}
+training epoch 2 val accuracy 0.9392 topk_dict {'top1': 0.9392}
+training epoch 3 val accuracy 0.9408 topk_dict {'top1': 0.9408}
+training epoch 4 val accuracy 0.9398 topk_dict {'top1': 0.9398}
+training epoch 5 val accuracy 0.9416 topk_dict {'top1': 0.9416}
+training epoch 6 val accuracy 0.9402 topk_dict {'top1': 0.9402}
+training epoch 7 val accuracy 0.94 topk_dict {'top1': 0.94}
+training epoch 8 val accuracy 0.9418 topk_dict {'top1': 0.9418}
+training epoch 9 val accuracy 0.9398 topk_dict {'top1': 0.9398}
+training epoch 10 val accuracy 0.942 topk_dict {'top1': 0.942}
+training epoch 11 val accuracy 0.9414 topk_dict {'top1': 0.9414}
+training epoch 12 val accuracy 0.9386 topk_dict {'top1': 0.9386}
+training epoch 13 val accuracy 0.9402 topk_dict {'top1': 0.9402}
+training epoch 14 val accuracy 0.9392 topk_dict {'top1': 0.9392}
+training epoch 15 val accuracy 0.939 topk_dict {'top1': 0.939}
+training epoch 16 val accuracy 0.939 topk_dict {'top1': 0.939}
+training epoch 17 val accuracy 0.9404 topk_dict {'top1': 0.9404}
+training epoch 18 val accuracy 0.9398 topk_dict {'top1': 0.9398}
+training epoch 19 val accuracy 0.94 topk_dict {'top1': 0.94}
+training epoch 20 val accuracy 0.9402 topk_dict {'top1': 0.9402}
+training epoch 21 val accuracy 0.94 topk_dict {'top1': 0.94}
+training epoch 22 val accuracy 0.9396 topk_dict {'top1': 0.9396}
+training epoch 23 val accuracy 0.9388 topk_dict {'top1': 0.9388}
+training epoch 24 val accuracy 0.939 topk_dict {'top1': 0.939}
+training epoch 25 val accuracy 0.9398 topk_dict {'top1': 0.9398}
+training epoch 26 val accuracy 0.9388 topk_dict {'top1': 0.9388}
+training epoch 27 val accuracy 0.9392 topk_dict {'top1': 0.9392}
+training epoch 28 val accuracy 0.9412 topk_dict {'top1': 0.9412}
+training epoch 29 val accuracy 0.94 topk_dict {'top1': 0.94}
+training start
+training epoch 0 val accuracy 0.937 topk_dict {'top1': 0.937} is_best True
+training epoch 1 val accuracy 0.9406 topk_dict {'top1': 0.9406} is_best True
+training epoch 2 val accuracy 0.9388 topk_dict {'top1': 0.9388} is_best False
+training epoch 3 val accuracy 0.9402 topk_dict {'top1': 0.9402} is_best False
+training epoch 4 val accuracy 0.939 topk_dict {'top1': 0.939} is_best False
+training epoch 5 val accuracy 0.9398 topk_dict {'top1': 0.9398} is_best False
+training epoch 6 val accuracy 0.94 topk_dict {'top1': 0.94} is_best False
+training epoch 7 val accuracy 0.941 topk_dict {'top1': 0.941} is_best True
+training epoch 8 val accuracy 0.9414 topk_dict {'top1': 0.9414} is_best True
+training epoch 9 val accuracy 0.9392 topk_dict {'top1': 0.9392} is_best False
+training epoch 10 val accuracy 0.9396 topk_dict {'top1': 0.9396} is_best False
+training epoch 11 val accuracy 0.9394 topk_dict {'top1': 0.9394} is_best False
+training epoch 12 val accuracy 0.9414 topk_dict {'top1': 0.9414} is_best False
+training epoch 13 val accuracy 0.9422 topk_dict {'top1': 0.9422} is_best True
+training epoch 14 val accuracy 0.9422 topk_dict {'top1': 0.9422} is_best False
+training epoch 15 val accuracy 0.9416 topk_dict {'top1': 0.9416} is_best False
+training epoch 16 val accuracy 0.9394 topk_dict {'top1': 0.9394} is_best False
+training epoch 17 val accuracy 0.9404 topk_dict {'top1': 0.9404} is_best False
+training epoch 18 val accuracy 0.9408 topk_dict {'top1': 0.9408} is_best False
+training epoch 19 val accuracy 0.9414 topk_dict {'top1': 0.9414} is_best False
+loading model_best from epoch 13 (acc 0.942200)
+finished training. finished 20 epochs. accuracy 0.9422 topk_dict {'top1': 0.9422}
+start iteration 18
+(cache recomputed) Accuracy log [(0, 0.9354, {'top1': 0.9354}), (1, 0.9338, {'top1': 0.9338}), (3, 0.9354, {'top1': 0.9354}), (4, 0.9352, {'top1': 0.9352}), (5, 0.8962, {'top1': 0.8962}), (6, 0.9354, {'top1': 0.9354}), (7, 0.935, {'top1': 0.935}), (8, 0.9374, {'top1': 0.9374}), (9, 0.9372, {'top1': 0.9372}), (10, 0.9328, {'top1': 0.9328}), (11, 0.936, {'top1': 0.936}), (12, 0.9354, {'top1': 0.9354}), (13, 0.9354, {'top1': 0.9354}), (14, 0.934, {'top1': 0.934}), (16, 0.9332, {'top1': 0.9332}), (18, 0.531, {'top1': 0.531}), (19, 0.9366, {'top1': 0.9366}), (20, 0.9354, {'top1': 0.9354}), (21, 0.9342, {'top1': 0.9342}), (22, 0.9378, {'top1': 0.9378}), (23, 0.9356, {'top1': 0.9356}), (25, 0.9366, {'top1': 0.9366}), (29, 0.9376, {'top1': 0.9376}), (36, 0.6208, {'top1': 0.6208}), (37, 0.9342, {'top1': 0.9342}), (38, 0.9388, {'top1': 0.9388}), (39, 0.932, {'top1': 0.932}), (40, 0.9372, {'top1': 0.9372}), (42, 0.9382, {'top1': 0.9382}), (44, 0.9358, {'top1': 0.9358}), (47, 0.9342, {'top1': 0.9342}), (49, 0.9364, {'top1': 0.9364}), (50, 0.933, {'top1': 0.933}), (51, 0.9212, {'top1': 0.9212}), (52, 0.9298, {'top1': 0.9298}), (53, 0.9166, {'top1': 0.9166})]
+just computed impact of block 38 . accuracy after removing:  0.9388
+removed block 38 current accuracy 0.9388 loss from initial  0.012600000000000056
+since last training loss: 0.0034000000000000696 threshold 0.01 training needed False
+start iteration 19
+(cache recomputed) Accuracy log [(0, 0.9312, {'top1': 0.9312}), (1, 0.927, {'top1': 0.927}), (3, 0.932, {'top1': 0.932}), (4, 0.935, {'top1': 0.935}), (5, 0.8884, {'top1': 0.8884}), (6, 0.9372, {'top1': 0.9372}), (7, 0.9308, {'top1': 0.9308}), (8, 0.9352, {'top1': 0.9352}), (9, 0.9328, {'top1': 0.9328}), (10, 0.9292, {'top1': 0.9292}), (11, 0.9374, {'top1': 0.9374}), (12, 0.9336, {'top1': 0.9336}), (13, 0.9338, {'top1': 0.9338}), (14, 0.932, {'top1': 0.932}), (16, 0.9336, {'top1': 0.9336}), (18, 0.5012, {'top1': 0.5012}), (19, 0.9328, {'top1': 0.9328}), (20, 0.9324, {'top1': 0.9324}), (21, 0.935, {'top1': 0.935}), (22, 0.9328, {'top1': 0.9328}), (23, 0.9342, {'top1': 0.9342}), (25, 0.9342, {'top1': 0.9342}), (29, 0.9332, {'top1': 0.9332}), (36, 0.5286, {'top1': 0.5286}), (37, 0.9302, {'top1': 0.9302}), (39, 0.9266, {'top1': 0.9266}), (40, 0.9314, {'top1': 0.9314}), (42, 0.933, {'top1': 0.933}), (44, 0.9336, {'top1': 0.9336}), (47, 0.929, {'top1': 0.929}), (49, 0.93, {'top1': 0.93}), (50, 0.9294, {'top1': 0.9294}), (51, 0.9158, {'top1': 0.9158}), (52, 0.9282, {'top1': 0.9282}), (53, 0.9142, {'top1': 0.9142})]
+just computed impact of block 11 . accuracy after removing:  0.9374
+removed block 11 current accuracy 0.9374 loss from initial  0.014000000000000012
+since last training loss: 0.0048000000000000265 threshold 0.01 training needed False
+start iteration 20
+(cache recomputed) Accuracy log [(0, 0.9252, {'top1': 0.9252}), (1, 0.9194, {'top1': 0.9194}), (3, 0.9268, {'top1': 0.9268}), (4, 0.9306, {'top1': 0.9306}), (5, 0.8638, {'top1': 0.8638}), (6, 0.927, {'top1': 0.927}), (7, 0.926, {'top1': 0.926}), (8, 0.9292, {'top1': 0.9292}), (9, 0.9222, {'top1': 0.9222}), (10, 0.9148, {'top1': 0.9148}), (12, 0.9282, {'top1': 0.9282}), (13, 0.9276, {'top1': 0.9276}), (14, 0.9276, {'top1': 0.9276}), (16, 0.9258, {'top1': 0.9258}), (18, 0.4698, {'top1': 0.4698}), (19, 0.9308, {'top1': 0.9308}), (20, 0.934, {'top1': 0.934}), (21, 0.9306, {'top1': 0.9306}), (22, 0.93, {'top1': 0.93}), (23, 0.929, {'top1': 0.929}), (25, 0.9336, {'top1': 0.9336}), (29, 0.9304, {'top1': 0.9304}), (36, 0.516, {'top1': 0.516}), (37, 0.9252, {'top1': 0.9252}), (39, 0.923, {'top1': 0.923}), (40, 0.9286, {'top1': 0.9286}), (42, 0.9294, {'top1': 0.9294}), (44, 0.93, {'top1': 0.93}), (47, 0.9232, {'top1': 0.9232}), (49, 0.9282, {'top1': 0.9282}), (50, 0.9284, {'top1': 0.9284}), (51, 0.9092, {'top1': 0.9092}), (52, 0.9234, {'top1': 0.9234}), (53, 0.9074, {'top1': 0.9074})]
+just computed impact of block 20 . accuracy after removing:  0.934
+removed block 20 current accuracy 0.934 loss from initial  0.01739999999999997
+since last training loss: 0.008199999999999985 threshold 0.01 training needed False
+start iteration 21
+(cache recomputed) Accuracy log [(0, 0.92, {'top1': 0.92}), (1, 0.9154, {'top1': 0.9154}), (3, 0.9218, {'top1': 0.9218}), (4, 0.9272, {'top1': 0.9272}), (5, 0.8544, {'top1': 0.8544}), (6, 0.9194, {'top1': 0.9194}), (7, 0.9236, {'top1': 0.9236}), (8, 0.9246, {'top1': 0.9246}), (9, 0.921, {'top1': 0.921}), (10, 0.9104, {'top1': 0.9104}), (12, 0.9216, {'top1': 0.9216}), (13, 0.9226, {'top1': 0.9226}), (14, 0.9222, {'top1': 0.9222}), (16, 0.923, {'top1': 0.923}), (18, 0.4358, {'top1': 0.4358}), (19, 0.9212, {'top1': 0.9212}), (21, 0.9228, {'top1': 0.9228}), (22, 0.9232, {'top1': 0.9232}), (23, 0.9262, {'top1': 0.9262}), (25, 0.9272, {'top1': 0.9272}), (29, 0.9282, {'top1': 0.9282}), (36, 0.4822, {'top1': 0.4822}), (37, 0.9186, {'top1': 0.9186}), (39, 0.918, {'top1': 0.918}), (40, 0.921, {'top1': 0.921}), (42, 0.924, {'top1': 0.924}), (44, 0.9256, {'top1': 0.9256}), (47, 0.9186, {'top1': 0.9186}), (49, 0.9224, {'top1': 0.9224}), (50, 0.9242, {'top1': 0.9242}), (51, 0.9048, {'top1': 0.9048}), (52, 0.92, {'top1': 0.92}), (53, 0.907, {'top1': 0.907})]
+just computed impact of block 29 . accuracy after removing:  0.9282
+removed block 29 current accuracy 0.9282 loss from initial  0.0232
+since last training loss: 0.014000000000000012 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[38, 11, 20, 29]
+smoothly removing block [38, 11, 20, 29]
+training epoch 0 val accuracy 0.94 topk_dict {'top1': 0.94}
+training epoch 1 val accuracy 0.9414 topk_dict {'top1': 0.9414}
+training epoch 2 val accuracy 0.9408 topk_dict {'top1': 0.9408}
+training epoch 3 val accuracy 0.9412 topk_dict {'top1': 0.9412}
+training epoch 4 val accuracy 0.9418 topk_dict {'top1': 0.9418}
+training epoch 5 val accuracy 0.9422 topk_dict {'top1': 0.9422}
+training epoch 6 val accuracy 0.9418 topk_dict {'top1': 0.9418}
+training epoch 7 val accuracy 0.9402 topk_dict {'top1': 0.9402}
+training epoch 8 val accuracy 0.9418 topk_dict {'top1': 0.9418}
+training epoch 9 val accuracy 0.941 topk_dict {'top1': 0.941}
+training epoch 10 val accuracy 0.9418 topk_dict {'top1': 0.9418}
+training epoch 11 val accuracy 0.9416 topk_dict {'top1': 0.9416}
+training epoch 12 val accuracy 0.9422 topk_dict {'top1': 0.9422}
+training epoch 13 val accuracy 0.9426 topk_dict {'top1': 0.9426}
+training epoch 14 val accuracy 0.9402 topk_dict {'top1': 0.9402}
+training epoch 15 val accuracy 0.9394 topk_dict {'top1': 0.9394}
+training epoch 16 val accuracy 0.9402 topk_dict {'top1': 0.9402}
+training epoch 17 val accuracy 0.9378 topk_dict {'top1': 0.9378}
+training epoch 18 val accuracy 0.9392 topk_dict {'top1': 0.9392}
+training epoch 19 val accuracy 0.938 topk_dict {'top1': 0.938}
+training epoch 20 val accuracy 0.9382 topk_dict {'top1': 0.9382}
+training epoch 21 val accuracy 0.9368 topk_dict {'top1': 0.9368}
+training epoch 22 val accuracy 0.9356 topk_dict {'top1': 0.9356}
+training epoch 23 val accuracy 0.9378 topk_dict {'top1': 0.9378}
+training epoch 24 val accuracy 0.936 topk_dict {'top1': 0.936}
+training epoch 25 val accuracy 0.9358 topk_dict {'top1': 0.9358}
+training epoch 26 val accuracy 0.9362 topk_dict {'top1': 0.9362}
+training epoch 27 val accuracy 0.9352 topk_dict {'top1': 0.9352}
+training epoch 28 val accuracy 0.9356 topk_dict {'top1': 0.9356}
+training epoch 29 val accuracy 0.935 topk_dict {'top1': 0.935}
+training start
+training epoch 0 val accuracy 0.9362 topk_dict {'top1': 0.9362} is_best True
+training epoch 1 val accuracy 0.935 topk_dict {'top1': 0.935} is_best False
+training epoch 2 val accuracy 0.9366 topk_dict {'top1': 0.9366} is_best True
+training epoch 3 val accuracy 0.9356 topk_dict {'top1': 0.9356} is_best False
+training epoch 4 val accuracy 0.9364 topk_dict {'top1': 0.9364} is_best False
+training epoch 5 val accuracy 0.9386 topk_dict {'top1': 0.9386} is_best True
+training epoch 6 val accuracy 0.9368 topk_dict {'top1': 0.9368} is_best False
+training epoch 7 val accuracy 0.9376 topk_dict {'top1': 0.9376} is_best False
+training epoch 8 val accuracy 0.9376 topk_dict {'top1': 0.9376} is_best False
+training epoch 9 val accuracy 0.9374 topk_dict {'top1': 0.9374} is_best False
+training epoch 10 val accuracy 0.9354 topk_dict {'top1': 0.9354} is_best False
+training epoch 11 val accuracy 0.9362 topk_dict {'top1': 0.9362} is_best False
+training epoch 12 val accuracy 0.9362 topk_dict {'top1': 0.9362} is_best False
+training epoch 13 val accuracy 0.9392 topk_dict {'top1': 0.9392} is_best True
+training epoch 14 val accuracy 0.9374 topk_dict {'top1': 0.9374} is_best False
+training epoch 15 val accuracy 0.9376 topk_dict {'top1': 0.9376} is_best False
+training epoch 16 val accuracy 0.9378 topk_dict {'top1': 0.9378} is_best False
+training epoch 17 val accuracy 0.9358 topk_dict {'top1': 0.9358} is_best False
+training epoch 18 val accuracy 0.9378 topk_dict {'top1': 0.9378} is_best False
+training epoch 19 val accuracy 0.9378 topk_dict {'top1': 0.9378} is_best False
+loading model_best from epoch 13 (acc 0.939200)
+finished training. finished 20 epochs. accuracy 0.9392 topk_dict {'top1': 0.9392}
+start iteration 22
+(cache recomputed) Accuracy log [(0, 0.9304, {'top1': 0.9304}), (1, 0.9274, {'top1': 0.9274}), (3, 0.9296, {'top1': 0.9296}), (4, 0.9332, {'top1': 0.9332}), (5, 0.8886, {'top1': 0.8886}), (6, 0.9308, {'top1': 0.9308}), (7, 0.9306, {'top1': 0.9306}), (8, 0.9348, {'top1': 0.9348}), (9, 0.9302, {'top1': 0.9302}), (10, 0.9268, {'top1': 0.9268}), (12, 0.9306, {'top1': 0.9306}), (13, 0.9302, {'top1': 0.9302}), (14, 0.9302, {'top1': 0.9302}), (16, 0.9328, {'top1': 0.9328}), (18, 0.5114, {'top1': 0.5114}), (19, 0.9284, {'top1': 0.9284}), (21, 0.9288, {'top1': 0.9288}), (22, 0.9292, {'top1': 0.9292}), (23, 0.9306, {'top1': 0.9306}), (25, 0.934, {'top1': 0.934}), (36, 0.5332, {'top1': 0.5332}), (37, 0.9298, {'top1': 0.9298}), (39, 0.931, {'top1': 0.931}), (40, 0.9318, {'top1': 0.9318}), (42, 0.9348, {'top1': 0.9348}), (44, 0.9334, {'top1': 0.9334}), (47, 0.9288, {'top1': 0.9288}), (49, 0.93, {'top1': 0.93}), (50, 0.9328, {'top1': 0.9328}), (51, 0.9168, {'top1': 0.9168}), (52, 0.93, {'top1': 0.93}), (53, 0.9178, {'top1': 0.9178})]
+just computed impact of block 8 . accuracy after removing:  0.9348
+removed block 8 current accuracy 0.9348 loss from initial  0.01660000000000006
+since last training loss: 0.0044000000000000705 threshold 0.01 training needed False
+start iteration 23
+(cache recomputed) Accuracy log [(0, 0.9146, {'top1': 0.9146}), (1, 0.9162, {'top1': 0.9162}), (3, 0.9168, {'top1': 0.9168}), (4, 0.9202, {'top1': 0.9202}), (5, 0.8618, {'top1': 0.8618}), (6, 0.9196, {'top1': 0.9196}), (7, 0.9144, {'top1': 0.9144}), (9, 0.9206, {'top1': 0.9206}), (10, 0.9214, {'top1': 0.9214}), (12, 0.9122, {'top1': 0.9122}), (13, 0.915, {'top1': 0.915}), (14, 0.9184, {'top1': 0.9184}), (16, 0.9192, {'top1': 0.9192}), (18, 0.4588, {'top1': 0.4588}), (19, 0.9208, {'top1': 0.9208}), (21, 0.9254, {'top1': 0.9254}), (22, 0.9236, {'top1': 0.9236}), (23, 0.9266, {'top1': 0.9266}), (25, 0.928, {'top1': 0.928}), (36, 0.5144, {'top1': 0.5144}), (37, 0.9248, {'top1': 0.9248}), (39, 0.916, {'top1': 0.916}), (40, 0.9216, {'top1': 0.9216}), (42, 0.9294, {'top1': 0.9294}), (44, 0.9266, {'top1': 0.9266}), (47, 0.9194, {'top1': 0.9194}), (49, 0.9206, {'top1': 0.9206}), (50, 0.9218, {'top1': 0.9218}), (51, 0.909, {'top1': 0.909}), (52, 0.9186, {'top1': 0.9186}), (53, 0.9046, {'top1': 0.9046})]
+just computed impact of block 42 . accuracy after removing:  0.9294
+removed block 42 current accuracy 0.9294 loss from initial  0.02200000000000002
+since last training loss: 0.009800000000000031 threshold 0.01 training needed False
+start iteration 24
+(cache recomputed) Accuracy log [(0, 0.9086, {'top1': 0.9086}), (1, 0.9092, {'top1': 0.9092}), (3, 0.9076, {'top1': 0.9076}), (4, 0.918, {'top1': 0.918}), (5, 0.8432, {'top1': 0.8432}), (6, 0.9068, {'top1': 0.9068}), (7, 0.9072, {'top1': 0.9072}), (9, 0.9134, {'top1': 0.9134}), (10, 0.9124, {'top1': 0.9124}), (12, 0.9044, {'top1': 0.9044}), (13, 0.9102, {'top1': 0.9102}), (14, 0.9114, {'top1': 0.9114}), (16, 0.9154, {'top1': 0.9154}), (18, 0.4534, {'top1': 0.4534}), (19, 0.918, {'top1': 0.918}), (21, 0.9204, {'top1': 0.9204}), (22, 0.9184, {'top1': 0.9184}), (23, 0.9214, {'top1': 0.9214}), (25, 0.9194, {'top1': 0.9194}), (36, 0.412, {'top1': 0.412}), (37, 0.9142, {'top1': 0.9142}), (39, 0.9046, {'top1': 0.9046}), (40, 0.9128, {'top1': 0.9128}), (44, 0.9176, {'top1': 0.9176}), (47, 0.9068, {'top1': 0.9068}), (49, 0.9152, {'top1': 0.9152}), (50, 0.9156, {'top1': 0.9156}), (51, 0.8982, {'top1': 0.8982}), (52, 0.908, {'top1': 0.908}), (53, 0.897, {'top1': 0.897})]
+just computed impact of block 23 . accuracy after removing:  0.9214
+removed block 23 current accuracy 0.9214 loss from initial  0.030000000000000027
+since last training loss: 0.017800000000000038 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[8, 42, 23]
+smoothly removing block [8, 42, 23]
+training epoch 0 val accuracy 0.937 topk_dict {'top1': 0.937}
+training epoch 1 val accuracy 0.9388 topk_dict {'top1': 0.9388}
+training epoch 2 val accuracy 0.9368 topk_dict {'top1': 0.9368}
+training epoch 3 val accuracy 0.9392 topk_dict {'top1': 0.9392}
+training epoch 4 val accuracy 0.9378 topk_dict {'top1': 0.9378}
+training epoch 5 val accuracy 0.9376 topk_dict {'top1': 0.9376}
+training epoch 6 val accuracy 0.9374 topk_dict {'top1': 0.9374}
+training epoch 7 val accuracy 0.9378 topk_dict {'top1': 0.9378}
+training epoch 8 val accuracy 0.938 topk_dict {'top1': 0.938}
+training epoch 9 val accuracy 0.9378 topk_dict {'top1': 0.9378}
+training epoch 10 val accuracy 0.9372 topk_dict {'top1': 0.9372}
+training epoch 11 val accuracy 0.9386 topk_dict {'top1': 0.9386}
+training epoch 12 val accuracy 0.937 topk_dict {'top1': 0.937}
+training epoch 13 val accuracy 0.9372 topk_dict {'top1': 0.9372}
+training epoch 14 val accuracy 0.9384 topk_dict {'top1': 0.9384}
+training epoch 15 val accuracy 0.938 topk_dict {'top1': 0.938}
+training epoch 16 val accuracy 0.9384 topk_dict {'top1': 0.9384}
+training epoch 17 val accuracy 0.938 topk_dict {'top1': 0.938}
+training epoch 18 val accuracy 0.9382 topk_dict {'top1': 0.9382}
+training epoch 19 val accuracy 0.9384 topk_dict {'top1': 0.9384}
+training epoch 20 val accuracy 0.9376 topk_dict {'top1': 0.9376}
+training epoch 21 val accuracy 0.9402 topk_dict {'top1': 0.9402}
+training epoch 22 val accuracy 0.937 topk_dict {'top1': 0.937}
+training epoch 23 val accuracy 0.9384 topk_dict {'top1': 0.9384}
+training epoch 24 val accuracy 0.9366 topk_dict {'top1': 0.9366}
+training epoch 25 val accuracy 0.9368 topk_dict {'top1': 0.9368}
+training epoch 26 val accuracy 0.9364 topk_dict {'top1': 0.9364}
+training epoch 27 val accuracy 0.9372 topk_dict {'top1': 0.9372}
+training epoch 28 val accuracy 0.9356 topk_dict {'top1': 0.9356}
+training epoch 29 val accuracy 0.935 topk_dict {'top1': 0.935}
+training start
+training epoch 0 val accuracy 0.9356 topk_dict {'top1': 0.9356} is_best True
+training epoch 1 val accuracy 0.9356 topk_dict {'top1': 0.9356} is_best False
+training epoch 2 val accuracy 0.9354 topk_dict {'top1': 0.9354} is_best False
+training epoch 3 val accuracy 0.938 topk_dict {'top1': 0.938} is_best True
+training epoch 4 val accuracy 0.9364 topk_dict {'top1': 0.9364} is_best False
+training epoch 5 val accuracy 0.936 topk_dict {'top1': 0.936} is_best False
+training epoch 6 val accuracy 0.938 topk_dict {'top1': 0.938} is_best False
+training epoch 7 val accuracy 0.9376 topk_dict {'top1': 0.9376} is_best False
+training epoch 8 val accuracy 0.9372 topk_dict {'top1': 0.9372} is_best False
+training epoch 9 val accuracy 0.9382 topk_dict {'top1': 0.9382} is_best True
+training epoch 10 val accuracy 0.9368 topk_dict {'top1': 0.9368} is_best False
+training epoch 11 val accuracy 0.9374 topk_dict {'top1': 0.9374} is_best False
+training epoch 12 val accuracy 0.9378 topk_dict {'top1': 0.9378} is_best False
+training epoch 13 val accuracy 0.9386 topk_dict {'top1': 0.9386} is_best True
+training epoch 14 val accuracy 0.9382 topk_dict {'top1': 0.9382} is_best False
+training epoch 15 val accuracy 0.9392 topk_dict {'top1': 0.9392} is_best True
+training epoch 16 val accuracy 0.9386 topk_dict {'top1': 0.9386} is_best False
+training epoch 17 val accuracy 0.9392 topk_dict {'top1': 0.9392} is_best False
+training epoch 18 val accuracy 0.9382 topk_dict {'top1': 0.9382} is_best False
+training epoch 19 val accuracy 0.9382 topk_dict {'top1': 0.9382} is_best False
+loading model_best from epoch 15 (acc 0.939200)
+finished training. finished 20 epochs. accuracy 0.9392 topk_dict {'top1': 0.9392}
+start iteration 25
+(cache recomputed) Accuracy log [(0, 0.932, {'top1': 0.932}), (1, 0.93, {'top1': 0.93}), (3, 0.9306, {'top1': 0.9306}), (4, 0.93, {'top1': 0.93}), (5, 0.8898, {'top1': 0.8898}), (6, 0.9314, {'top1': 0.9314}), (7, 0.9322, {'top1': 0.9322}), (9, 0.9312, {'top1': 0.9312}), (10, 0.9252, {'top1': 0.9252}), (12, 0.9256, {'top1': 0.9256}), (13, 0.9266, {'top1': 0.9266}), (14, 0.9296, {'top1': 0.9296}), (16, 0.9302, {'top1': 0.9302}), (18, 0.509, {'top1': 0.509}), (19, 0.929, {'top1': 0.929}), (21, 0.9272, {'top1': 0.9272}), (22, 0.9286, {'top1': 0.9286}), (25, 0.9328, {'top1': 0.9328}), (36, 0.4536, {'top1': 0.4536}), (37, 0.9278, {'top1': 0.9278}), (39, 0.9248, {'top1': 0.9248}), (40, 0.9324, {'top1': 0.9324}), (44, 0.9308, {'top1': 0.9308}), (47, 0.9254, {'top1': 0.9254}), (49, 0.9294, {'top1': 0.9294}), (50, 0.928, {'top1': 0.928}), (51, 0.917, {'top1': 0.917}), (52, 0.93, {'top1': 0.93}), (53, 0.9174, {'top1': 0.9174})]
+just computed impact of block 25 . accuracy after removing:  0.9328
+removed block 25 current accuracy 0.9328 loss from initial  0.01860000000000006
+since last training loss: 0.006400000000000072 threshold 0.01 training needed False
+start iteration 26
+(cache recomputed) Accuracy log [(0, 0.9266, {'top1': 0.9266}), (1, 0.9256, {'top1': 0.9256}), (3, 0.9266, {'top1': 0.9266}), (4, 0.929, {'top1': 0.929}), (5, 0.874, {'top1': 0.874}), (6, 0.9252, {'top1': 0.9252}), (7, 0.9252, {'top1': 0.9252}), (9, 0.9226, {'top1': 0.9226}), (10, 0.9232, {'top1': 0.9232}), (12, 0.9196, {'top1': 0.9196}), (13, 0.9212, {'top1': 0.9212}), (14, 0.9218, {'top1': 0.9218}), (16, 0.9228, {'top1': 0.9228}), (18, 0.469, {'top1': 0.469}), (19, 0.9228, {'top1': 0.9228}), (21, 0.9196, {'top1': 0.9196}), (22, 0.9198, {'top1': 0.9198}), (36, 0.3786, {'top1': 0.3786}), (37, 0.919, {'top1': 0.919}), (39, 0.9204, {'top1': 0.9204}), (40, 0.93, {'top1': 0.93}), (44, 0.923, {'top1': 0.923}), (47, 0.9184, {'top1': 0.9184}), (49, 0.9238, {'top1': 0.9238}), (50, 0.9218, {'top1': 0.9218}), (51, 0.9114, {'top1': 0.9114}), (52, 0.9226, {'top1': 0.9226}), (53, 0.9066, {'top1': 0.9066})]
+just computed impact of block 40 . accuracy after removing:  0.93
+removed block 40 current accuracy 0.93 loss from initial  0.021399999999999975
+starting smooth lazy loop. blocks=[25, 40]
+smoothly removing block [25, 40]
+training epoch 0 val accuracy 0.9378 topk_dict {'top1': 0.9378}
+training epoch 1 val accuracy 0.9384 topk_dict {'top1': 0.9384}
+training epoch 2 val accuracy 0.9388 topk_dict {'top1': 0.9388}
+training epoch 3 val accuracy 0.9394 topk_dict {'top1': 0.9394}
+training epoch 4 val accuracy 0.9394 topk_dict {'top1': 0.9394}
+training epoch 5 val accuracy 0.9374 topk_dict {'top1': 0.9374}
+training epoch 6 val accuracy 0.9388 topk_dict {'top1': 0.9388}
+training epoch 7 val accuracy 0.938 topk_dict {'top1': 0.938}
+training epoch 8 val accuracy 0.9376 topk_dict {'top1': 0.9376}
+training epoch 9 val accuracy 0.9378 topk_dict {'top1': 0.9378}
+training epoch 10 val accuracy 0.9382 topk_dict {'top1': 0.9382}
+training epoch 11 val accuracy 0.9382 topk_dict {'top1': 0.9382}
+training epoch 12 val accuracy 0.938 topk_dict {'top1': 0.938}
+training epoch 13 val accuracy 0.938 topk_dict {'top1': 0.938}
+training epoch 14 val accuracy 0.938 topk_dict {'top1': 0.938}
+training epoch 15 val accuracy 0.9378 topk_dict {'top1': 0.9378}
+training epoch 16 val accuracy 0.9394 topk_dict {'top1': 0.9394}
+training epoch 17 val accuracy 0.9364 topk_dict {'top1': 0.9364}
+training epoch 18 val accuracy 0.9374 topk_dict {'top1': 0.9374}
+training epoch 19 val accuracy 0.9378 topk_dict {'top1': 0.9378}
+training epoch 20 val accuracy 0.9364 topk_dict {'top1': 0.9364}
+training epoch 21 val accuracy 0.9348 topk_dict {'top1': 0.9348}
+training epoch 22 val accuracy 0.9354 topk_dict {'top1': 0.9354}
+training epoch 23 val accuracy 0.9358 topk_dict {'top1': 0.9358}
+training epoch 24 val accuracy 0.9358 topk_dict {'top1': 0.9358}
+training epoch 25 val accuracy 0.936 topk_dict {'top1': 0.936}
+training epoch 26 val accuracy 0.9356 topk_dict {'top1': 0.9356}
+training epoch 27 val accuracy 0.936 topk_dict {'top1': 0.936}
+training epoch 28 val accuracy 0.9364 topk_dict {'top1': 0.9364}
+training epoch 29 val accuracy 0.934 topk_dict {'top1': 0.934}
+training start
+training epoch 0 val accuracy 0.9358 topk_dict {'top1': 0.9358} is_best True
+training epoch 1 val accuracy 0.9372 topk_dict {'top1': 0.9372} is_best True
+training epoch 2 val accuracy 0.9366 topk_dict {'top1': 0.9366} is_best False
+training epoch 3 val accuracy 0.9362 topk_dict {'top1': 0.9362} is_best False
+training epoch 4 val accuracy 0.937 topk_dict {'top1': 0.937} is_best False
+training epoch 5 val accuracy 0.9362 topk_dict {'top1': 0.9362} is_best False
+training epoch 6 val accuracy 0.938 topk_dict {'top1': 0.938} is_best True
+training epoch 7 val accuracy 0.9364 topk_dict {'top1': 0.9364} is_best False
+training epoch 8 val accuracy 0.937 topk_dict {'top1': 0.937} is_best False
+training epoch 9 val accuracy 0.937 topk_dict {'top1': 0.937} is_best False
+training epoch 10 val accuracy 0.9372 topk_dict {'top1': 0.9372} is_best False
+training epoch 11 val accuracy 0.9378 topk_dict {'top1': 0.9378} is_best False
+training epoch 12 val accuracy 0.9372 topk_dict {'top1': 0.9372} is_best False
+training epoch 13 val accuracy 0.9374 topk_dict {'top1': 0.9374} is_best False
+training epoch 14 val accuracy 0.9356 topk_dict {'top1': 0.9356} is_best False
+training epoch 15 val accuracy 0.9396 topk_dict {'top1': 0.9396} is_best True
+training epoch 16 val accuracy 0.9382 topk_dict {'top1': 0.9382} is_best False
+training epoch 17 val accuracy 0.9374 topk_dict {'top1': 0.9374} is_best False
+training epoch 18 val accuracy 0.9384 topk_dict {'top1': 0.9384} is_best False
+training epoch 19 val accuracy 0.9372 topk_dict {'top1': 0.9372} is_best False
+loading model_best from epoch 15 (acc 0.939600)
+finished training. finished 20 epochs. accuracy 0.9396 topk_dict {'top1': 0.9396}
+start iteration 27
+(cache recomputed) Accuracy log [(0, 0.929, {'top1': 0.929}), (1, 0.9294, {'top1': 0.9294}), (3, 0.9264, {'top1': 0.9264}), (4, 0.9298, {'top1': 0.9298}), (5, 0.8878, {'top1': 0.8878}), (6, 0.93, {'top1': 0.93}), (7, 0.9308, {'top1': 0.9308}), (9, 0.93, {'top1': 0.93}), (10, 0.9256, {'top1': 0.9256}), (12, 0.9238, {'top1': 0.9238}), (13, 0.9236, {'top1': 0.9236}), (14, 0.9286, {'top1': 0.9286}), (16, 0.927, {'top1': 0.927}), (18, 0.4572, {'top1': 0.4572}), (19, 0.926, {'top1': 0.926}), (21, 0.9246, {'top1': 0.9246}), (22, 0.9266, {'top1': 0.9266}), (36, 0.3826, {'top1': 0.3826}), (37, 0.9228, {'top1': 0.9228}), (39, 0.9228, {'top1': 0.9228}), (44, 0.9264, {'top1': 0.9264}), (47, 0.9226, {'top1': 0.9226}), (49, 0.9232, {'top1': 0.9232}), (50, 0.9272, {'top1': 0.9272}), (51, 0.9138, {'top1': 0.9138}), (52, 0.9274, {'top1': 0.9274}), (53, 0.9148, {'top1': 0.9148})]
+just computed impact of block 7 . accuracy after removing:  0.9308
+removed block 7 current accuracy 0.9308 loss from initial  0.020600000000000063
+since last training loss: 0.00880000000000003 threshold 0.01 training needed False
+start iteration 28
+(cache recomputed) Accuracy log [(0, 0.9128, {'top1': 0.9128}), (1, 0.904, {'top1': 0.904}), (3, 0.9072, {'top1': 0.9072}), (4, 0.915, {'top1': 0.915}), (5, 0.8286, {'top1': 0.8286}), (6, 0.9092, {'top1': 0.9092}), (9, 0.9112, {'top1': 0.9112}), (10, 0.908, {'top1': 0.908}), (12, 0.9066, {'top1': 0.9066}), (13, 0.917, {'top1': 0.917}), (14, 0.9146, {'top1': 0.9146}), (16, 0.9198, {'top1': 0.9198}), (18, 0.442, {'top1': 0.442}), (19, 0.9224, {'top1': 0.9224}), (21, 0.921, {'top1': 0.921}), (22, 0.9164, {'top1': 0.9164}), (36, 0.3536, {'top1': 0.3536}), (37, 0.9134, {'top1': 0.9134}), (39, 0.9112, {'top1': 0.9112}), (44, 0.917, {'top1': 0.917}), (47, 0.9132, {'top1': 0.9132}), (49, 0.9122, {'top1': 0.9122}), (50, 0.9158, {'top1': 0.9158}), (51, 0.9004, {'top1': 0.9004}), (52, 0.9166, {'top1': 0.9166}), (53, 0.8956, {'top1': 0.8956})]
+just computed impact of block 19 . accuracy after removing:  0.9224
+removed block 19 current accuracy 0.9224 loss from initial  0.029000000000000026
+since last training loss: 0.017199999999999993 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[7, 19]
+smoothly removing block [7, 19]
+training epoch 0 val accuracy 0.9384 topk_dict {'top1': 0.9384}
+training epoch 1 val accuracy 0.9388 topk_dict {'top1': 0.9388}
+training epoch 2 val accuracy 0.9354 topk_dict {'top1': 0.9354}
+training epoch 3 val accuracy 0.9376 topk_dict {'top1': 0.9376}
+training epoch 4 val accuracy 0.9366 topk_dict {'top1': 0.9366}
+training epoch 5 val accuracy 0.9368 topk_dict {'top1': 0.9368}
+training epoch 6 val accuracy 0.94 topk_dict {'top1': 0.94}
+training epoch 7 val accuracy 0.9378 topk_dict {'top1': 0.9378}
+training epoch 8 val accuracy 0.9382 topk_dict {'top1': 0.9382}
+training epoch 9 val accuracy 0.9342 topk_dict {'top1': 0.9342}
+training epoch 10 val accuracy 0.9348 topk_dict {'top1': 0.9348}
+training epoch 11 val accuracy 0.9346 topk_dict {'top1': 0.9346}
+training epoch 12 val accuracy 0.9366 topk_dict {'top1': 0.9366}
+training epoch 13 val accuracy 0.9356 topk_dict {'top1': 0.9356}
+training epoch 14 val accuracy 0.9338 topk_dict {'top1': 0.9338}
+training epoch 15 val accuracy 0.9374 topk_dict {'top1': 0.9374}
+training epoch 16 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 17 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 18 val accuracy 0.9358 topk_dict {'top1': 0.9358}
+training epoch 19 val accuracy 0.9356 topk_dict {'top1': 0.9356}
+training epoch 20 val accuracy 0.935 topk_dict {'top1': 0.935}
+training epoch 21 val accuracy 0.9352 topk_dict {'top1': 0.9352}
+training epoch 22 val accuracy 0.935 topk_dict {'top1': 0.935}
+training epoch 23 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 24 val accuracy 0.9302 topk_dict {'top1': 0.9302}
+training epoch 25 val accuracy 0.9332 topk_dict {'top1': 0.9332}
+training epoch 26 val accuracy 0.932 topk_dict {'top1': 0.932}
+training epoch 27 val accuracy 0.9324 topk_dict {'top1': 0.9324}
+training epoch 28 val accuracy 0.9316 topk_dict {'top1': 0.9316}
+training epoch 29 val accuracy 0.9326 topk_dict {'top1': 0.9326}
+training start
+training epoch 0 val accuracy 0.933 topk_dict {'top1': 0.933} is_best True
+training epoch 1 val accuracy 0.9326 topk_dict {'top1': 0.9326} is_best False
+training epoch 2 val accuracy 0.9312 topk_dict {'top1': 0.9312} is_best False
+training epoch 3 val accuracy 0.9298 topk_dict {'top1': 0.9298} is_best False
+training epoch 4 val accuracy 0.9312 topk_dict {'top1': 0.9312} is_best False
+training epoch 5 val accuracy 0.9312 topk_dict {'top1': 0.9312} is_best False
+training epoch 6 val accuracy 0.9318 topk_dict {'top1': 0.9318} is_best False
+training epoch 7 val accuracy 0.9314 topk_dict {'top1': 0.9314} is_best False
+training epoch 8 val accuracy 0.9326 topk_dict {'top1': 0.9326} is_best False
+training epoch 9 val accuracy 0.9318 topk_dict {'top1': 0.9318} is_best False
+training epoch 10 val accuracy 0.9314 topk_dict {'top1': 0.9314} is_best False
+training epoch 11 val accuracy 0.9324 topk_dict {'top1': 0.9324} is_best False
+training epoch 12 val accuracy 0.9326 topk_dict {'top1': 0.9326} is_best False
+training epoch 13 val accuracy 0.9308 topk_dict {'top1': 0.9308} is_best False
+training epoch 14 val accuracy 0.9318 topk_dict {'top1': 0.9318} is_best False
+training epoch 15 val accuracy 0.9296 topk_dict {'top1': 0.9296} is_best False
+training epoch 16 val accuracy 0.9314 topk_dict {'top1': 0.9314} is_best False
+training epoch 17 val accuracy 0.9332 topk_dict {'top1': 0.9332} is_best True
+training epoch 18 val accuracy 0.9322 topk_dict {'top1': 0.9322} is_best False
+training epoch 19 val accuracy 0.9346 topk_dict {'top1': 0.9346} is_best True
+finished training. finished 20 epochs. accuracy 0.9346 topk_dict {'top1': 0.9346}
+start iteration 29
+(cache recomputed) Accuracy log [(0, 0.9256, {'top1': 0.9256}), (1, 0.9268, {'top1': 0.9268}), (3, 0.9236, {'top1': 0.9236}), (4, 0.9262, {'top1': 0.9262}), (5, 0.8738, {'top1': 0.8738}), (6, 0.9234, {'top1': 0.9234}), (9, 0.9242, {'top1': 0.9242}), (10, 0.9234, {'top1': 0.9234}), (12, 0.9168, {'top1': 0.9168}), (13, 0.9208, {'top1': 0.9208}), (14, 0.9216, {'top1': 0.9216}), (16, 0.9218, {'top1': 0.9218}), (18, 0.4228, {'top1': 0.4228}), (21, 0.9216, {'top1': 0.9216}), (22, 0.9198, {'top1': 0.9198}), (36, 0.379, {'top1': 0.379}), (37, 0.9244, {'top1': 0.9244}), (39, 0.9176, {'top1': 0.9176}), (44, 0.922, {'top1': 0.922}), (47, 0.9232, {'top1': 0.9232}), (49, 0.9218, {'top1': 0.9218}), (50, 0.9222, {'top1': 0.9222}), (51, 0.9094, {'top1': 0.9094}), (52, 0.9232, {'top1': 0.9232}), (53, 0.9158, {'top1': 0.9158})]
+just computed impact of block 1 . accuracy after removing:  0.9268
+removed block 1 current accuracy 0.9268 loss from initial  0.024600000000000066
+since last training loss: 0.007800000000000029 threshold 0.01 training needed False
+start iteration 30
+(cache recomputed) Accuracy log [(0, 0.8948, {'top1': 0.8948}), (3, 0.8986, {'top1': 0.8986}), (4, 0.9072, {'top1': 0.9072}), (5, 0.774, {'top1': 0.774}), (6, 0.898, {'top1': 0.898}), (9, 0.9028, {'top1': 0.9028}), (10, 0.8702, {'top1': 0.8702}), (12, 0.896, {'top1': 0.896}), (13, 0.9026, {'top1': 0.9026}), (14, 0.9046, {'top1': 0.9046}), (16, 0.8974, {'top1': 0.8974}), (18, 0.4192, {'top1': 0.4192}), (21, 0.9098, {'top1': 0.9098}), (22, 0.8972, {'top1': 0.8972}), (36, 0.3334, {'top1': 0.3334}), (37, 0.905, {'top1': 0.905}), (39, 0.8956, {'top1': 0.8956}), (44, 0.9086, {'top1': 0.9086}), (47, 0.9032, {'top1': 0.9032}), (49, 0.9088, {'top1': 0.9088}), (50, 0.9086, {'top1': 0.9086}), (51, 0.8904, {'top1': 0.8904}), (52, 0.9108, {'top1': 0.9108}), (53, 0.89, {'top1': 0.89})]
+just computed impact of block 52 . accuracy after removing:  0.9108
+removed block 52 current accuracy 0.9108 loss from initial  0.04059999999999997
+since last training loss: 0.023799999999999932 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[1, 52]
+smoothly removing block [1, 52]
+training epoch 0 val accuracy 0.9328 topk_dict {'top1': 0.9328}
+training epoch 1 val accuracy 0.9348 topk_dict {'top1': 0.9348}
+training epoch 2 val accuracy 0.9338 topk_dict {'top1': 0.9338}
+training epoch 3 val accuracy 0.9322 topk_dict {'top1': 0.9322}
+training epoch 4 val accuracy 0.9342 topk_dict {'top1': 0.9342}
+training epoch 5 val accuracy 0.9336 topk_dict {'top1': 0.9336}
+training epoch 6 val accuracy 0.9336 topk_dict {'top1': 0.9336}
+training epoch 7 val accuracy 0.9332 topk_dict {'top1': 0.9332}
+training epoch 8 val accuracy 0.9354 topk_dict {'top1': 0.9354}
+training epoch 9 val accuracy 0.9318 topk_dict {'top1': 0.9318}
+training epoch 10 val accuracy 0.9332 topk_dict {'top1': 0.9332}
+training epoch 11 val accuracy 0.9328 topk_dict {'top1': 0.9328}
+training epoch 12 val accuracy 0.9338 topk_dict {'top1': 0.9338}
+training epoch 13 val accuracy 0.9316 topk_dict {'top1': 0.9316}
+training epoch 14 val accuracy 0.9336 topk_dict {'top1': 0.9336}
+training epoch 15 val accuracy 0.9324 topk_dict {'top1': 0.9324}
+training epoch 16 val accuracy 0.9316 topk_dict {'top1': 0.9316}
+training epoch 17 val accuracy 0.9326 topk_dict {'top1': 0.9326}
+training epoch 18 val accuracy 0.9318 topk_dict {'top1': 0.9318}
+training epoch 19 val accuracy 0.932 topk_dict {'top1': 0.932}
+training epoch 20 val accuracy 0.9328 topk_dict {'top1': 0.9328}
+training epoch 21 val accuracy 0.933 topk_dict {'top1': 0.933}
+training epoch 22 val accuracy 0.932 topk_dict {'top1': 0.932}
+training epoch 23 val accuracy 0.9322 topk_dict {'top1': 0.9322}
+training epoch 24 val accuracy 0.9322 topk_dict {'top1': 0.9322}
+training epoch 25 val accuracy 0.9332 topk_dict {'top1': 0.9332}
+training epoch 26 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 27 val accuracy 0.9324 topk_dict {'top1': 0.9324}
+training epoch 28 val accuracy 0.9324 topk_dict {'top1': 0.9324}
+training epoch 29 val accuracy 0.9298 topk_dict {'top1': 0.9298}
+training start
+training epoch 0 val accuracy 0.9314 topk_dict {'top1': 0.9314} is_best True
+training epoch 1 val accuracy 0.9326 topk_dict {'top1': 0.9326} is_best True
+training epoch 2 val accuracy 0.9332 topk_dict {'top1': 0.9332} is_best True
+training epoch 3 val accuracy 0.9328 topk_dict {'top1': 0.9328} is_best False
+training epoch 4 val accuracy 0.9334 topk_dict {'top1': 0.9334} is_best True
+training epoch 5 val accuracy 0.9324 topk_dict {'top1': 0.9324} is_best False
+training epoch 6 val accuracy 0.9326 topk_dict {'top1': 0.9326} is_best False
+training epoch 7 val accuracy 0.9334 topk_dict {'top1': 0.9334} is_best False
+training epoch 8 val accuracy 0.9316 topk_dict {'top1': 0.9316} is_best False
+training epoch 9 val accuracy 0.9322 topk_dict {'top1': 0.9322} is_best False
+training epoch 10 val accuracy 0.9324 topk_dict {'top1': 0.9324} is_best False
+training epoch 11 val accuracy 0.9338 topk_dict {'top1': 0.9338} is_best True
+training epoch 12 val accuracy 0.935 topk_dict {'top1': 0.935} is_best True
+training epoch 13 val accuracy 0.9336 topk_dict {'top1': 0.9336} is_best False
+training epoch 14 val accuracy 0.9336 topk_dict {'top1': 0.9336} is_best False
+training epoch 15 val accuracy 0.9342 topk_dict {'top1': 0.9342} is_best False
+training epoch 16 val accuracy 0.9342 topk_dict {'top1': 0.9342} is_best False
+training epoch 17 val accuracy 0.9332 topk_dict {'top1': 0.9332} is_best False
+training epoch 18 val accuracy 0.9332 topk_dict {'top1': 0.9332} is_best False
+training epoch 19 val accuracy 0.9322 topk_dict {'top1': 0.9322} is_best False
+loading model_best from epoch 12 (acc 0.935000)
+finished training. finished 20 epochs. accuracy 0.935 topk_dict {'top1': 0.935}
+start iteration 31
+(cache recomputed) Accuracy log [(0, 0.925, {'top1': 0.925}), (3, 0.9194, {'top1': 0.9194}), (4, 0.92, {'top1': 0.92}), (5, 0.8544, {'top1': 0.8544}), (6, 0.924, {'top1': 0.924}), (9, 0.921, {'top1': 0.921}), (10, 0.9216, {'top1': 0.9216}), (12, 0.9166, {'top1': 0.9166}), (13, 0.9216, {'top1': 0.9216}), (14, 0.9208, {'top1': 0.9208}), (16, 0.9218, {'top1': 0.9218}), (18, 0.3676, {'top1': 0.3676}), (21, 0.9208, {'top1': 0.9208}), (22, 0.9188, {'top1': 0.9188}), (36, 0.4302, {'top1': 0.4302}), (37, 0.9256, {'top1': 0.9256}), (39, 0.91, {'top1': 0.91}), (44, 0.9196, {'top1': 0.9196}), (47, 0.9188, {'top1': 0.9188}), (49, 0.9202, {'top1': 0.9202}), (50, 0.9192, {'top1': 0.9192}), (51, 0.9, {'top1': 0.9}), (53, 0.8942, {'top1': 0.8942})]
+just computed impact of block 37 . accuracy after removing:  0.9256
+removed block 37 current accuracy 0.9256 loss from initial  0.025800000000000045
+since last training loss: 0.009400000000000075 threshold 0.01 training needed False
+start iteration 32
+(cache recomputed) Accuracy log [(0, 0.9098, {'top1': 0.9098}), (3, 0.9042, {'top1': 0.9042}), (4, 0.913, {'top1': 0.913}), (5, 0.8092, {'top1': 0.8092}), (6, 0.9068, {'top1': 0.9068}), (9, 0.9022, {'top1': 0.9022}), (10, 0.9, {'top1': 0.9}), (12, 0.9048, {'top1': 0.9048}), (13, 0.9082, {'top1': 0.9082}), (14, 0.909, {'top1': 0.909}), (16, 0.9048, {'top1': 0.9048}), (18, 0.372, {'top1': 0.372}), (21, 0.8976, {'top1': 0.8976}), (22, 0.8992, {'top1': 0.8992}), (36, 0.2796, {'top1': 0.2796}), (39, 0.8942, {'top1': 0.8942}), (44, 0.9006, {'top1': 0.9006}), (47, 0.8952, {'top1': 0.8952}), (49, 0.9008, {'top1': 0.9008}), (50, 0.9112, {'top1': 0.9112}), (51, 0.8888, {'top1': 0.8888}), (53, 0.8752, {'top1': 0.8752})]
+just computed impact of block 4 . accuracy after removing:  0.913
+removed block 4 current accuracy 0.913 loss from initial  0.03839999999999999
+starting smooth lazy loop. blocks=[37, 4]
+smoothly removing block [37, 4]
+training epoch 0 val accuracy 0.9348 topk_dict {'top1': 0.9348}
+training epoch 1 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 2 val accuracy 0.9338 topk_dict {'top1': 0.9338}
+training epoch 3 val accuracy 0.9336 topk_dict {'top1': 0.9336}
+training epoch 4 val accuracy 0.9334 topk_dict {'top1': 0.9334}
+training epoch 5 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 6 val accuracy 0.9334 topk_dict {'top1': 0.9334}
+training epoch 7 val accuracy 0.9328 topk_dict {'top1': 0.9328}
+training epoch 8 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 9 val accuracy 0.9348 topk_dict {'top1': 0.9348}
+training epoch 10 val accuracy 0.9328 topk_dict {'top1': 0.9328}
+training epoch 11 val accuracy 0.9346 topk_dict {'top1': 0.9346}
+training epoch 12 val accuracy 0.9354 topk_dict {'top1': 0.9354}
+training epoch 13 val accuracy 0.9374 topk_dict {'top1': 0.9374}
+training epoch 14 val accuracy 0.9364 topk_dict {'top1': 0.9364}
+training epoch 15 val accuracy 0.9364 topk_dict {'top1': 0.9364}
+training epoch 16 val accuracy 0.933 topk_dict {'top1': 0.933}
+training epoch 17 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 18 val accuracy 0.9356 topk_dict {'top1': 0.9356}
+training epoch 19 val accuracy 0.9328 topk_dict {'top1': 0.9328}
+training epoch 20 val accuracy 0.9336 topk_dict {'top1': 0.9336}
+training epoch 21 val accuracy 0.936 topk_dict {'top1': 0.936}
+training epoch 22 val accuracy 0.9346 topk_dict {'top1': 0.9346}
+training epoch 23 val accuracy 0.9324 topk_dict {'top1': 0.9324}
+training epoch 24 val accuracy 0.9324 topk_dict {'top1': 0.9324}
+training epoch 25 val accuracy 0.9302 topk_dict {'top1': 0.9302}
+training epoch 26 val accuracy 0.9296 topk_dict {'top1': 0.9296}
+training epoch 27 val accuracy 0.9318 topk_dict {'top1': 0.9318}
+training epoch 28 val accuracy 0.931 topk_dict {'top1': 0.931}
+training epoch 29 val accuracy 0.9306 topk_dict {'top1': 0.9306}
+training start
+training epoch 0 val accuracy 0.9304 topk_dict {'top1': 0.9304} is_best True
+training epoch 1 val accuracy 0.9306 topk_dict {'top1': 0.9306} is_best True
+training epoch 2 val accuracy 0.9276 topk_dict {'top1': 0.9276} is_best False
+training epoch 3 val accuracy 0.9292 topk_dict {'top1': 0.9292} is_best False
+training epoch 4 val accuracy 0.932 topk_dict {'top1': 0.932} is_best True
+training epoch 5 val accuracy 0.9316 topk_dict {'top1': 0.9316} is_best False
+training epoch 6 val accuracy 0.9326 topk_dict {'top1': 0.9326} is_best True
+training epoch 7 val accuracy 0.9328 topk_dict {'top1': 0.9328} is_best True
+training epoch 8 val accuracy 0.9322 topk_dict {'top1': 0.9322} is_best False
+training epoch 9 val accuracy 0.9322 topk_dict {'top1': 0.9322} is_best False
+training epoch 10 val accuracy 0.9314 topk_dict {'top1': 0.9314} is_best False
+training epoch 11 val accuracy 0.9312 topk_dict {'top1': 0.9312} is_best False
+training epoch 12 val accuracy 0.9302 topk_dict {'top1': 0.9302} is_best False
+training epoch 13 val accuracy 0.931 topk_dict {'top1': 0.931} is_best False
+training epoch 14 val accuracy 0.9314 topk_dict {'top1': 0.9314} is_best False
+training epoch 15 val accuracy 0.9328 topk_dict {'top1': 0.9328} is_best False
+training epoch 16 val accuracy 0.9326 topk_dict {'top1': 0.9326} is_best False
+training epoch 17 val accuracy 0.9332 topk_dict {'top1': 0.9332} is_best True
+training epoch 18 val accuracy 0.9332 topk_dict {'top1': 0.9332} is_best False
+training epoch 19 val accuracy 0.9352 topk_dict {'top1': 0.9352} is_best True
+finished training. finished 20 epochs. accuracy 0.9352 topk_dict {'top1': 0.9352}
+start iteration 33
+(cache recomputed) Accuracy log [(0, 0.924, {'top1': 0.924}), (3, 0.9074, {'top1': 0.9074}), (5, 0.844, {'top1': 0.844}), (6, 0.9184, {'top1': 0.9184}), (9, 0.9186, {'top1': 0.9186}), (10, 0.9148, {'top1': 0.9148}), (12, 0.9108, {'top1': 0.9108}), (13, 0.9174, {'top1': 0.9174}), (14, 0.9156, {'top1': 0.9156}), (16, 0.9124, {'top1': 0.9124}), (18, 0.26, {'top1': 0.26}), (21, 0.9136, {'top1': 0.9136}), (22, 0.915, {'top1': 0.915}), (36, 0.323, {'top1': 0.323}), (39, 0.9054, {'top1': 0.9054}), (44, 0.9174, {'top1': 0.9174}), (47, 0.9144, {'top1': 0.9144}), (49, 0.9162, {'top1': 0.9162}), (50, 0.9132, {'top1': 0.9132}), (51, 0.9012, {'top1': 0.9012}), (53, 0.8972, {'top1': 0.8972})]
+just computed impact of block 0 . accuracy after removing:  0.924
+removed block 0 current accuracy 0.924 loss from initial  0.02739999999999998
+since last training loss: 0.011199999999999988 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[0]
+smoothly removing block [0]
+training epoch 0 val accuracy 0.9346 topk_dict {'top1': 0.9346}
+training epoch 1 val accuracy 0.9348 topk_dict {'top1': 0.9348}
+training epoch 2 val accuracy 0.935 topk_dict {'top1': 0.935}
+training epoch 3 val accuracy 0.935 topk_dict {'top1': 0.935}
+training epoch 4 val accuracy 0.9362 topk_dict {'top1': 0.9362}
+training epoch 5 val accuracy 0.9362 topk_dict {'top1': 0.9362}
+training epoch 6 val accuracy 0.9352 topk_dict {'top1': 0.9352}
+training epoch 7 val accuracy 0.935 topk_dict {'top1': 0.935}
+training epoch 8 val accuracy 0.9358 topk_dict {'top1': 0.9358}
+training epoch 9 val accuracy 0.9338 topk_dict {'top1': 0.9338}
+training epoch 10 val accuracy 0.9336 topk_dict {'top1': 0.9336}
+training epoch 11 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 12 val accuracy 0.9348 topk_dict {'top1': 0.9348}
+training epoch 13 val accuracy 0.9358 topk_dict {'top1': 0.9358}
+training epoch 14 val accuracy 0.9376 topk_dict {'top1': 0.9376}
+training epoch 15 val accuracy 0.935 topk_dict {'top1': 0.935}
+training epoch 16 val accuracy 0.935 topk_dict {'top1': 0.935}
+training epoch 17 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 18 val accuracy 0.9312 topk_dict {'top1': 0.9312}
+training epoch 19 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 20 val accuracy 0.9338 topk_dict {'top1': 0.9338}
+training epoch 21 val accuracy 0.9346 topk_dict {'top1': 0.9346}
+training epoch 22 val accuracy 0.9338 topk_dict {'top1': 0.9338}
+training epoch 23 val accuracy 0.9348 topk_dict {'top1': 0.9348}
+training epoch 24 val accuracy 0.9342 topk_dict {'top1': 0.9342}
+training epoch 25 val accuracy 0.9344 topk_dict {'top1': 0.9344}
+training epoch 26 val accuracy 0.9336 topk_dict {'top1': 0.9336}
+training epoch 27 val accuracy 0.9344 topk_dict {'top1': 0.9344}
+training epoch 28 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 29 val accuracy 0.9358 topk_dict {'top1': 0.9358}
+training start
+training epoch 0 val accuracy 0.935 topk_dict {'top1': 0.935} is_best True
+training epoch 1 val accuracy 0.935 topk_dict {'top1': 0.935} is_best False
+training epoch 2 val accuracy 0.9334 topk_dict {'top1': 0.9334} is_best False
+training epoch 3 val accuracy 0.9354 topk_dict {'top1': 0.9354} is_best True
+training epoch 4 val accuracy 0.935 topk_dict {'top1': 0.935} is_best False
+training epoch 5 val accuracy 0.937 topk_dict {'top1': 0.937} is_best True
+training epoch 6 val accuracy 0.935 topk_dict {'top1': 0.935} is_best False
+training epoch 7 val accuracy 0.9338 topk_dict {'top1': 0.9338} is_best False
+training epoch 8 val accuracy 0.9352 topk_dict {'top1': 0.9352} is_best False
+training epoch 9 val accuracy 0.9366 topk_dict {'top1': 0.9366} is_best False
+training epoch 10 val accuracy 0.9352 topk_dict {'top1': 0.9352} is_best False
+training epoch 11 val accuracy 0.9354 topk_dict {'top1': 0.9354} is_best False
+training epoch 12 val accuracy 0.9366 topk_dict {'top1': 0.9366} is_best False
+training epoch 13 val accuracy 0.934 topk_dict {'top1': 0.934} is_best False
+training epoch 14 val accuracy 0.9358 topk_dict {'top1': 0.9358} is_best False
+training epoch 15 val accuracy 0.9336 topk_dict {'top1': 0.9336} is_best False
+training epoch 16 val accuracy 0.9364 topk_dict {'top1': 0.9364} is_best False
+training epoch 17 val accuracy 0.9348 topk_dict {'top1': 0.9348} is_best False
+training epoch 18 val accuracy 0.9362 topk_dict {'top1': 0.9362} is_best False
+training epoch 19 val accuracy 0.9368 topk_dict {'top1': 0.9368} is_best False
+loading model_best from epoch 5 (acc 0.937000)
+finished training. finished 20 epochs. accuracy 0.937 topk_dict {'top1': 0.937}
+start iteration 34
+(cache recomputed) Accuracy log [(3, 0.9028, {'top1': 0.9028}), (5, 0.8252, {'top1': 0.8252}), (6, 0.9158, {'top1': 0.9158}), (9, 0.919, {'top1': 0.919}), (10, 0.911, {'top1': 0.911}), (12, 0.9108, {'top1': 0.9108}), (13, 0.918, {'top1': 0.918}), (14, 0.9164, {'top1': 0.9164}), (16, 0.9102, {'top1': 0.9102}), (18, 0.231, {'top1': 0.231}), (21, 0.916, {'top1': 0.916}), (22, 0.914, {'top1': 0.914}), (36, 0.3176, {'top1': 0.3176}), (39, 0.9034, {'top1': 0.9034}), (44, 0.9128, {'top1': 0.9128}), (47, 0.9136, {'top1': 0.9136}), (49, 0.9158, {'top1': 0.9158}), (50, 0.9134, {'top1': 0.9134}), (51, 0.9016, {'top1': 0.9016}), (53, 0.9012, {'top1': 0.9012})]
+just computed impact of block 9 . accuracy after removing:  0.919
+removed block 9 current accuracy 0.919 loss from initial  0.032399999999999984
+since last training loss: 0.018000000000000016 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[9]
+smoothly removing block [9]
+training epoch 0 val accuracy 0.9354 topk_dict {'top1': 0.9354}
+training epoch 1 val accuracy 0.9348 topk_dict {'top1': 0.9348}
+training epoch 2 val accuracy 0.9356 topk_dict {'top1': 0.9356}
+training epoch 3 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 4 val accuracy 0.9354 topk_dict {'top1': 0.9354}
+training epoch 5 val accuracy 0.9354 topk_dict {'top1': 0.9354}
+training epoch 6 val accuracy 0.936 topk_dict {'top1': 0.936}
+training epoch 7 val accuracy 0.9364 topk_dict {'top1': 0.9364}
+training epoch 8 val accuracy 0.935 topk_dict {'top1': 0.935}
+training epoch 9 val accuracy 0.9362 topk_dict {'top1': 0.9362}
+training epoch 10 val accuracy 0.9352 topk_dict {'top1': 0.9352}
+training epoch 11 val accuracy 0.9378 topk_dict {'top1': 0.9378}
+training epoch 12 val accuracy 0.9344 topk_dict {'top1': 0.9344}
+training epoch 13 val accuracy 0.9354 topk_dict {'top1': 0.9354}
+training epoch 14 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 15 val accuracy 0.9364 topk_dict {'top1': 0.9364}
+training epoch 16 val accuracy 0.9362 topk_dict {'top1': 0.9362}
+training epoch 17 val accuracy 0.9356 topk_dict {'top1': 0.9356}
+training epoch 18 val accuracy 0.9354 topk_dict {'top1': 0.9354}
+training epoch 19 val accuracy 0.9342 topk_dict {'top1': 0.9342}
+training epoch 20 val accuracy 0.936 topk_dict {'top1': 0.936}
+training epoch 21 val accuracy 0.9346 topk_dict {'top1': 0.9346}
+training epoch 22 val accuracy 0.933 topk_dict {'top1': 0.933}
+training epoch 23 val accuracy 0.9334 topk_dict {'top1': 0.9334}
+training epoch 24 val accuracy 0.9332 topk_dict {'top1': 0.9332}
+training epoch 25 val accuracy 0.9336 topk_dict {'top1': 0.9336}
+training epoch 26 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 27 val accuracy 0.9308 topk_dict {'top1': 0.9308}
+training epoch 28 val accuracy 0.9324 topk_dict {'top1': 0.9324}
+training epoch 29 val accuracy 0.9314 topk_dict {'top1': 0.9314}
+training start
+training epoch 0 val accuracy 0.9324 topk_dict {'top1': 0.9324} is_best True
+training epoch 1 val accuracy 0.9308 topk_dict {'top1': 0.9308} is_best False
+training epoch 2 val accuracy 0.9296 topk_dict {'top1': 0.9296} is_best False
+training epoch 3 val accuracy 0.9328 topk_dict {'top1': 0.9328} is_best True
+training epoch 4 val accuracy 0.9324 topk_dict {'top1': 0.9324} is_best False
+training epoch 5 val accuracy 0.9308 topk_dict {'top1': 0.9308} is_best False
+training epoch 6 val accuracy 0.931 topk_dict {'top1': 0.931} is_best False
+training epoch 7 val accuracy 0.9318 topk_dict {'top1': 0.9318} is_best False
+training epoch 8 val accuracy 0.9324 topk_dict {'top1': 0.9324} is_best False
+training epoch 9 val accuracy 0.9316 topk_dict {'top1': 0.9316} is_best False
+training epoch 10 val accuracy 0.9328 topk_dict {'top1': 0.9328} is_best False
+training epoch 11 val accuracy 0.932 topk_dict {'top1': 0.932} is_best False
+training epoch 12 val accuracy 0.931 topk_dict {'top1': 0.931} is_best False
+training epoch 13 val accuracy 0.9314 topk_dict {'top1': 0.9314} is_best False
+training epoch 14 val accuracy 0.9306 topk_dict {'top1': 0.9306} is_best False
+training epoch 15 val accuracy 0.9314 topk_dict {'top1': 0.9314} is_best False
+training epoch 16 val accuracy 0.931 topk_dict {'top1': 0.931} is_best False
+training epoch 17 val accuracy 0.932 topk_dict {'top1': 0.932} is_best False
+training epoch 18 val accuracy 0.9322 topk_dict {'top1': 0.9322} is_best False
+training epoch 19 val accuracy 0.9314 topk_dict {'top1': 0.9314} is_best False
+loading model_best from epoch 3 (acc 0.932800)
+finished training. finished 20 epochs. accuracy 0.9328 topk_dict {'top1': 0.9328}
+start iteration 35
+(cache recomputed) Accuracy log [(3, 0.8946, {'top1': 0.8946}), (5, 0.8128, {'top1': 0.8128}), (6, 0.9108, {'top1': 0.9108}), (10, 0.9068, {'top1': 0.9068}), (12, 0.906, {'top1': 0.906}), (13, 0.9148, {'top1': 0.9148}), (14, 0.9134, {'top1': 0.9134}), (16, 0.911, {'top1': 0.911}), (18, 0.1744, {'top1': 0.1744}), (21, 0.913, {'top1': 0.913}), (22, 0.9096, {'top1': 0.9096}), (36, 0.3244, {'top1': 0.3244}), (39, 0.9018, {'top1': 0.9018}), (44, 0.9124, {'top1': 0.9124}), (47, 0.91, {'top1': 0.91}), (49, 0.91, {'top1': 0.91}), (50, 0.9096, {'top1': 0.9096}), (51, 0.9016, {'top1': 0.9016}), (53, 0.9024, {'top1': 0.9024})]
+just computed impact of block 13 . accuracy after removing:  0.9148
+removed block 13 current accuracy 0.9148 loss from initial  0.03660000000000008
+since last training loss: 0.018000000000000016 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[13]
+smoothly removing block [13]
+training epoch 0 val accuracy 0.9322 topk_dict {'top1': 0.9322}
+training epoch 1 val accuracy 0.9312 topk_dict {'top1': 0.9312}
+training epoch 2 val accuracy 0.9334 topk_dict {'top1': 0.9334}
+training epoch 3 val accuracy 0.932 topk_dict {'top1': 0.932}
+training epoch 4 val accuracy 0.9346 topk_dict {'top1': 0.9346}
+training epoch 5 val accuracy 0.9334 topk_dict {'top1': 0.9334}
+training epoch 6 val accuracy 0.9354 topk_dict {'top1': 0.9354}
+training epoch 7 val accuracy 0.9328 topk_dict {'top1': 0.9328}
+training epoch 8 val accuracy 0.9332 topk_dict {'top1': 0.9332}
+training epoch 9 val accuracy 0.9334 topk_dict {'top1': 0.9334}
+training epoch 10 val accuracy 0.933 topk_dict {'top1': 0.933}
+training epoch 11 val accuracy 0.9346 topk_dict {'top1': 0.9346}
+training epoch 12 val accuracy 0.9338 topk_dict {'top1': 0.9338}
+training epoch 13 val accuracy 0.935 topk_dict {'top1': 0.935}
+training epoch 14 val accuracy 0.935 topk_dict {'top1': 0.935}
+training epoch 15 val accuracy 0.9334 topk_dict {'top1': 0.9334}
+training epoch 16 val accuracy 0.9348 topk_dict {'top1': 0.9348}
+training epoch 17 val accuracy 0.9324 topk_dict {'top1': 0.9324}
+training epoch 18 val accuracy 0.9344 topk_dict {'top1': 0.9344}
+training epoch 19 val accuracy 0.9346 topk_dict {'top1': 0.9346}
+training epoch 20 val accuracy 0.9326 topk_dict {'top1': 0.9326}
+training epoch 21 val accuracy 0.9308 topk_dict {'top1': 0.9308}
+training epoch 22 val accuracy 0.932 topk_dict {'top1': 0.932}
+training epoch 23 val accuracy 0.9334 topk_dict {'top1': 0.9334}
+training epoch 24 val accuracy 0.9324 topk_dict {'top1': 0.9324}
+training epoch 25 val accuracy 0.9304 topk_dict {'top1': 0.9304}
+training epoch 26 val accuracy 0.9306 topk_dict {'top1': 0.9306}
+training epoch 27 val accuracy 0.9298 topk_dict {'top1': 0.9298}
+training epoch 28 val accuracy 0.9332 topk_dict {'top1': 0.9332}
+training epoch 29 val accuracy 0.9342 topk_dict {'top1': 0.9342}
+training start
+training epoch 0 val accuracy 0.9306 topk_dict {'top1': 0.9306} is_best True
+training epoch 1 val accuracy 0.932 topk_dict {'top1': 0.932} is_best True
+training epoch 2 val accuracy 0.9334 topk_dict {'top1': 0.9334} is_best True
+training epoch 3 val accuracy 0.9322 topk_dict {'top1': 0.9322} is_best False
+training epoch 4 val accuracy 0.9324 topk_dict {'top1': 0.9324} is_best False
+training epoch 5 val accuracy 0.9344 topk_dict {'top1': 0.9344} is_best True
+training epoch 6 val accuracy 0.9314 topk_dict {'top1': 0.9314} is_best False
+training epoch 7 val accuracy 0.9334 topk_dict {'top1': 0.9334} is_best False
+training epoch 8 val accuracy 0.9314 topk_dict {'top1': 0.9314} is_best False
+training epoch 9 val accuracy 0.9334 topk_dict {'top1': 0.9334} is_best False
+training epoch 10 val accuracy 0.9326 topk_dict {'top1': 0.9326} is_best False
+training epoch 11 val accuracy 0.9324 topk_dict {'top1': 0.9324} is_best False
+training epoch 12 val accuracy 0.9326 topk_dict {'top1': 0.9326} is_best False
+training epoch 13 val accuracy 0.9338 topk_dict {'top1': 0.9338} is_best False
+training epoch 14 val accuracy 0.9324 topk_dict {'top1': 0.9324} is_best False
+training epoch 15 val accuracy 0.9338 topk_dict {'top1': 0.9338} is_best False
+training epoch 16 val accuracy 0.9326 topk_dict {'top1': 0.9326} is_best False
+training epoch 17 val accuracy 0.9332 topk_dict {'top1': 0.9332} is_best False
+training epoch 18 val accuracy 0.9324 topk_dict {'top1': 0.9324} is_best False
+training epoch 19 val accuracy 0.932 topk_dict {'top1': 0.932} is_best False
+loading model_best from epoch 5 (acc 0.934400)
+finished training. finished 20 epochs. accuracy 0.9344 topk_dict {'top1': 0.9344}
+start iteration 36
+(cache recomputed) Accuracy log [(3, 0.895, {'top1': 0.895}), (5, 0.7642, {'top1': 0.7642}), (6, 0.9026, {'top1': 0.9026}), (10, 0.897, {'top1': 0.897}), (12, 0.8962, {'top1': 0.8962}), (14, 0.908, {'top1': 0.908}), (16, 0.9008, {'top1': 0.9008}), (18, 0.1786, {'top1': 0.1786}), (21, 0.915, {'top1': 0.915}), (22, 0.908, {'top1': 0.908}), (36, 0.3216, {'top1': 0.3216}), (39, 0.9016, {'top1': 0.9016}), (44, 0.9126, {'top1': 0.9126}), (47, 0.9096, {'top1': 0.9096}), (49, 0.9152, {'top1': 0.9152}), (50, 0.9122, {'top1': 0.9122}), (51, 0.9014, {'top1': 0.9014}), (53, 0.9058, {'top1': 0.9058})]
+just computed impact of block 49 . accuracy after removing:  0.9152
+removed block 49 current accuracy 0.9152 loss from initial  0.03620000000000001
+since last training loss: 0.019199999999999995 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[49]
+smoothly removing block [49]
+training epoch 0 val accuracy 0.9344 topk_dict {'top1': 0.9344}
+training epoch 1 val accuracy 0.9354 topk_dict {'top1': 0.9354}
+training epoch 2 val accuracy 0.9346 topk_dict {'top1': 0.9346}
+training epoch 3 val accuracy 0.9328 topk_dict {'top1': 0.9328}
+training epoch 4 val accuracy 0.9318 topk_dict {'top1': 0.9318}
+training epoch 5 val accuracy 0.9308 topk_dict {'top1': 0.9308}
+training epoch 6 val accuracy 0.9308 topk_dict {'top1': 0.9308}
+training epoch 7 val accuracy 0.9332 topk_dict {'top1': 0.9332}
+training epoch 8 val accuracy 0.9322 topk_dict {'top1': 0.9322}
+training epoch 9 val accuracy 0.9316 topk_dict {'top1': 0.9316}
+training epoch 10 val accuracy 0.9318 topk_dict {'top1': 0.9318}
+training epoch 11 val accuracy 0.9326 topk_dict {'top1': 0.9326}
+training epoch 12 val accuracy 0.9344 topk_dict {'top1': 0.9344}
+training epoch 13 val accuracy 0.9334 topk_dict {'top1': 0.9334}
+training epoch 14 val accuracy 0.9342 topk_dict {'top1': 0.9342}
+training epoch 15 val accuracy 0.935 topk_dict {'top1': 0.935}
+training epoch 16 val accuracy 0.9338 topk_dict {'top1': 0.9338}
+training epoch 17 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 18 val accuracy 0.9324 topk_dict {'top1': 0.9324}
+training epoch 19 val accuracy 0.934 topk_dict {'top1': 0.934}
+training epoch 20 val accuracy 0.9316 topk_dict {'top1': 0.9316}
+training epoch 21 val accuracy 0.9304 topk_dict {'top1': 0.9304}
+training epoch 22 val accuracy 0.9314 topk_dict {'top1': 0.9314}
+training epoch 23 val accuracy 0.9294 topk_dict {'top1': 0.9294}
+training epoch 24 val accuracy 0.9312 topk_dict {'top1': 0.9312}
+training epoch 25 val accuracy 0.9312 topk_dict {'top1': 0.9312}
+training epoch 26 val accuracy 0.9296 topk_dict {'top1': 0.9296}
+training epoch 27 val accuracy 0.9288 topk_dict {'top1': 0.9288}
+training epoch 28 val accuracy 0.9302 topk_dict {'top1': 0.9302}
+training epoch 29 val accuracy 0.9294 topk_dict {'top1': 0.9294}
+training start
+training epoch 0 val accuracy 0.9316 topk_dict {'top1': 0.9316} is_best True
+training epoch 1 val accuracy 0.9292 topk_dict {'top1': 0.9292} is_best False
+training epoch 2 val accuracy 0.9296 topk_dict {'top1': 0.9296} is_best False
+training epoch 3 val accuracy 0.928 topk_dict {'top1': 0.928} is_best False
+training epoch 4 val accuracy 0.9292 topk_dict {'top1': 0.9292} is_best False
+training epoch 5 val accuracy 0.932 topk_dict {'top1': 0.932} is_best True
+training epoch 6 val accuracy 0.9304 topk_dict {'top1': 0.9304} is_best False
+training epoch 7 val accuracy 0.931 topk_dict {'top1': 0.931} is_best False
+training epoch 8 val accuracy 0.9298 topk_dict {'top1': 0.9298} is_best False
+training epoch 9 val accuracy 0.9312 topk_dict {'top1': 0.9312} is_best False
+training epoch 10 val accuracy 0.931 topk_dict {'top1': 0.931} is_best False
+training epoch 11 val accuracy 0.9286 topk_dict {'top1': 0.9286} is_best False
+training epoch 12 val accuracy 0.9298 topk_dict {'top1': 0.9298} is_best False
+training epoch 13 val accuracy 0.9278 topk_dict {'top1': 0.9278} is_best False
+training epoch 14 val accuracy 0.93 topk_dict {'top1': 0.93} is_best False
+training epoch 15 val accuracy 0.9294 topk_dict {'top1': 0.9294} is_best False
+training epoch 16 val accuracy 0.929 topk_dict {'top1': 0.929} is_best False
+training epoch 17 val accuracy 0.9308 topk_dict {'top1': 0.9308} is_best False
+training epoch 18 val accuracy 0.9292 topk_dict {'top1': 0.9292} is_best False
+training epoch 19 val accuracy 0.931 topk_dict {'top1': 0.931} is_best False
+loading model_best from epoch 5 (acc 0.932000)
+finished training. finished 20 epochs. accuracy 0.932 topk_dict {'top1': 0.932}
+start iteration 37
+(cache recomputed) Accuracy log [(3, 0.8936, {'top1': 0.8936}), (5, 0.7866, {'top1': 0.7866}), (6, 0.9016, {'top1': 0.9016}), (10, 0.8916, {'top1': 0.8916}), (12, 0.8984, {'top1': 0.8984}), (14, 0.9, {'top1': 0.9}), (16, 0.9072, {'top1': 0.9072}), (18, 0.1662, {'top1': 0.1662}), (21, 0.911, {'top1': 0.911}), (22, 0.9088, {'top1': 0.9088}), (36, 0.2862, {'top1': 0.2862}), (39, 0.893, {'top1': 0.893}), (44, 0.9068, {'top1': 0.9068}), (47, 0.903, {'top1': 0.903}), (50, 0.9006, {'top1': 0.9006}), (51, 0.895, {'top1': 0.895}), (53, 0.8878, {'top1': 0.8878})]
+just computed impact of block 21 . accuracy after removing:  0.911
+removed block 21 current accuracy 0.911 loss from initial  0.04039999999999999
+since last training loss: 0.02100000000000002 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[21]
+smoothly removing block [21]
+training epoch 0 val accuracy 0.9296 topk_dict {'top1': 0.9296}
+training epoch 1 val accuracy 0.9304 topk_dict {'top1': 0.9304}
+training epoch 2 val accuracy 0.9302 topk_dict {'top1': 0.9302}
+training epoch 3 val accuracy 0.9304 topk_dict {'top1': 0.9304}
+training epoch 4 val accuracy 0.93 topk_dict {'top1': 0.93}
+training epoch 5 val accuracy 0.9292 topk_dict {'top1': 0.9292}
+training epoch 6 val accuracy 0.9292 topk_dict {'top1': 0.9292}
+training epoch 7 val accuracy 0.9296 topk_dict {'top1': 0.9296}
+training epoch 8 val accuracy 0.9296 topk_dict {'top1': 0.9296}
+training epoch 9 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 10 val accuracy 0.9284 topk_dict {'top1': 0.9284}
+training epoch 11 val accuracy 0.9292 topk_dict {'top1': 0.9292}
+training epoch 12 val accuracy 0.9282 topk_dict {'top1': 0.9282}
+training epoch 13 val accuracy 0.9296 topk_dict {'top1': 0.9296}
+training epoch 14 val accuracy 0.9258 topk_dict {'top1': 0.9258}
+training epoch 15 val accuracy 0.9268 topk_dict {'top1': 0.9268}
+training epoch 16 val accuracy 0.9288 topk_dict {'top1': 0.9288}
+training epoch 17 val accuracy 0.9276 topk_dict {'top1': 0.9276}
+training epoch 18 val accuracy 0.926 topk_dict {'top1': 0.926}
+training epoch 19 val accuracy 0.9272 topk_dict {'top1': 0.9272}
+training epoch 20 val accuracy 0.9292 topk_dict {'top1': 0.9292}
+training epoch 21 val accuracy 0.9296 topk_dict {'top1': 0.9296}
+training epoch 22 val accuracy 0.927 topk_dict {'top1': 0.927}
+training epoch 23 val accuracy 0.9244 topk_dict {'top1': 0.9244}
+training epoch 24 val accuracy 0.927 topk_dict {'top1': 0.927}
+training epoch 25 val accuracy 0.9244 topk_dict {'top1': 0.9244}
+training epoch 26 val accuracy 0.9264 topk_dict {'top1': 0.9264}
+training epoch 27 val accuracy 0.9248 topk_dict {'top1': 0.9248}
+training epoch 28 val accuracy 0.9226 topk_dict {'top1': 0.9226}
+training epoch 29 val accuracy 0.9252 topk_dict {'top1': 0.9252}
+training start
+training epoch 0 val accuracy 0.9218 topk_dict {'top1': 0.9218} is_best True
+training epoch 1 val accuracy 0.925 topk_dict {'top1': 0.925} is_best True
+training epoch 2 val accuracy 0.9248 topk_dict {'top1': 0.9248} is_best False
+training epoch 3 val accuracy 0.9264 topk_dict {'top1': 0.9264} is_best True
+training epoch 4 val accuracy 0.926 topk_dict {'top1': 0.926} is_best False
+training epoch 5 val accuracy 0.9234 topk_dict {'top1': 0.9234} is_best False
+training epoch 6 val accuracy 0.9256 topk_dict {'top1': 0.9256} is_best False
+training epoch 7 val accuracy 0.9246 topk_dict {'top1': 0.9246} is_best False
+training epoch 8 val accuracy 0.9256 topk_dict {'top1': 0.9256} is_best False
+training epoch 9 val accuracy 0.9268 topk_dict {'top1': 0.9268} is_best True
+training epoch 10 val accuracy 0.9262 topk_dict {'top1': 0.9262} is_best False
+training epoch 11 val accuracy 0.9258 topk_dict {'top1': 0.9258} is_best False
+training epoch 12 val accuracy 0.926 topk_dict {'top1': 0.926} is_best False
+training epoch 13 val accuracy 0.926 topk_dict {'top1': 0.926} is_best False
+training epoch 14 val accuracy 0.9284 topk_dict {'top1': 0.9284} is_best True
+training epoch 15 val accuracy 0.9266 topk_dict {'top1': 0.9266} is_best False
+training epoch 16 val accuracy 0.9276 topk_dict {'top1': 0.9276} is_best False
+training epoch 17 val accuracy 0.9268 topk_dict {'top1': 0.9268} is_best False
+training epoch 18 val accuracy 0.9278 topk_dict {'top1': 0.9278} is_best False
+training epoch 19 val accuracy 0.9276 topk_dict {'top1': 0.9276} is_best False
+loading model_best from epoch 14 (acc 0.928400)
+finished training. finished 20 epochs. accuracy 0.9284 topk_dict {'top1': 0.9284}
+start iteration 38
+(cache recomputed) Accuracy log [(3, 0.8826, {'top1': 0.8826}), (5, 0.7448, {'top1': 0.7448}), (6, 0.8926, {'top1': 0.8926}), (10, 0.888, {'top1': 0.888}), (12, 0.8896, {'top1': 0.8896}), (14, 0.9002, {'top1': 0.9002}), (16, 0.8978, {'top1': 0.8978}), (18, 0.1932, {'top1': 0.1932}), (22, 0.8824, {'top1': 0.8824}), (36, 0.2816, {'top1': 0.2816}), (39, 0.8922, {'top1': 0.8922}), (44, 0.9068, {'top1': 0.9068}), (47, 0.9008, {'top1': 0.9008}), (50, 0.9036, {'top1': 0.9036}), (51, 0.8926, {'top1': 0.8926}), (53, 0.894, {'top1': 0.894})]
+just computed impact of block 44 . accuracy after removing:  0.9068
+removed block 44 current accuracy 0.9068 loss from initial  0.04459999999999997
+starting smooth lazy loop. blocks=[44]
+smoothly removing block [44]
+training epoch 0 val accuracy 0.9258 topk_dict {'top1': 0.9258}
+training epoch 1 val accuracy 0.9268 topk_dict {'top1': 0.9268}
+training epoch 2 val accuracy 0.9264 topk_dict {'top1': 0.9264}
+training epoch 3 val accuracy 0.9312 topk_dict {'top1': 0.9312}
+training epoch 4 val accuracy 0.925 topk_dict {'top1': 0.925}
+training epoch 5 val accuracy 0.9242 topk_dict {'top1': 0.9242}
+training epoch 6 val accuracy 0.9258 topk_dict {'top1': 0.9258}
+training epoch 7 val accuracy 0.9264 topk_dict {'top1': 0.9264}
+training epoch 8 val accuracy 0.927 topk_dict {'top1': 0.927}
+training epoch 9 val accuracy 0.9252 topk_dict {'top1': 0.9252}
+training epoch 10 val accuracy 0.9324 topk_dict {'top1': 0.9324}
+training epoch 11 val accuracy 0.9276 topk_dict {'top1': 0.9276}
+training epoch 12 val accuracy 0.9262 topk_dict {'top1': 0.9262}
+training epoch 13 val accuracy 0.9262 topk_dict {'top1': 0.9262}
+training epoch 14 val accuracy 0.9242 topk_dict {'top1': 0.9242}
+training epoch 15 val accuracy 0.9286 topk_dict {'top1': 0.9286}
+training epoch 16 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 17 val accuracy 0.929 topk_dict {'top1': 0.929}
+training epoch 18 val accuracy 0.9292 topk_dict {'top1': 0.9292}
+training epoch 19 val accuracy 0.9272 topk_dict {'top1': 0.9272}
+training epoch 20 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 21 val accuracy 0.9248 topk_dict {'top1': 0.9248}
+training epoch 22 val accuracy 0.923 topk_dict {'top1': 0.923}
+training epoch 23 val accuracy 0.9236 topk_dict {'top1': 0.9236}
+training epoch 24 val accuracy 0.9242 topk_dict {'top1': 0.9242}
+training epoch 25 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 26 val accuracy 0.9262 topk_dict {'top1': 0.9262}
+training epoch 27 val accuracy 0.927 topk_dict {'top1': 0.927}
+training epoch 28 val accuracy 0.9238 topk_dict {'top1': 0.9238}
+training epoch 29 val accuracy 0.9242 topk_dict {'top1': 0.9242}
+training start
+training epoch 0 val accuracy 0.9246 topk_dict {'top1': 0.9246} is_best True
+training epoch 1 val accuracy 0.9252 topk_dict {'top1': 0.9252} is_best True
+training epoch 2 val accuracy 0.926 topk_dict {'top1': 0.926} is_best True
+training epoch 3 val accuracy 0.9254 topk_dict {'top1': 0.9254} is_best False
+training epoch 4 val accuracy 0.9264 topk_dict {'top1': 0.9264} is_best True
+training epoch 5 val accuracy 0.9244 topk_dict {'top1': 0.9244} is_best False
+training epoch 6 val accuracy 0.9258 topk_dict {'top1': 0.9258} is_best False
+training epoch 7 val accuracy 0.9262 topk_dict {'top1': 0.9262} is_best False
+training epoch 8 val accuracy 0.9286 topk_dict {'top1': 0.9286} is_best True
+training epoch 9 val accuracy 0.9258 topk_dict {'top1': 0.9258} is_best False
+training epoch 10 val accuracy 0.9292 topk_dict {'top1': 0.9292} is_best True
+training epoch 11 val accuracy 0.9268 topk_dict {'top1': 0.9268} is_best False
+training epoch 12 val accuracy 0.9262 topk_dict {'top1': 0.9262} is_best False
+training epoch 13 val accuracy 0.9274 topk_dict {'top1': 0.9274} is_best False
+training epoch 14 val accuracy 0.9276 topk_dict {'top1': 0.9276} is_best False
+training epoch 15 val accuracy 0.9252 topk_dict {'top1': 0.9252} is_best False
+training epoch 16 val accuracy 0.927 topk_dict {'top1': 0.927} is_best False
+training epoch 17 val accuracy 0.9274 topk_dict {'top1': 0.9274} is_best False
+training epoch 18 val accuracy 0.9248 topk_dict {'top1': 0.9248} is_best False
+training epoch 19 val accuracy 0.928 topk_dict {'top1': 0.928} is_best False
+loading model_best from epoch 10 (acc 0.929200)
+finished training. finished 20 epochs. accuracy 0.9292 topk_dict {'top1': 0.9292}
+start iteration 39
+(cache recomputed) Accuracy log [(3, 0.8824, {'top1': 0.8824}), (5, 0.7496, {'top1': 0.7496}), (6, 0.8928, {'top1': 0.8928}), (10, 0.8802, {'top1': 0.8802}), (12, 0.887, {'top1': 0.887}), (14, 0.8996, {'top1': 0.8996}), (16, 0.893, {'top1': 0.893}), (18, 0.2148, {'top1': 0.2148}), (22, 0.8736, {'top1': 0.8736}), (36, 0.2356, {'top1': 0.2356}), (39, 0.8792, {'top1': 0.8792}), (47, 0.8818, {'top1': 0.8818}), (50, 0.8854, {'top1': 0.8854}), (51, 0.8792, {'top1': 0.8792}), (53, 0.8784, {'top1': 0.8784})]
+just computed impact of block 14 . accuracy after removing:  0.8996
+removed block 14 current accuracy 0.8996 loss from initial  0.05180000000000007
+since last training loss: 0.02960000000000007 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[14]
+smoothly removing block [14]
+training epoch 0 val accuracy 0.926 topk_dict {'top1': 0.926}
+training epoch 1 val accuracy 0.9284 topk_dict {'top1': 0.9284}
+training epoch 2 val accuracy 0.9264 topk_dict {'top1': 0.9264}
+training epoch 3 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 4 val accuracy 0.9278 topk_dict {'top1': 0.9278}
+training epoch 5 val accuracy 0.9248 topk_dict {'top1': 0.9248}
+training epoch 6 val accuracy 0.9246 topk_dict {'top1': 0.9246}
+training epoch 7 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 8 val accuracy 0.9252 topk_dict {'top1': 0.9252}
+training epoch 9 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 10 val accuracy 0.9264 topk_dict {'top1': 0.9264}
+training epoch 11 val accuracy 0.9264 topk_dict {'top1': 0.9264}
+training epoch 12 val accuracy 0.9252 topk_dict {'top1': 0.9252}
+training epoch 13 val accuracy 0.9252 topk_dict {'top1': 0.9252}
+training epoch 14 val accuracy 0.9252 topk_dict {'top1': 0.9252}
+training epoch 15 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 16 val accuracy 0.9282 topk_dict {'top1': 0.9282}
+training epoch 17 val accuracy 0.925 topk_dict {'top1': 0.925}
+training epoch 18 val accuracy 0.9252 topk_dict {'top1': 0.9252}
+training epoch 19 val accuracy 0.925 topk_dict {'top1': 0.925}
+training epoch 20 val accuracy 0.925 topk_dict {'top1': 0.925}
+training epoch 21 val accuracy 0.9226 topk_dict {'top1': 0.9226}
+training epoch 22 val accuracy 0.928 topk_dict {'top1': 0.928}
+training epoch 23 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 24 val accuracy 0.9286 topk_dict {'top1': 0.9286}
+training epoch 25 val accuracy 0.9272 topk_dict {'top1': 0.9272}
+training epoch 26 val accuracy 0.9256 topk_dict {'top1': 0.9256}
+training epoch 27 val accuracy 0.9242 topk_dict {'top1': 0.9242}
+training epoch 28 val accuracy 0.925 topk_dict {'top1': 0.925}
+training epoch 29 val accuracy 0.9232 topk_dict {'top1': 0.9232}
+training start
+training epoch 0 val accuracy 0.9248 topk_dict {'top1': 0.9248} is_best True
+training epoch 1 val accuracy 0.9244 topk_dict {'top1': 0.9244} is_best False
+training epoch 2 val accuracy 0.9234 topk_dict {'top1': 0.9234} is_best False
+training epoch 3 val accuracy 0.9268 topk_dict {'top1': 0.9268} is_best True
+training epoch 4 val accuracy 0.9256 topk_dict {'top1': 0.9256} is_best False
+training epoch 5 val accuracy 0.9268 topk_dict {'top1': 0.9268} is_best False
+training epoch 6 val accuracy 0.9302 topk_dict {'top1': 0.9302} is_best True
+training epoch 7 val accuracy 0.9278 topk_dict {'top1': 0.9278} is_best False
+training epoch 8 val accuracy 0.9284 topk_dict {'top1': 0.9284} is_best False
+training epoch 9 val accuracy 0.9268 topk_dict {'top1': 0.9268} is_best False
+training epoch 10 val accuracy 0.9276 topk_dict {'top1': 0.9276} is_best False
+training epoch 11 val accuracy 0.9274 topk_dict {'top1': 0.9274} is_best False
+training epoch 12 val accuracy 0.9282 topk_dict {'top1': 0.9282} is_best False
+training epoch 13 val accuracy 0.9292 topk_dict {'top1': 0.9292} is_best False
+training epoch 14 val accuracy 0.9254 topk_dict {'top1': 0.9254} is_best False
+training epoch 15 val accuracy 0.9278 topk_dict {'top1': 0.9278} is_best False
+training epoch 16 val accuracy 0.928 topk_dict {'top1': 0.928} is_best False
+training epoch 17 val accuracy 0.9274 topk_dict {'top1': 0.9274} is_best False
+training epoch 18 val accuracy 0.9272 topk_dict {'top1': 0.9272} is_best False
+training epoch 19 val accuracy 0.9284 topk_dict {'top1': 0.9284} is_best False
+loading model_best from epoch 6 (acc 0.930200)
+finished training. finished 20 epochs. accuracy 0.9302 topk_dict {'top1': 0.9302}
+start iteration 40
+(cache recomputed) Accuracy log [(3, 0.8826, {'top1': 0.8826}), (5, 0.7668, {'top1': 0.7668}), (6, 0.8874, {'top1': 0.8874}), (10, 0.8572, {'top1': 0.8572}), (12, 0.7944, {'top1': 0.7944}), (16, 0.8822, {'top1': 0.8822}), (18, 0.169, {'top1': 0.169}), (22, 0.8732, {'top1': 0.8732}), (36, 0.2284, {'top1': 0.2284}), (39, 0.8762, {'top1': 0.8762}), (47, 0.881, {'top1': 0.881}), (50, 0.8904, {'top1': 0.8904}), (51, 0.879, {'top1': 0.879}), (53, 0.8902, {'top1': 0.8902})]
+just computed impact of block 50 . accuracy after removing:  0.8904
+removed block 50 current accuracy 0.8904 loss from initial  0.061000000000000054
+since last training loss: 0.03980000000000006 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[50]
+smoothly removing block [50]
+training epoch 0 val accuracy 0.9282 topk_dict {'top1': 0.9282}
+training epoch 1 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 2 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 3 val accuracy 0.9244 topk_dict {'top1': 0.9244}
+training epoch 4 val accuracy 0.9242 topk_dict {'top1': 0.9242}
+training epoch 5 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 6 val accuracy 0.9252 topk_dict {'top1': 0.9252}
+training epoch 7 val accuracy 0.9244 topk_dict {'top1': 0.9244}
+training epoch 8 val accuracy 0.9262 topk_dict {'top1': 0.9262}
+training epoch 9 val accuracy 0.9252 topk_dict {'top1': 0.9252}
+training epoch 10 val accuracy 0.9266 topk_dict {'top1': 0.9266}
+training epoch 11 val accuracy 0.9276 topk_dict {'top1': 0.9276}
+training epoch 12 val accuracy 0.9262 topk_dict {'top1': 0.9262}
+training epoch 13 val accuracy 0.9256 topk_dict {'top1': 0.9256}
+training epoch 14 val accuracy 0.9258 topk_dict {'top1': 0.9258}
+training epoch 15 val accuracy 0.9282 topk_dict {'top1': 0.9282}
+training epoch 16 val accuracy 0.925 topk_dict {'top1': 0.925}
+training epoch 17 val accuracy 0.9246 topk_dict {'top1': 0.9246}
+training epoch 18 val accuracy 0.9276 topk_dict {'top1': 0.9276}
+training epoch 19 val accuracy 0.9252 topk_dict {'top1': 0.9252}
+training epoch 20 val accuracy 0.9258 topk_dict {'top1': 0.9258}
+training epoch 21 val accuracy 0.926 topk_dict {'top1': 0.926}
+training epoch 22 val accuracy 0.926 topk_dict {'top1': 0.926}
+training epoch 23 val accuracy 0.9242 topk_dict {'top1': 0.9242}
+training epoch 24 val accuracy 0.926 topk_dict {'top1': 0.926}
+training epoch 25 val accuracy 0.9222 topk_dict {'top1': 0.9222}
+training epoch 26 val accuracy 0.9236 topk_dict {'top1': 0.9236}
+training epoch 27 val accuracy 0.9254 topk_dict {'top1': 0.9254}
+training epoch 28 val accuracy 0.9192 topk_dict {'top1': 0.9192}
+training epoch 29 val accuracy 0.9206 topk_dict {'top1': 0.9206}
+training start
+training epoch 0 val accuracy 0.9246 topk_dict {'top1': 0.9246} is_best True
+training epoch 1 val accuracy 0.9244 topk_dict {'top1': 0.9244} is_best False
+training epoch 2 val accuracy 0.9254 topk_dict {'top1': 0.9254} is_best True
+training epoch 3 val accuracy 0.924 topk_dict {'top1': 0.924} is_best False
+training epoch 4 val accuracy 0.9254 topk_dict {'top1': 0.9254} is_best False
+training epoch 5 val accuracy 0.9242 topk_dict {'top1': 0.9242} is_best False
+training epoch 6 val accuracy 0.9234 topk_dict {'top1': 0.9234} is_best False
+training epoch 7 val accuracy 0.9252 topk_dict {'top1': 0.9252} is_best False
+training epoch 8 val accuracy 0.9266 topk_dict {'top1': 0.9266} is_best True
+training epoch 9 val accuracy 0.9272 topk_dict {'top1': 0.9272} is_best True
+training epoch 10 val accuracy 0.9268 topk_dict {'top1': 0.9268} is_best False
+training epoch 11 val accuracy 0.93 topk_dict {'top1': 0.93} is_best True
+training epoch 12 val accuracy 0.9252 topk_dict {'top1': 0.9252} is_best False
+training epoch 13 val accuracy 0.925 topk_dict {'top1': 0.925} is_best False
+training epoch 14 val accuracy 0.9264 topk_dict {'top1': 0.9264} is_best False
+training epoch 15 val accuracy 0.9278 topk_dict {'top1': 0.9278} is_best False
+training epoch 16 val accuracy 0.9246 topk_dict {'top1': 0.9246} is_best False
+training epoch 17 val accuracy 0.9242 topk_dict {'top1': 0.9242} is_best False
+training epoch 18 val accuracy 0.9276 topk_dict {'top1': 0.9276} is_best False
+training epoch 19 val accuracy 0.9268 topk_dict {'top1': 0.9268} is_best False
+loading model_best from epoch 11 (acc 0.930000)
+finished training. finished 20 epochs. accuracy 0.93 topk_dict {'top1': 0.93}
+start iteration 41
+(cache recomputed) Accuracy log [(3, 0.8812, {'top1': 0.8812}), (5, 0.7614, {'top1': 0.7614}), (6, 0.8776, {'top1': 0.8776}), (10, 0.8476, {'top1': 0.8476}), (12, 0.7842, {'top1': 0.7842}), (16, 0.8724, {'top1': 0.8724}), (18, 0.1512, {'top1': 0.1512}), (22, 0.8638, {'top1': 0.8638}), (36, 0.2144, {'top1': 0.2144}), (39, 0.8598, {'top1': 0.8598}), (47, 0.8584, {'top1': 0.8584}), (51, 0.8352, {'top1': 0.8352}), (53, 0.8696, {'top1': 0.8696})]
+just computed impact of block 3 . accuracy after removing:  0.8812
+removed block 3 current accuracy 0.8812 loss from initial  0.07020000000000004
+since last training loss: 0.048800000000000066 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[3]
+smoothly removing block [3]
+training epoch 0 val accuracy 0.9264 topk_dict {'top1': 0.9264}
+training epoch 1 val accuracy 0.9264 topk_dict {'top1': 0.9264}
+training epoch 2 val accuracy 0.9266 topk_dict {'top1': 0.9266}
+training epoch 3 val accuracy 0.9276 topk_dict {'top1': 0.9276}
+training epoch 4 val accuracy 0.9262 topk_dict {'top1': 0.9262}
+training epoch 5 val accuracy 0.9248 topk_dict {'top1': 0.9248}
+training epoch 6 val accuracy 0.928 topk_dict {'top1': 0.928}
+training epoch 7 val accuracy 0.9292 topk_dict {'top1': 0.9292}
+training epoch 8 val accuracy 0.9276 topk_dict {'top1': 0.9276}
+training epoch 9 val accuracy 0.9244 topk_dict {'top1': 0.9244}
+training epoch 10 val accuracy 0.928 topk_dict {'top1': 0.928}
+training epoch 11 val accuracy 0.925 topk_dict {'top1': 0.925}
+training epoch 12 val accuracy 0.927 topk_dict {'top1': 0.927}
+training epoch 13 val accuracy 0.9242 topk_dict {'top1': 0.9242}
+training epoch 14 val accuracy 0.9266 topk_dict {'top1': 0.9266}
+training epoch 15 val accuracy 0.9256 topk_dict {'top1': 0.9256}
+training epoch 16 val accuracy 0.9244 topk_dict {'top1': 0.9244}
+training epoch 17 val accuracy 0.9262 topk_dict {'top1': 0.9262}
+training epoch 18 val accuracy 0.928 topk_dict {'top1': 0.928}
+training epoch 19 val accuracy 0.9258 topk_dict {'top1': 0.9258}
+training epoch 20 val accuracy 0.927 topk_dict {'top1': 0.927}
+training epoch 21 val accuracy 0.9266 topk_dict {'top1': 0.9266}
+training epoch 22 val accuracy 0.924 topk_dict {'top1': 0.924}
+training epoch 23 val accuracy 0.9304 topk_dict {'top1': 0.9304}
+training epoch 24 val accuracy 0.926 topk_dict {'top1': 0.926}
+training epoch 25 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 26 val accuracy 0.9254 topk_dict {'top1': 0.9254}
+training epoch 27 val accuracy 0.924 topk_dict {'top1': 0.924}
+training epoch 28 val accuracy 0.9214 topk_dict {'top1': 0.9214}
+training epoch 29 val accuracy 0.9234 topk_dict {'top1': 0.9234}
+training start
+training epoch 0 val accuracy 0.926 topk_dict {'top1': 0.926} is_best True
+training epoch 1 val accuracy 0.923 topk_dict {'top1': 0.923} is_best False
+training epoch 2 val accuracy 0.925 topk_dict {'top1': 0.925} is_best False
+training epoch 3 val accuracy 0.9234 topk_dict {'top1': 0.9234} is_best False
+training epoch 4 val accuracy 0.9244 topk_dict {'top1': 0.9244} is_best False
+training epoch 5 val accuracy 0.928 topk_dict {'top1': 0.928} is_best True
+training epoch 6 val accuracy 0.9256 topk_dict {'top1': 0.9256} is_best False
+training epoch 7 val accuracy 0.9236 topk_dict {'top1': 0.9236} is_best False
+training epoch 8 val accuracy 0.924 topk_dict {'top1': 0.924} is_best False
+training epoch 9 val accuracy 0.9246 topk_dict {'top1': 0.9246} is_best False
+training epoch 10 val accuracy 0.924 topk_dict {'top1': 0.924} is_best False
+training epoch 11 val accuracy 0.9284 topk_dict {'top1': 0.9284} is_best True
+training epoch 12 val accuracy 0.9286 topk_dict {'top1': 0.9286} is_best True
+training epoch 13 val accuracy 0.9276 topk_dict {'top1': 0.9276} is_best False
+training epoch 14 val accuracy 0.9252 topk_dict {'top1': 0.9252} is_best False
+training epoch 15 val accuracy 0.9264 topk_dict {'top1': 0.9264} is_best False
+training epoch 16 val accuracy 0.9252 topk_dict {'top1': 0.9252} is_best False
+training epoch 17 val accuracy 0.9272 topk_dict {'top1': 0.9272} is_best False
+training epoch 18 val accuracy 0.9262 topk_dict {'top1': 0.9262} is_best False
+training epoch 19 val accuracy 0.9278 topk_dict {'top1': 0.9278} is_best False
+loading model_best from epoch 12 (acc 0.928600)
+finished training. finished 20 epochs. accuracy 0.9286 topk_dict {'top1': 0.9286}
+start iteration 42
+(cache recomputed) Accuracy log [(5, 0.6012, {'top1': 0.6012}), (6, 0.85, {'top1': 0.85}), (10, 0.8378, {'top1': 0.8378}), (12, 0.7928, {'top1': 0.7928}), (16, 0.86, {'top1': 0.86}), (18, 0.139, {'top1': 0.139}), (22, 0.858, {'top1': 0.858}), (36, 0.2672, {'top1': 0.2672}), (39, 0.864, {'top1': 0.864}), (47, 0.8518, {'top1': 0.8518}), (51, 0.848, {'top1': 0.848}), (53, 0.8708, {'top1': 0.8708})]
+just computed impact of block 53 . accuracy after removing:  0.8708
+removed block 53 current accuracy 0.8708 loss from initial  0.0806
+since last training loss: 0.05779999999999996 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[53]
+smoothly removing block [53]
+training epoch 0 val accuracy 0.929 topk_dict {'top1': 0.929}
+training epoch 1 val accuracy 0.9274 topk_dict {'top1': 0.9274}
+training epoch 2 val accuracy 0.9264 topk_dict {'top1': 0.9264}
+training epoch 3 val accuracy 0.9278 topk_dict {'top1': 0.9278}
+training epoch 4 val accuracy 0.9288 topk_dict {'top1': 0.9288}
+training epoch 5 val accuracy 0.9284 topk_dict {'top1': 0.9284}
+training epoch 6 val accuracy 0.9306 topk_dict {'top1': 0.9306}
+training epoch 7 val accuracy 0.9288 topk_dict {'top1': 0.9288}
+training epoch 8 val accuracy 0.9272 topk_dict {'top1': 0.9272}
+training epoch 9 val accuracy 0.9282 topk_dict {'top1': 0.9282}
+training epoch 10 val accuracy 0.9258 topk_dict {'top1': 0.9258}
+training epoch 11 val accuracy 0.9282 topk_dict {'top1': 0.9282}
+training epoch 12 val accuracy 0.9282 topk_dict {'top1': 0.9282}
+training epoch 13 val accuracy 0.9286 topk_dict {'top1': 0.9286}
+training epoch 14 val accuracy 0.928 topk_dict {'top1': 0.928}
+training epoch 15 val accuracy 0.9292 topk_dict {'top1': 0.9292}
+training epoch 16 val accuracy 0.9302 topk_dict {'top1': 0.9302}
+training epoch 17 val accuracy 0.9328 topk_dict {'top1': 0.9328}
+training epoch 18 val accuracy 0.9314 topk_dict {'top1': 0.9314}
+training epoch 19 val accuracy 0.929 topk_dict {'top1': 0.929}
+training epoch 20 val accuracy 0.93 topk_dict {'top1': 0.93}
+training epoch 21 val accuracy 0.9288 topk_dict {'top1': 0.9288}
+training epoch 22 val accuracy 0.9296 topk_dict {'top1': 0.9296}
+training epoch 23 val accuracy 0.925 topk_dict {'top1': 0.925}
+training epoch 24 val accuracy 0.9264 topk_dict {'top1': 0.9264}
+training epoch 25 val accuracy 0.9254 topk_dict {'top1': 0.9254}
+training epoch 26 val accuracy 0.9226 topk_dict {'top1': 0.9226}
+training epoch 27 val accuracy 0.9218 topk_dict {'top1': 0.9218}
+training epoch 28 val accuracy 0.921 topk_dict {'top1': 0.921}
+training epoch 29 val accuracy 0.9178 topk_dict {'top1': 0.9178}
+training start
+training epoch 0 val accuracy 0.9198 topk_dict {'top1': 0.9198} is_best True
+training epoch 1 val accuracy 0.9218 topk_dict {'top1': 0.9218} is_best True
+training epoch 2 val accuracy 0.9228 topk_dict {'top1': 0.9228} is_best True
+training epoch 3 val accuracy 0.9216 topk_dict {'top1': 0.9216} is_best False
+training epoch 4 val accuracy 0.9196 topk_dict {'top1': 0.9196} is_best False
+training epoch 5 val accuracy 0.9208 topk_dict {'top1': 0.9208} is_best False
+training epoch 6 val accuracy 0.9244 topk_dict {'top1': 0.9244} is_best True
+training epoch 7 val accuracy 0.923 topk_dict {'top1': 0.923} is_best False
+training epoch 8 val accuracy 0.9216 topk_dict {'top1': 0.9216} is_best False
+training epoch 9 val accuracy 0.925 topk_dict {'top1': 0.925} is_best True
+training epoch 10 val accuracy 0.9206 topk_dict {'top1': 0.9206} is_best False
+training epoch 11 val accuracy 0.9236 topk_dict {'top1': 0.9236} is_best False
+training epoch 12 val accuracy 0.9198 topk_dict {'top1': 0.9198} is_best False
+training epoch 13 val accuracy 0.9218 topk_dict {'top1': 0.9218} is_best False
+training epoch 14 val accuracy 0.921 topk_dict {'top1': 0.921} is_best False
+training epoch 15 val accuracy 0.9244 topk_dict {'top1': 0.9244} is_best False
+training epoch 16 val accuracy 0.9238 topk_dict {'top1': 0.9238} is_best False
+training epoch 17 val accuracy 0.9208 topk_dict {'top1': 0.9208} is_best False
+training epoch 18 val accuracy 0.9236 topk_dict {'top1': 0.9236} is_best False
+training epoch 19 val accuracy 0.9254 topk_dict {'top1': 0.9254} is_best True
+finished training. finished 20 epochs. accuracy 0.9254 topk_dict {'top1': 0.9254}
+start iteration 43
+(cache recomputed) Accuracy log [(5, 0.5682, {'top1': 0.5682}), (6, 0.8302, {'top1': 0.8302}), (10, 0.809, {'top1': 0.809}), (12, 0.754, {'top1': 0.754}), (16, 0.861, {'top1': 0.861}), (18, 0.1052, {'top1': 0.1052}), (22, 0.8286, {'top1': 0.8286}), (36, 0.2554, {'top1': 0.2554}), (39, 0.8206, {'top1': 0.8206}), (47, 0.7828, {'top1': 0.7828}), (51, 0.8192, {'top1': 0.8192})]
+just computed impact of block 16 . accuracy after removing:  0.861
+removed block 16 current accuracy 0.861 loss from initial  0.09040000000000004
+since last training loss: 0.06440000000000001 threshold 0.01 training needed True
+starting smooth lazy loop. blocks=[16]
+smoothly removing block [16]
+training epoch 0 val accuracy 0.9228 topk_dict {'top1': 0.9228}
+training epoch 1 val accuracy 0.9224 topk_dict {'top1': 0.9224}
+training epoch 2 val accuracy 0.9216 topk_dict {'top1': 0.9216}
+training epoch 3 val accuracy 0.9222 topk_dict {'top1': 0.9222}
+training epoch 4 val accuracy 0.921 topk_dict {'top1': 0.921}
+training epoch 5 val accuracy 0.9246 topk_dict {'top1': 0.9246}
+training epoch 6 val accuracy 0.9244 topk_dict {'top1': 0.9244}
+training epoch 7 val accuracy 0.9238 topk_dict {'top1': 0.9238}
+training epoch 8 val accuracy 0.923 topk_dict {'top1': 0.923}
+training epoch 9 val accuracy 0.9224 topk_dict {'top1': 0.9224}
+training epoch 10 val accuracy 0.9214 topk_dict {'top1': 0.9214}
+training epoch 11 val accuracy 0.9194 topk_dict {'top1': 0.9194}
+training epoch 12 val accuracy 0.9242 topk_dict {'top1': 0.9242}
+training epoch 13 val accuracy 0.9218 topk_dict {'top1': 0.9218}
+training epoch 14 val accuracy 0.9238 topk_dict {'top1': 0.9238}
+training epoch 15 val accuracy 0.9228 topk_dict {'top1': 0.9228}
+training epoch 16 val accuracy 0.921 topk_dict {'top1': 0.921}
+training epoch 17 val accuracy 0.9226 topk_dict {'top1': 0.9226}
+training epoch 18 val accuracy 0.9272 topk_dict {'top1': 0.9272}
+training epoch 19 val accuracy 0.9224 topk_dict {'top1': 0.9224}
+training epoch 20 val accuracy 0.9232 topk_dict {'top1': 0.9232}
+training epoch 21 val accuracy 0.9242 topk_dict {'top1': 0.9242}
+training epoch 22 val accuracy 0.921 topk_dict {'top1': 0.921}
+training epoch 23 val accuracy 0.9212 topk_dict {'top1': 0.9212}
+training epoch 24 val accuracy 0.9224 topk_dict {'top1': 0.9224}
+training epoch 25 val accuracy 0.9192 topk_dict {'top1': 0.9192}
+training epoch 26 val accuracy 0.9168 topk_dict {'top1': 0.9168}
+training epoch 27 val accuracy 0.9136 topk_dict {'top1': 0.9136}
+training epoch 28 val accuracy 0.9184 topk_dict {'top1': 0.9184}
+training epoch 29 val accuracy 0.9176 topk_dict {'top1': 0.9176}
+training start
+training epoch 0 val accuracy 0.9178 topk_dict {'top1': 0.9178} is_best True
+training epoch 1 val accuracy 0.9166 topk_dict {'top1': 0.9166} is_best False
+training epoch 2 val accuracy 0.9168 topk_dict {'top1': 0.9168} is_best False
+training epoch 3 val accuracy 0.916 topk_dict {'top1': 0.916} is_best False
+training epoch 4 val accuracy 0.9204 topk_dict {'top1': 0.9204} is_best True
+training epoch 5 val accuracy 0.918 topk_dict {'top1': 0.918} is_best False
+training epoch 6 val accuracy 0.921 topk_dict {'top1': 0.921} is_best True
+training epoch 7 val accuracy 0.9202 topk_dict {'top1': 0.9202} is_best False
+training epoch 8 val accuracy 0.9202 topk_dict {'top1': 0.9202} is_best False
+training epoch 9 val accuracy 0.9224 topk_dict {'top1': 0.9224} is_best True
+training epoch 10 val accuracy 0.9204 topk_dict {'top1': 0.9204} is_best False
+training epoch 11 val accuracy 0.9194 topk_dict {'top1': 0.9194} is_best False
+training epoch 12 val accuracy 0.9236 topk_dict {'top1': 0.9236} is_best True
+training epoch 13 val accuracy 0.919 topk_dict {'top1': 0.919} is_best False
+training epoch 14 val accuracy 0.9192 topk_dict {'top1': 0.9192} is_best False
+training epoch 15 val accuracy 0.9224 topk_dict {'top1': 0.9224} is_best False
+training epoch 16 val accuracy 0.9198 topk_dict {'top1': 0.9198} is_best False
+training epoch 17 val accuracy 0.921 topk_dict {'top1': 0.921} is_best False
+training epoch 18 val accuracy 0.9236 topk_dict {'top1': 0.9236} is_best False
+training epoch 19 val accuracy 0.9202 topk_dict {'top1': 0.9202} is_best False
+loading model_best from epoch 12 (acc 0.923600)
+finished training. finished 20 epochs. accuracy 0.9236 topk_dict {'top1': 0.9236}
+start iteration 44
+(cache recomputed) Accuracy log [(5, 0.4774, {'top1': 0.4774}), (6, 0.8076, {'top1': 0.8076}), (10, 0.7704, {'top1': 0.7704}), (12, 0.665, {'top1': 0.665}), (18, 0.1202, {'top1': 0.1202}), (22, 0.816, {'top1': 0.816}), (36, 0.2054, {'top1': 0.2054}), (39, 0.8142, {'top1': 0.8142}), (47, 0.7846, {'top1': 0.7846}), (51, 0.809, {'top1': 0.809})]
+just computed impact of block 22 . accuracy after removing:  0.816
+removed block 22 current accuracy 0.816 loss from initial  0.13540000000000008
+starting smooth lazy loop. blocks=[22]
+smoothly removing block [22]
+training epoch 0 val accuracy 0.9204 topk_dict {'top1': 0.9204}
+training epoch 1 val accuracy 0.9204 topk_dict {'top1': 0.9204}
+training epoch 2 val accuracy 0.919 topk_dict {'top1': 0.919}
+training epoch 3 val accuracy 0.923 topk_dict {'top1': 0.923}
+training epoch 4 val accuracy 0.9226 topk_dict {'top1': 0.9226}
+training epoch 5 val accuracy 0.9214 topk_dict {'top1': 0.9214}
+training epoch 6 val accuracy 0.923 topk_dict {'top1': 0.923}
+training epoch 7 val accuracy 0.926 topk_dict {'top1': 0.926}
+training epoch 8 val accuracy 0.9254 topk_dict {'top1': 0.9254}
+training epoch 9 val accuracy 0.919 topk_dict {'top1': 0.919}
+training epoch 10 val accuracy 0.924 topk_dict {'top1': 0.924}
+training epoch 11 val accuracy 0.9208 topk_dict {'top1': 0.9208}
+training epoch 12 val accuracy 0.919 topk_dict {'top1': 0.919}
+training epoch 13 val accuracy 0.915 topk_dict {'top1': 0.915}
+training epoch 14 val accuracy 0.9182 topk_dict {'top1': 0.9182}
+training epoch 15 val accuracy 0.9194 topk_dict {'top1': 0.9194}
+training epoch 16 val accuracy 0.9136 topk_dict {'top1': 0.9136}
+training epoch 17 val accuracy 0.912 topk_dict {'top1': 0.912}
+training epoch 18 val accuracy 0.9174 topk_dict {'top1': 0.9174}
+training epoch 19 val accuracy 0.9176 topk_dict {'top1': 0.9176}
+training epoch 20 val accuracy 0.914 topk_dict {'top1': 0.914}
+training epoch 21 val accuracy 0.916 topk_dict {'top1': 0.916}
+training epoch 22 val accuracy 0.9132 topk_dict {'top1': 0.9132}
+training epoch 23 val accuracy 0.91 topk_dict {'top1': 0.91}
+training epoch 24 val accuracy 0.9098 topk_dict {'top1': 0.9098}
+training epoch 25 val accuracy 0.9086 topk_dict {'top1': 0.9086}
+training epoch 26 val accuracy 0.908 topk_dict {'top1': 0.908}
+training epoch 27 val accuracy 0.906 topk_dict {'top1': 0.906}
+training epoch 28 val accuracy 0.9024 topk_dict {'top1': 0.9024}
+training epoch 29 val accuracy 0.9094 topk_dict {'top1': 0.9094}
+training start
+training epoch 0 val accuracy 0.9084 topk_dict {'top1': 0.9084} is_best True
+training epoch 1 val accuracy 0.9024 topk_dict {'top1': 0.9024} is_best False
+training epoch 2 val accuracy 0.9058 topk_dict {'top1': 0.9058} is_best False
+training epoch 3 val accuracy 0.9076 topk_dict {'top1': 0.9076} is_best False
+training epoch 4 val accuracy 0.9032 topk_dict {'top1': 0.9032} is_best False
+training epoch 5 val accuracy 0.9068 topk_dict {'top1': 0.9068} is_best False
+training epoch 6 val accuracy 0.9106 topk_dict {'top1': 0.9106} is_best True
+training epoch 7 val accuracy 0.9104 topk_dict {'top1': 0.9104} is_best False
+training epoch 8 val accuracy 0.9064 topk_dict {'top1': 0.9064} is_best False
+training epoch 9 val accuracy 0.9124 topk_dict {'top1': 0.9124} is_best True
+training epoch 10 val accuracy 0.9078 topk_dict {'top1': 0.9078} is_best False
+training epoch 11 val accuracy 0.9104 topk_dict {'top1': 0.9104} is_best False
+training epoch 12 val accuracy 0.9088 topk_dict {'top1': 0.9088} is_best False
+training epoch 13 val accuracy 0.9078 topk_dict {'top1': 0.9078} is_best False
+training epoch 14 val accuracy 0.9124 topk_dict {'top1': 0.9124} is_best False
+training epoch 15 val accuracy 0.9108 topk_dict {'top1': 0.9108} is_best False
+training epoch 16 val accuracy 0.9088 topk_dict {'top1': 0.9088} is_best False
+training epoch 17 val accuracy 0.9112 topk_dict {'top1': 0.9112} is_best False
+training epoch 18 val accuracy 0.9124 topk_dict {'top1': 0.9124} is_best False
+training epoch 19 val accuracy 0.9136 topk_dict {'top1': 0.9136} is_best True
+finished training. finished 20 epochs. accuracy 0.9136 topk_dict {'top1': 0.9136}

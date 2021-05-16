@@ -1,0 +1,918 @@
+[
+    {
+        "accuracy": 0.9542,
+        "all_blocks_num": 54,
+        "blocks_array": [
+            18,
+            18,
+            18,
+            0
+        ],
+        "i": -1,
+        "num_blocks_active": 54,
+        "num_blocks_removed": 0,
+        "recalc_cache": false,
+        "removed_blocks": [],
+        "topk_dict": {
+            "top1": 0.9542
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9532,
+        "block": 2,
+        "i": 0,
+        "num_blocks_active": 53,
+        "num_blocks_removed": 1,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2
+        ],
+        "topk_dict": {
+            "top1": 0.9532
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9526,
+        "block": 1,
+        "i": 1,
+        "num_blocks_active": 52,
+        "num_blocks_removed": 2,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1
+        ],
+        "topk_dict": {
+            "top1": 0.9526
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.952,
+        "block": 32,
+        "i": 2,
+        "num_blocks_active": 51,
+        "num_blocks_removed": 3,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32
+        ],
+        "topk_dict": {
+            "top1": 0.952
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9526,
+        "block": 33,
+        "i": 3,
+        "num_blocks_active": 50,
+        "num_blocks_removed": 4,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33
+        ],
+        "topk_dict": {
+            "top1": 0.9526
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9518,
+        "block": 35,
+        "i": 4,
+        "num_blocks_active": 49,
+        "num_blocks_removed": 5,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35
+        ],
+        "topk_dict": {
+            "top1": 0.9518
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9542,
+        "accuracy_before_training": 0.9508,
+        "block": 30,
+        "epochs": 32,
+        "i": 5,
+        "num_blocks_active": 48,
+        "num_blocks_removed": 6,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30
+        ],
+        "topk_dict": {
+            "top1": 0.9542
+        },
+        "trained": {
+            "accuracy": 0.9542,
+            "accuracy_gain": 0.0034000000000000696,
+            "checkpoint": "/scratch/vsv1g12/distillation/fourshot/to-ResNet-56/temp-4/alpha-0.25/baseline/0/iter_5_removed_6.pth.tar",
+            "duration": 1812.9537303447723,
+            "epochs": 32,
+            "event": "trained",
+            "i": 5,
+            "iteration": 5,
+            "removed_blocks": [
+                2,
+                1,
+                32,
+                33,
+                35,
+                30
+            ],
+            "topk_dict": {
+                "top1": 0.9542
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9518,
+        "block": 23,
+        "i": 6,
+        "num_blocks_active": 47,
+        "num_blocks_removed": 7,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23
+        ],
+        "topk_dict": {
+            "top1": 0.9518
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9502,
+        "block": 38,
+        "i": 7,
+        "num_blocks_active": 46,
+        "num_blocks_removed": 8,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38
+        ],
+        "topk_dict": {
+            "top1": 0.9502
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.947,
+        "block": 5,
+        "i": 8,
+        "num_blocks_active": 45,
+        "num_blocks_removed": 9,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5
+        ],
+        "topk_dict": {
+            "top1": 0.947
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9456,
+        "block": 24,
+        "i": 9,
+        "num_blocks_active": 44,
+        "num_blocks_removed": 10,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24
+        ],
+        "topk_dict": {
+            "top1": 0.9456
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9438,
+        "block": 17,
+        "i": 10,
+        "num_blocks_active": 43,
+        "num_blocks_removed": 11,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17
+        ],
+        "topk_dict": {
+            "top1": 0.9438
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9506,
+        "accuracy_before_training": 0.9422,
+        "block": 45,
+        "epochs": 42,
+        "i": 11,
+        "num_blocks_active": 42,
+        "num_blocks_removed": 12,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45
+        ],
+        "topk_dict": {
+            "top1": 0.9506
+        },
+        "trained": {
+            "accuracy": 0.9506,
+            "accuracy_gain": 0.008399999999999963,
+            "checkpoint": "/scratch/vsv1g12/distillation/fourshot/to-ResNet-56/temp-4/alpha-0.25/baseline/0/iter_11_removed_12.pth.tar",
+            "duration": 1678.677304983139,
+            "epochs": 42,
+            "event": "trained",
+            "i": 11,
+            "iteration": 11,
+            "removed_blocks": [
+                2,
+                1,
+                32,
+                33,
+                35,
+                30,
+                23,
+                38,
+                5,
+                24,
+                17,
+                45
+            ],
+            "topk_dict": {
+                "top1": 0.9506
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9484,
+        "block": 20,
+        "i": 12,
+        "num_blocks_active": 41,
+        "num_blocks_removed": 13,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20
+        ],
+        "topk_dict": {
+            "top1": 0.9484
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9474,
+        "block": 39,
+        "i": 13,
+        "num_blocks_active": 40,
+        "num_blocks_removed": 14,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39
+        ],
+        "topk_dict": {
+            "top1": 0.9474
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9452,
+        "block": 34,
+        "i": 14,
+        "num_blocks_active": 39,
+        "num_blocks_removed": 15,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34
+        ],
+        "topk_dict": {
+            "top1": 0.9452
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9422,
+        "block": 28,
+        "i": 15,
+        "num_blocks_active": 38,
+        "num_blocks_removed": 16,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28
+        ],
+        "topk_dict": {
+            "top1": 0.9422
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9402,
+        "block": 31,
+        "i": 16,
+        "num_blocks_active": 37,
+        "num_blocks_removed": 17,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28,
+            31
+        ],
+        "topk_dict": {
+            "top1": 0.9402
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9466,
+        "accuracy_before_training": 0.9386,
+        "block": 42,
+        "epochs": 48,
+        "i": 17,
+        "num_blocks_active": 36,
+        "num_blocks_removed": 18,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28,
+            31,
+            42
+        ],
+        "topk_dict": {
+            "top1": 0.9466
+        },
+        "trained": {
+            "accuracy": 0.9466,
+            "accuracy_gain": 0.008000000000000007,
+            "checkpoint": "/scratch/vsv1g12/distillation/fourshot/to-ResNet-56/temp-4/alpha-0.25/baseline/0/iter_17_removed_18.pth.tar",
+            "duration": 1568.4835286140442,
+            "epochs": 48,
+            "event": "trained",
+            "i": 17,
+            "iteration": 17,
+            "removed_blocks": [
+                2,
+                1,
+                32,
+                33,
+                35,
+                30,
+                23,
+                38,
+                5,
+                24,
+                17,
+                45,
+                20,
+                39,
+                34,
+                28,
+                31,
+                42
+            ],
+            "topk_dict": {
+                "top1": 0.9466
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9448,
+        "block": 3,
+        "i": 18,
+        "num_blocks_active": 35,
+        "num_blocks_removed": 19,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28,
+            31,
+            42,
+            3
+        ],
+        "topk_dict": {
+            "top1": 0.9448
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9422,
+        "block": 19,
+        "i": 19,
+        "num_blocks_active": 34,
+        "num_blocks_removed": 20,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28,
+            31,
+            42,
+            3,
+            19
+        ],
+        "topk_dict": {
+            "top1": 0.9422
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9392,
+        "block": 41,
+        "i": 20,
+        "num_blocks_active": 33,
+        "num_blocks_removed": 21,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28,
+            31,
+            42,
+            3,
+            19,
+            41
+        ],
+        "topk_dict": {
+            "top1": 0.9392
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9346,
+        "block": 14,
+        "i": 21,
+        "num_blocks_active": 32,
+        "num_blocks_removed": 22,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28,
+            31,
+            42,
+            3,
+            19,
+            41,
+            14
+        ],
+        "topk_dict": {
+            "top1": 0.9346
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9298,
+        "block": 50,
+        "i": 22,
+        "num_blocks_active": 31,
+        "num_blocks_removed": 23,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28,
+            31,
+            42,
+            3,
+            19,
+            41,
+            14,
+            50
+        ],
+        "topk_dict": {
+            "top1": 0.9298
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9258,
+        "block": 26,
+        "i": 23,
+        "num_blocks_active": 30,
+        "num_blocks_removed": 24,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28,
+            31,
+            42,
+            3,
+            19,
+            41,
+            14,
+            50,
+            26
+        ],
+        "topk_dict": {
+            "top1": 0.9258
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.919,
+        "block": 22,
+        "i": 24,
+        "num_blocks_active": 29,
+        "num_blocks_removed": 25,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28,
+            31,
+            42,
+            3,
+            19,
+            41,
+            14,
+            50,
+            26,
+            22
+        ],
+        "topk_dict": {
+            "top1": 0.919
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9084,
+        "block": 37,
+        "i": 25,
+        "num_blocks_active": 28,
+        "num_blocks_removed": 26,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28,
+            31,
+            42,
+            3,
+            19,
+            41,
+            14,
+            50,
+            26,
+            22,
+            37
+        ],
+        "topk_dict": {
+            "top1": 0.9084
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9408,
+        "accuracy_before_training": 0.899,
+        "baseline": [
+            [
+                "ResNet-56",
+                27,
+                0.948333,
+                0.9368,
+                0.001009,
+                0.000557
+            ]
+        ],
+        "block": 27,
+        "epochs": 45,
+        "i": 26,
+        "num_blocks_active": 27,
+        "num_blocks_removed": 27,
+        "recalc_cache": true,
+        "removed_blocks": [
+            2,
+            1,
+            32,
+            33,
+            35,
+            30,
+            23,
+            38,
+            5,
+            24,
+            17,
+            45,
+            20,
+            39,
+            34,
+            28,
+            31,
+            42,
+            3,
+            19,
+            41,
+            14,
+            50,
+            26,
+            22,
+            37,
+            27
+        ],
+        "topk_dict": {
+            "top1": 0.9408
+        },
+        "trained": {
+            "accuracy": 0.9408,
+            "accuracy_gain": 0.04179999999999995,
+            "checkpoint": "/scratch/vsv1g12/distillation/fourshot/to-ResNet-56/temp-4/alpha-0.25/baseline/0/iter_26_removed_27.pth.tar",
+            "duration": 1351.5353310108185,
+            "epochs": 45,
+            "event": "trained",
+            "i": 26,
+            "iteration": 26,
+            "removed_blocks": [
+                2,
+                1,
+                32,
+                33,
+                35,
+                30,
+                23,
+                38,
+                5,
+                24,
+                17,
+                45,
+                20,
+                39,
+                34,
+                28,
+                31,
+                42,
+                3,
+                19,
+                41,
+                14,
+                50,
+                26,
+                22,
+                37,
+                27
+            ],
+            "topk_dict": {
+                "top1": 0.9408
+            },
+            "total_epochs": 50
+        }
+    }
+]

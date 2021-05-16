@@ -1,0 +1,7 @@
+python3 ~/Projects/squeezr/plot_squeeze_groups.py s0_e50 s10_e40/ --baseline --labels "Simple pruning" "Phased, S=10" --test-acc --test-and-val --line-style solid dotted --save ~/Desktop/ss_fix/0s10.pdf --ylim 0.904 0.9525
+python3 ~/Projects/squeezr/plot_squeeze_groups.py s0_e50 s15_e35/ --baseline --labels "Simple pruning" "Phased, S=15" --test-acc --test-and-val --line-style solid dotted --save ~/Desktop/ss_fix/0s15.pdf --ylim 0.904 0.9525
+python3 ~/Projects/squeezr/plot_squeeze_groups.py s0_e50 s20_e30/ --baseline --labels "Simple pruning" "Phased, S=20" --test-acc --test-and-val --line-style solid dotted --save ~/Desktop/ss_fix/0s20.pdf --ylim 0.904 0.9525
+python3 ~/Projects/squeezr/plot_squeeze_groups.py s0_e50 s30_e20/ --baseline --labels "Simple pruning" "Phased, S=30" --test-acc --test-and-val --line-style solid dotted --save ~/Desktop/ss_fix/0s30.pdf --ylim 0.904 0.9525
+python3 ~/Projects/squeezr/plot_squeeze_groups.py s0_e50 s35_e15/ --baseline --labels "Simple pruning" "Phased, S=35" --test-acc --test-and-val --line-style solid dotted --save ~/Desktop/ss_fix/0s35.pdf --ylim 0.904 0.9525
+python3 ~/Projects/squeezr/plot_squeeze_groups.py s0_e50 s40_e10/ --baseline --labels "Simple pruning" "Phased, S=40" --test-acc --test-and-val --line-style solid dotted --save ~/Desktop/ss_fix/0s40.pdf --ylim 0.904 0.9525
+python3 ~/Projects/squeezr/plot_squeeze_groups.py s0_e50 s45_e5/ --baseline --labels "Simple pruning" "Phased, S=45" --test-acc --test-and-val --line-style solid dotted --save ~/Desktop/ss_fix/0s45.pdf --ylim 0.904 0.9525

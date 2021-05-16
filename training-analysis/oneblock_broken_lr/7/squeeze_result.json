@@ -1,0 +1,336 @@
+[
+    {
+        "accuracy": 1.0,
+        "all_blocks_num": 54,
+        "blocks_array": [
+            18,
+            18,
+            18,
+            0
+        ],
+        "checkpoint": "/storage/squeezr/resnet110/cifar10/best_baseline/model_best.pth.tar",
+        "evals": {
+            "prune": {
+                "accuracy": 1.0,
+                "topk_dict": {
+                    "top1": 1.0
+                }
+            },
+            "test": {
+                "accuracy": 0.9429,
+                "confusion_matrix": [
+                    [
+                        938,
+                        3,
+                        15,
+                        6,
+                        2,
+                        0,
+                        3,
+                        1,
+                        26,
+                        6
+                    ],
+                    [
+                        2,
+                        972,
+                        0,
+                        2,
+                        1,
+                        0,
+                        0,
+                        0,
+                        4,
+                        19
+                    ],
+                    [
+                        17,
+                        0,
+                        917,
+                        11,
+                        11,
+                        17,
+                        20,
+                        3,
+                        3,
+                        1
+                    ],
+                    [
+                        8,
+                        1,
+                        9,
+                        882,
+                        18,
+                        55,
+                        15,
+                        4,
+                        5,
+                        3
+                    ],
+                    [
+                        2,
+                        0,
+                        8,
+                        12,
+                        956,
+                        7,
+                        4,
+                        9,
+                        1,
+                        1
+                    ],
+                    [
+                        2,
+                        1,
+                        11,
+                        57,
+                        14,
+                        904,
+                        4,
+                        6,
+                        1,
+                        0
+                    ],
+                    [
+                        5,
+                        0,
+                        7,
+                        13,
+                        3,
+                        3,
+                        965,
+                        2,
+                        1,
+                        1
+                    ],
+                    [
+                        6,
+                        0,
+                        4,
+                        8,
+                        15,
+                        6,
+                        0,
+                        960,
+                        1,
+                        0
+                    ],
+                    [
+                        14,
+                        5,
+                        4,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        971,
+                        5
+                    ],
+                    [
+                        4,
+                        20,
+                        1,
+                        1,
+                        0,
+                        1,
+                        1,
+                        1,
+                        7,
+                        964
+                    ]
+                ],
+                "topk_dict": {
+                    "top1": 0.9429
+                }
+            }
+        },
+        "i": -1,
+        "new_checkpoint": false,
+        "num_blocks_active": 54,
+        "num_blocks_removed": 0,
+        "num_params_active": 1730714,
+        "num_params_removed": 0,
+        "num_params_total": 1730714,
+        "recalc_cache": false,
+        "removed_blocks": [],
+        "topk_dict": {
+            "top1": 1.0
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.9758,
+        "accuracy_before_training": 1.0,
+        "block": 7,
+        "checkpoint": "iter_0_removed_1.pth.tar",
+        "epochs": 50,
+        "evals": {
+            "prune": {
+                "accuracy": 0.9758,
+                "topk_dict": {
+                    "top1": 0.9758
+                }
+            },
+            "test": {
+                "accuracy": 0.9389,
+                "confusion_matrix": [
+                    [
+                        941,
+                        3,
+                        15,
+                        5,
+                        3,
+                        0,
+                        2,
+                        2,
+                        25,
+                        4
+                    ],
+                    [
+                        2,
+                        979,
+                        1,
+                        1,
+                        1,
+                        1,
+                        0,
+                        0,
+                        1,
+                        14
+                    ],
+                    [
+                        14,
+                        0,
+                        923,
+                        11,
+                        13,
+                        12,
+                        17,
+                        6,
+                        2,
+                        2
+                    ],
+                    [
+                        7,
+                        1,
+                        13,
+                        863,
+                        17,
+                        64,
+                        22,
+                        5,
+                        5,
+                        3
+                    ],
+                    [
+                        0,
+                        1,
+                        11,
+                        11,
+                        952,
+                        6,
+                        5,
+                        13,
+                        1,
+                        0
+                    ],
+                    [
+                        4,
+                        0,
+                        8,
+                        61,
+                        12,
+                        895,
+                        6,
+                        12,
+                        1,
+                        1
+                    ],
+                    [
+                        6,
+                        1,
+                        11,
+                        11,
+                        6,
+                        2,
+                        961,
+                        1,
+                        0,
+                        1
+                    ],
+                    [
+                        5,
+                        0,
+                        3,
+                        5,
+                        22,
+                        8,
+                        0,
+                        956,
+                        1,
+                        0
+                    ],
+                    [
+                        18,
+                        7,
+                        4,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        967,
+                        3
+                    ],
+                    [
+                        6,
+                        25,
+                        3,
+                        1,
+                        0,
+                        0,
+                        1,
+                        1,
+                        11,
+                        952
+                    ]
+                ],
+                "topk_dict": {
+                    "top1": 0.9389
+                }
+            }
+        },
+        "i": 0,
+        "new_checkpoint": true,
+        "num_blocks_active": 53,
+        "num_blocks_removed": 1,
+        "num_params_active": 1726042,
+        "num_params_removed": 4672,
+        "num_params_total": 1730714,
+        "recalc_cache": false,
+        "removed_blocks": [
+            7
+        ],
+        "topk_dict": {
+            "top1": 0.9758
+        },
+        "trained": {
+            "accuracy": 0.9758,
+            "accuracy_gain": -0.0242,
+            "checkpoint": "./storage/organised/oneblock_keepallepochs/7/iter_0_removed_1.pth.tar",
+            "duration": 1417.1577882766724,
+            "epochs": 50,
+            "event": "trained",
+            "i": 0,
+            "iteration": 0,
+            "removed_blocks": [
+                7
+            ],
+            "topk_dict": {
+                "top1": 0.9758
+            },
+            "total_epochs": 50
+        }
+    }
+]

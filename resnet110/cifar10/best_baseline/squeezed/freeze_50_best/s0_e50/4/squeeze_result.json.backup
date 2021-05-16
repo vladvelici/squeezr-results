@@ -1,0 +1,4254 @@
+[
+    {
+        "accuracy": 0.9514,
+        "all_blocks_num": 54,
+        "blocks_array": [
+            18,
+            18,
+            18,
+            0
+        ],
+        "checkpoint": "-",
+        "evals": {
+            "test": {
+                "accuracy": 0.9429,
+                "topk_dict": {
+                    "top1": 0.9429
+                }
+            },
+            "val": {
+                "accuracy": 0.9514,
+                "topk_dict": {
+                    "top1": 0.9514
+                }
+            }
+        },
+        "i": -1,
+        "new_checkpoint": false,
+        "num_blocks_active": 54,
+        "num_blocks_removed": 0,
+        "recalc_cache": false,
+        "removed_blocks": [],
+        "topk_dict": {
+            "top1": 0.9514
+        },
+        "trained": false
+    },
+    {
+        "accuracy": 0.952,
+        "accuracy_before_training": 0.9508,
+        "block": 34,
+        "checkpoint": "iter_0_removed_1.pth.tar",
+        "epochs": 46,
+        "evals": {
+            "test": {
+                "accuracy": 0.9437,
+                "topk_dict": {
+                    "top1": 0.9437
+                }
+            },
+            "val": {
+                "accuracy": 0.952,
+                "topk_dict": {
+                    "top1": 0.952
+                }
+            }
+        },
+        "i": 0,
+        "new_checkpoint": true,
+        "num_blocks_active": 53,
+        "num_blocks_removed": 1,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34
+        ],
+        "topk_dict": {
+            "top1": 0.952
+        },
+        "trained": {
+            "accuracy": 0.952,
+            "accuracy_gain": 0.0011999999999999789,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_0_removed_1.pth.tar",
+            "duration": 1611.018872976303,
+            "epochs": 46,
+            "event": "trained",
+            "i": 0,
+            "iteration": 0,
+            "removed_blocks": [
+                34
+            ],
+            "topk_dict": {
+                "top1": 0.952
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9514,
+        "accuracy_before_training": 0.951,
+        "block": 42,
+        "checkpoint": "iter_1_removed_2.pth.tar",
+        "epochs": 36,
+        "evals": {
+            "test": {
+                "accuracy": 0.9429,
+                "topk_dict": {
+                    "top1": 0.9429
+                }
+            },
+            "val": {
+                "accuracy": 0.9514,
+                "topk_dict": {
+                    "top1": 0.9514
+                }
+            }
+        },
+        "i": 1,
+        "new_checkpoint": true,
+        "num_blocks_active": 52,
+        "num_blocks_removed": 2,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42
+        ],
+        "topk_dict": {
+            "top1": 0.9514
+        },
+        "trained": {
+            "accuracy": 0.9514,
+            "accuracy_gain": 0.00040000000000006697,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_1_removed_2.pth.tar",
+            "duration": 1593.2615814208984,
+            "epochs": 36,
+            "event": "trained",
+            "i": 1,
+            "iteration": 1,
+            "removed_blocks": [
+                34,
+                42
+            ],
+            "topk_dict": {
+                "top1": 0.9514
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9524,
+        "accuracy_before_training": 0.9504,
+        "block": 35,
+        "checkpoint": "iter_2_removed_3.pth.tar",
+        "epochs": 48,
+        "evals": {
+            "test": {
+                "accuracy": 0.9441,
+                "topk_dict": {
+                    "top1": 0.9441
+                }
+            },
+            "val": {
+                "accuracy": 0.9524,
+                "topk_dict": {
+                    "top1": 0.9524
+                }
+            }
+        },
+        "i": 2,
+        "new_checkpoint": true,
+        "num_blocks_active": 51,
+        "num_blocks_removed": 3,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35
+        ],
+        "topk_dict": {
+            "top1": 0.9524
+        },
+        "trained": {
+            "accuracy": 0.9524,
+            "accuracy_gain": 0.0020000000000000018,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_2_removed_3.pth.tar",
+            "duration": 1571.2453980445862,
+            "epochs": 48,
+            "event": "trained",
+            "i": 2,
+            "iteration": 2,
+            "removed_blocks": [
+                34,
+                42,
+                35
+            ],
+            "topk_dict": {
+                "top1": 0.9524
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9508,
+        "accuracy_before_training": 0.9508,
+        "block": 33,
+        "checkpoint": "iter_3_removed_4.pth.tar",
+        "epochs": 0,
+        "evals": {
+            "test": {
+                "accuracy": 0.9427,
+                "topk_dict": {
+                    "top1": 0.9427
+                }
+            },
+            "val": {
+                "accuracy": 0.9508,
+                "topk_dict": {
+                    "top1": 0.9508
+                }
+            }
+        },
+        "i": 3,
+        "new_checkpoint": true,
+        "num_blocks_active": 50,
+        "num_blocks_removed": 4,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33
+        ],
+        "topk_dict": {
+            "top1": 0.9508
+        },
+        "trained": {
+            "accuracy": 0.9508,
+            "accuracy_gain": 0.0,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_3_removed_4.pth.tar",
+            "duration": 1550.1310987472534,
+            "epochs": 0,
+            "event": "trained",
+            "i": 3,
+            "iteration": 3,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33
+            ],
+            "topk_dict": {
+                "top1": 0.9508
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.95,
+        "accuracy_before_training": 0.9496,
+        "block": 38,
+        "checkpoint": "iter_4_removed_5.pth.tar",
+        "epochs": 11,
+        "evals": {
+            "test": {
+                "accuracy": 0.9408,
+                "topk_dict": {
+                    "top1": 0.9408
+                }
+            },
+            "val": {
+                "accuracy": 0.95,
+                "topk_dict": {
+                    "top1": 0.95
+                }
+            }
+        },
+        "i": 4,
+        "new_checkpoint": true,
+        "num_blocks_active": 49,
+        "num_blocks_removed": 5,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38
+        ],
+        "topk_dict": {
+            "top1": 0.95
+        },
+        "trained": {
+            "accuracy": 0.95,
+            "accuracy_gain": 0.00039999999999995595,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_4_removed_5.pth.tar",
+            "duration": 1531.2334804534912,
+            "epochs": 11,
+            "event": "trained",
+            "i": 4,
+            "iteration": 4,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38
+            ],
+            "topk_dict": {
+                "top1": 0.95
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9504,
+        "accuracy_before_training": 0.9484,
+        "block": 17,
+        "checkpoint": "iter_5_removed_6.pth.tar",
+        "epochs": 44,
+        "evals": {
+            "test": {
+                "accuracy": 0.9396,
+                "topk_dict": {
+                    "top1": 0.9396
+                }
+            },
+            "val": {
+                "accuracy": 0.9504,
+                "topk_dict": {
+                    "top1": 0.9504
+                }
+            }
+        },
+        "i": 5,
+        "new_checkpoint": true,
+        "num_blocks_active": 48,
+        "num_blocks_removed": 6,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17
+        ],
+        "topk_dict": {
+            "top1": 0.9504
+        },
+        "trained": {
+            "accuracy": 0.9504,
+            "accuracy_gain": 0.0020000000000000018,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_5_removed_6.pth.tar",
+            "duration": 1492.20902967453,
+            "epochs": 44,
+            "event": "trained",
+            "i": 5,
+            "iteration": 5,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17
+            ],
+            "topk_dict": {
+                "top1": 0.9504
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.948,
+        "accuracy_before_training": 0.9476,
+        "block": 41,
+        "checkpoint": "iter_6_removed_7.pth.tar",
+        "epochs": 35,
+        "evals": {
+            "test": {
+                "accuracy": 0.9388,
+                "topk_dict": {
+                    "top1": 0.9388
+                }
+            },
+            "val": {
+                "accuracy": 0.948,
+                "topk_dict": {
+                    "top1": 0.948
+                }
+            }
+        },
+        "i": 6,
+        "new_checkpoint": true,
+        "num_blocks_active": 47,
+        "num_blocks_removed": 7,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41
+        ],
+        "topk_dict": {
+            "top1": 0.948
+        },
+        "trained": {
+            "accuracy": 0.948,
+            "accuracy_gain": 0.00039999999999995595,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_6_removed_7.pth.tar",
+            "duration": 1473.084841966629,
+            "epochs": 35,
+            "event": "trained",
+            "i": 6,
+            "iteration": 6,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41
+            ],
+            "topk_dict": {
+                "top1": 0.948
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9504,
+        "accuracy_before_training": 0.9474,
+        "block": 31,
+        "checkpoint": "iter_7_removed_8.pth.tar",
+        "epochs": 45,
+        "evals": {
+            "test": {
+                "accuracy": 0.9403,
+                "topk_dict": {
+                    "top1": 0.9403
+                }
+            },
+            "val": {
+                "accuracy": 0.9504,
+                "topk_dict": {
+                    "top1": 0.9504
+                }
+            }
+        },
+        "i": 7,
+        "new_checkpoint": true,
+        "num_blocks_active": 46,
+        "num_blocks_removed": 8,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31
+        ],
+        "topk_dict": {
+            "top1": 0.9504
+        },
+        "trained": {
+            "accuracy": 0.9504,
+            "accuracy_gain": 0.0030000000000000027,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_7_removed_8.pth.tar",
+            "duration": 1449.5377640724182,
+            "epochs": 45,
+            "event": "trained",
+            "i": 7,
+            "iteration": 7,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31
+            ],
+            "topk_dict": {
+                "top1": 0.9504
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9474,
+        "accuracy_before_training": 0.947,
+        "block": 30,
+        "checkpoint": "iter_8_removed_9.pth.tar",
+        "epochs": 40,
+        "evals": {
+            "test": {
+                "accuracy": 0.9399,
+                "topk_dict": {
+                    "top1": 0.9399
+                }
+            },
+            "val": {
+                "accuracy": 0.9474,
+                "topk_dict": {
+                    "top1": 0.9474
+                }
+            }
+        },
+        "i": 8,
+        "new_checkpoint": true,
+        "num_blocks_active": 45,
+        "num_blocks_removed": 9,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30
+        ],
+        "topk_dict": {
+            "top1": 0.9474
+        },
+        "trained": {
+            "accuracy": 0.9474,
+            "accuracy_gain": 0.00040000000000006697,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_8_removed_9.pth.tar",
+            "duration": 1428.6063268184662,
+            "epochs": 40,
+            "event": "trained",
+            "i": 8,
+            "iteration": 8,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30
+            ],
+            "topk_dict": {
+                "top1": 0.9474
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.947,
+        "accuracy_before_training": 0.9458,
+        "block": 27,
+        "checkpoint": "iter_9_removed_10.pth.tar",
+        "epochs": 47,
+        "evals": {
+            "test": {
+                "accuracy": 0.942,
+                "topk_dict": {
+                    "top1": 0.942
+                }
+            },
+            "val": {
+                "accuracy": 0.947,
+                "topk_dict": {
+                    "top1": 0.947
+                }
+            }
+        },
+        "i": 9,
+        "new_checkpoint": true,
+        "num_blocks_active": 44,
+        "num_blocks_removed": 10,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27
+        ],
+        "topk_dict": {
+            "top1": 0.947
+        },
+        "trained": {
+            "accuracy": 0.947,
+            "accuracy_gain": 0.0011999999999999789,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_9_removed_10.pth.tar",
+            "duration": 1406.3423042297363,
+            "epochs": 47,
+            "event": "trained",
+            "i": 9,
+            "iteration": 9,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27
+            ],
+            "topk_dict": {
+                "top1": 0.947
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9478,
+        "accuracy_before_training": 0.9454,
+        "block": 15,
+        "checkpoint": "iter_10_removed_11.pth.tar",
+        "epochs": 41,
+        "evals": {
+            "test": {
+                "accuracy": 0.9401,
+                "topk_dict": {
+                    "top1": 0.9401
+                }
+            },
+            "val": {
+                "accuracy": 0.9478,
+                "topk_dict": {
+                    "top1": 0.9478
+                }
+            }
+        },
+        "i": 10,
+        "new_checkpoint": true,
+        "num_blocks_active": 43,
+        "num_blocks_removed": 11,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15
+        ],
+        "topk_dict": {
+            "top1": 0.9478
+        },
+        "trained": {
+            "accuracy": 0.9478,
+            "accuracy_gain": 0.0023999999999999577,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_10_removed_11.pth.tar",
+            "duration": 1367.6707744598389,
+            "epochs": 41,
+            "event": "trained",
+            "i": 10,
+            "iteration": 10,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15
+            ],
+            "topk_dict": {
+                "top1": 0.9478
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.947,
+        "accuracy_before_training": 0.9458,
+        "block": 45,
+        "checkpoint": "iter_11_removed_12.pth.tar",
+        "epochs": 19,
+        "evals": {
+            "test": {
+                "accuracy": 0.9388,
+                "topk_dict": {
+                    "top1": 0.9388
+                }
+            },
+            "val": {
+                "accuracy": 0.947,
+                "topk_dict": {
+                    "top1": 0.947
+                }
+            }
+        },
+        "i": 11,
+        "new_checkpoint": true,
+        "num_blocks_active": 42,
+        "num_blocks_removed": 12,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45
+        ],
+        "topk_dict": {
+            "top1": 0.947
+        },
+        "trained": {
+            "accuracy": 0.947,
+            "accuracy_gain": 0.0011999999999999789,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_11_removed_12.pth.tar",
+            "duration": 1342.892944574356,
+            "epochs": 19,
+            "event": "trained",
+            "i": 11,
+            "iteration": 11,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45
+            ],
+            "topk_dict": {
+                "top1": 0.947
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9474,
+        "accuracy_before_training": 0.9458,
+        "block": 46,
+        "checkpoint": "iter_12_removed_13.pth.tar",
+        "epochs": 5,
+        "evals": {
+            "test": {
+                "accuracy": 0.9394,
+                "topk_dict": {
+                    "top1": 0.9394
+                }
+            },
+            "val": {
+                "accuracy": 0.9474,
+                "topk_dict": {
+                    "top1": 0.9474
+                }
+            }
+        },
+        "i": 12,
+        "new_checkpoint": true,
+        "num_blocks_active": 41,
+        "num_blocks_removed": 13,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46
+        ],
+        "topk_dict": {
+            "top1": 0.9474
+        },
+        "trained": {
+            "accuracy": 0.9474,
+            "accuracy_gain": 0.0016000000000000458,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_12_removed_13.pth.tar",
+            "duration": 1320.8109164237976,
+            "epochs": 5,
+            "event": "trained",
+            "i": 12,
+            "iteration": 12,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46
+            ],
+            "topk_dict": {
+                "top1": 0.9474
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.946,
+        "accuracy_before_training": 0.9448,
+        "block": 29,
+        "checkpoint": "iter_13_removed_14.pth.tar",
+        "epochs": 16,
+        "evals": {
+            "test": {
+                "accuracy": 0.9363,
+                "topk_dict": {
+                    "top1": 0.9363
+                }
+            },
+            "val": {
+                "accuracy": 0.946,
+                "topk_dict": {
+                    "top1": 0.946
+                }
+            }
+        },
+        "i": 13,
+        "new_checkpoint": true,
+        "num_blocks_active": 40,
+        "num_blocks_removed": 14,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29
+        ],
+        "topk_dict": {
+            "top1": 0.946
+        },
+        "trained": {
+            "accuracy": 0.946,
+            "accuracy_gain": 0.0011999999999999789,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_13_removed_14.pth.tar",
+            "duration": 1292.6346590518951,
+            "epochs": 16,
+            "event": "trained",
+            "i": 13,
+            "iteration": 13,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29
+            ],
+            "topk_dict": {
+                "top1": 0.946
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9472,
+        "accuracy_before_training": 0.9448,
+        "block": 8,
+        "checkpoint": "iter_14_removed_15.pth.tar",
+        "epochs": 0,
+        "evals": {
+            "test": {
+                "accuracy": 0.9357,
+                "topk_dict": {
+                    "top1": 0.9357
+                }
+            },
+            "val": {
+                "accuracy": 0.9472,
+                "topk_dict": {
+                    "top1": 0.9472
+                }
+            }
+        },
+        "i": 14,
+        "new_checkpoint": true,
+        "num_blocks_active": 39,
+        "num_blocks_removed": 15,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8
+        ],
+        "topk_dict": {
+            "top1": 0.9472
+        },
+        "trained": {
+            "accuracy": 0.9472,
+            "accuracy_gain": 0.0024000000000000687,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_14_removed_15.pth.tar",
+            "duration": 1257.6770470142365,
+            "epochs": 0,
+            "event": "trained",
+            "i": 14,
+            "iteration": 14,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8
+            ],
+            "topk_dict": {
+                "top1": 0.9472
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9464,
+        "accuracy_before_training": 0.943,
+        "block": 25,
+        "checkpoint": "iter_15_removed_16.pth.tar",
+        "epochs": 50,
+        "evals": {
+            "test": {
+                "accuracy": 0.9364,
+                "topk_dict": {
+                    "top1": 0.9364
+                }
+            },
+            "val": {
+                "accuracy": 0.9464,
+                "topk_dict": {
+                    "top1": 0.9464
+                }
+            }
+        },
+        "i": 15,
+        "new_checkpoint": true,
+        "num_blocks_active": 38,
+        "num_blocks_removed": 16,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25
+        ],
+        "topk_dict": {
+            "top1": 0.9464
+        },
+        "trained": {
+            "accuracy": 0.9464,
+            "accuracy_gain": 0.0034000000000000696,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_15_removed_16.pth.tar",
+            "duration": 1235.2188186645508,
+            "epochs": 50,
+            "event": "trained",
+            "i": 15,
+            "iteration": 15,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25
+            ],
+            "topk_dict": {
+                "top1": 0.9464
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9468,
+        "accuracy_before_training": 0.9432,
+        "block": 2,
+        "checkpoint": "iter_16_removed_17.pth.tar",
+        "epochs": 24,
+        "evals": {
+            "test": {
+                "accuracy": 0.9375,
+                "topk_dict": {
+                    "top1": 0.9375
+                }
+            },
+            "val": {
+                "accuracy": 0.9468,
+                "topk_dict": {
+                    "top1": 0.9468
+                }
+            }
+        },
+        "i": 16,
+        "new_checkpoint": true,
+        "num_blocks_active": 37,
+        "num_blocks_removed": 17,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2
+        ],
+        "topk_dict": {
+            "top1": 0.9468
+        },
+        "trained": {
+            "accuracy": 0.9468,
+            "accuracy_gain": 0.0035999999999999366,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_16_removed_17.pth.tar",
+            "duration": 1199.337209224701,
+            "epochs": 24,
+            "event": "trained",
+            "i": 16,
+            "iteration": 16,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2
+            ],
+            "topk_dict": {
+                "top1": 0.9468
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9434,
+        "accuracy_before_training": 0.9432,
+        "block": 43,
+        "checkpoint": "iter_17_removed_18.pth.tar",
+        "epochs": 14,
+        "evals": {
+            "test": {
+                "accuracy": 0.9367,
+                "topk_dict": {
+                    "top1": 0.9367
+                }
+            },
+            "val": {
+                "accuracy": 0.9434,
+                "topk_dict": {
+                    "top1": 0.9434
+                }
+            }
+        },
+        "i": 17,
+        "new_checkpoint": true,
+        "num_blocks_active": 36,
+        "num_blocks_removed": 18,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43
+        ],
+        "topk_dict": {
+            "top1": 0.9434
+        },
+        "trained": {
+            "accuracy": 0.9434,
+            "accuracy_gain": 0.00019999999999997797,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_17_removed_18.pth.tar",
+            "duration": 1179.620531797409,
+            "epochs": 14,
+            "event": "trained",
+            "i": 17,
+            "iteration": 17,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43
+            ],
+            "topk_dict": {
+                "top1": 0.9434
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9452,
+        "accuracy_before_training": 0.9418,
+        "block": 26,
+        "checkpoint": "iter_18_removed_19.pth.tar",
+        "epochs": 48,
+        "evals": {
+            "test": {
+                "accuracy": 0.9351,
+                "topk_dict": {
+                    "top1": 0.9351
+                }
+            },
+            "val": {
+                "accuracy": 0.9452,
+                "topk_dict": {
+                    "top1": 0.9452
+                }
+            }
+        },
+        "i": 18,
+        "new_checkpoint": true,
+        "num_blocks_active": 35,
+        "num_blocks_removed": 19,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26
+        ],
+        "topk_dict": {
+            "top1": 0.9452
+        },
+        "trained": {
+            "accuracy": 0.9452,
+            "accuracy_gain": 0.0034000000000000696,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_18_removed_19.pth.tar",
+            "duration": 1157.5890111923218,
+            "epochs": 48,
+            "event": "trained",
+            "i": 18,
+            "iteration": 18,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26
+            ],
+            "topk_dict": {
+                "top1": 0.9452
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9444,
+        "accuracy_before_training": 0.941,
+        "block": 23,
+        "checkpoint": "iter_19_removed_20.pth.tar",
+        "epochs": 50,
+        "evals": {
+            "test": {
+                "accuracy": 0.9352,
+                "topk_dict": {
+                    "top1": 0.9352
+                }
+            },
+            "val": {
+                "accuracy": 0.9444,
+                "topk_dict": {
+                    "top1": 0.9444
+                }
+            }
+        },
+        "i": 19,
+        "new_checkpoint": true,
+        "num_blocks_active": 34,
+        "num_blocks_removed": 20,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23
+        ],
+        "topk_dict": {
+            "top1": 0.9444
+        },
+        "trained": {
+            "accuracy": 0.9444,
+            "accuracy_gain": 0.0034000000000000696,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_19_removed_20.pth.tar",
+            "duration": 1135.7731053829193,
+            "epochs": 50,
+            "event": "trained",
+            "i": 19,
+            "iteration": 19,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23
+            ],
+            "topk_dict": {
+                "top1": 0.9444
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9484,
+        "accuracy_before_training": 0.9402,
+        "block": 52,
+        "checkpoint": "iter_20_removed_21.pth.tar",
+        "epochs": 22,
+        "evals": {
+            "test": {
+                "accuracy": 0.9379,
+                "topk_dict": {
+                    "top1": 0.9379
+                }
+            },
+            "val": {
+                "accuracy": 0.9484,
+                "topk_dict": {
+                    "top1": 0.9484
+                }
+            }
+        },
+        "i": 20,
+        "new_checkpoint": true,
+        "num_blocks_active": 33,
+        "num_blocks_removed": 21,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52
+        ],
+        "topk_dict": {
+            "top1": 0.9484
+        },
+        "trained": {
+            "accuracy": 0.9484,
+            "accuracy_gain": 0.008199999999999985,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_20_removed_21.pth.tar",
+            "duration": 1114.5138664245605,
+            "epochs": 22,
+            "event": "trained",
+            "i": 20,
+            "iteration": 20,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52
+            ],
+            "topk_dict": {
+                "top1": 0.9484
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9472,
+        "accuracy_before_training": 0.9408,
+        "block": 3,
+        "checkpoint": "iter_21_removed_22.pth.tar",
+        "epochs": 37,
+        "evals": {
+            "test": {
+                "accuracy": 0.9354,
+                "topk_dict": {
+                    "top1": 0.9354
+                }
+            },
+            "val": {
+                "accuracy": 0.9472,
+                "topk_dict": {
+                    "top1": 0.9472
+                }
+            }
+        },
+        "i": 21,
+        "new_checkpoint": true,
+        "num_blocks_active": 32,
+        "num_blocks_removed": 22,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3
+        ],
+        "topk_dict": {
+            "top1": 0.9472
+        },
+        "trained": {
+            "accuracy": 0.9472,
+            "accuracy_gain": 0.006400000000000072,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_21_removed_22.pth.tar",
+            "duration": 1078.9255201816559,
+            "epochs": 37,
+            "event": "trained",
+            "i": 21,
+            "iteration": 21,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3
+            ],
+            "topk_dict": {
+                "top1": 0.9472
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9468,
+        "accuracy_before_training": 0.9412,
+        "block": 11,
+        "checkpoint": "iter_22_removed_23.pth.tar",
+        "epochs": 9,
+        "evals": {
+            "test": {
+                "accuracy": 0.9349,
+                "topk_dict": {
+                    "top1": 0.9349
+                }
+            },
+            "val": {
+                "accuracy": 0.9468,
+                "topk_dict": {
+                    "top1": 0.9468
+                }
+            }
+        },
+        "i": 22,
+        "new_checkpoint": true,
+        "num_blocks_active": 31,
+        "num_blocks_removed": 23,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11
+        ],
+        "topk_dict": {
+            "top1": 0.9468
+        },
+        "trained": {
+            "accuracy": 0.9468,
+            "accuracy_gain": 0.005599999999999938,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_22_removed_23.pth.tar",
+            "duration": 1043.4477834701538,
+            "epochs": 9,
+            "event": "trained",
+            "i": 22,
+            "iteration": 22,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11
+            ],
+            "topk_dict": {
+                "top1": 0.9468
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9458,
+        "accuracy_before_training": 0.9404,
+        "block": 21,
+        "checkpoint": "iter_23_removed_24.pth.tar",
+        "epochs": 24,
+        "evals": {
+            "test": {
+                "accuracy": 0.9362,
+                "topk_dict": {
+                    "top1": 0.9362
+                }
+            },
+            "val": {
+                "accuracy": 0.9458,
+                "topk_dict": {
+                    "top1": 0.9458
+                }
+            }
+        },
+        "i": 23,
+        "new_checkpoint": true,
+        "num_blocks_active": 30,
+        "num_blocks_removed": 24,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21
+        ],
+        "topk_dict": {
+            "top1": 0.9458
+        },
+        "trained": {
+            "accuracy": 0.9458,
+            "accuracy_gain": 0.00539999999999996,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_23_removed_24.pth.tar",
+            "duration": 1022.491865158081,
+            "epochs": 24,
+            "event": "trained",
+            "i": 23,
+            "iteration": 23,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21
+            ],
+            "topk_dict": {
+                "top1": 0.9458
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9426,
+        "accuracy_before_training": 0.938,
+        "block": 32,
+        "checkpoint": "iter_24_removed_25.pth.tar",
+        "epochs": 38,
+        "evals": {
+            "test": {
+                "accuracy": 0.9349,
+                "topk_dict": {
+                    "top1": 0.9349
+                }
+            },
+            "val": {
+                "accuracy": 0.9426,
+                "topk_dict": {
+                    "top1": 0.9426
+                }
+            }
+        },
+        "i": 24,
+        "new_checkpoint": true,
+        "num_blocks_active": 29,
+        "num_blocks_removed": 25,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32
+        ],
+        "topk_dict": {
+            "top1": 0.9426
+        },
+        "trained": {
+            "accuracy": 0.9426,
+            "accuracy_gain": 0.0046000000000000485,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_24_removed_25.pth.tar",
+            "duration": 999.8022983074188,
+            "epochs": 38,
+            "event": "trained",
+            "i": 24,
+            "iteration": 24,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32
+            ],
+            "topk_dict": {
+                "top1": 0.9426
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9408,
+        "accuracy_before_training": 0.9346,
+        "block": 22,
+        "checkpoint": "iter_25_removed_26.pth.tar",
+        "epochs": 27,
+        "evals": {
+            "test": {
+                "accuracy": 0.9338,
+                "topk_dict": {
+                    "top1": 0.9338
+                }
+            },
+            "val": {
+                "accuracy": 0.9408,
+                "topk_dict": {
+                    "top1": 0.9408
+                }
+            }
+        },
+        "i": 25,
+        "new_checkpoint": true,
+        "num_blocks_active": 28,
+        "num_blocks_removed": 26,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22
+        ],
+        "topk_dict": {
+            "top1": 0.9408
+        },
+        "trained": {
+            "accuracy": 0.9408,
+            "accuracy_gain": 0.006199999999999983,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_25_removed_26.pth.tar",
+            "duration": 977.6652982234955,
+            "epochs": 27,
+            "event": "trained",
+            "i": 25,
+            "iteration": 25,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22
+            ],
+            "topk_dict": {
+                "top1": 0.9408
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.938,
+        "accuracy_before_training": 0.9328,
+        "baseline": [
+            [
+                "ResNet-56",
+                27,
+                0.9488,
+                0.9379
+            ]
+        ],
+        "block": 28,
+        "checkpoint": "iter_26_removed_27.pth.tar",
+        "epochs": 24,
+        "evals": {
+            "test": {
+                "accuracy": 0.9307,
+                "topk_dict": {
+                    "top1": 0.9307
+                }
+            },
+            "val": {
+                "accuracy": 0.938,
+                "topk_dict": {
+                    "top1": 0.938
+                }
+            }
+        },
+        "i": 26,
+        "new_checkpoint": true,
+        "num_blocks_active": 27,
+        "num_blocks_removed": 27,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28
+        ],
+        "topk_dict": {
+            "top1": 0.938
+        },
+        "trained": {
+            "accuracy": 0.938,
+            "accuracy_gain": 0.005199999999999982,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_26_removed_27.pth.tar",
+            "duration": 954.9202036857605,
+            "epochs": 24,
+            "event": "trained",
+            "i": 26,
+            "iteration": 26,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28
+            ],
+            "topk_dict": {
+                "top1": 0.938
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.937,
+        "accuracy_before_training": 0.9294,
+        "block": 7,
+        "checkpoint": "iter_27_removed_28.pth.tar",
+        "epochs": 20,
+        "evals": {
+            "test": {
+                "accuracy": 0.9324,
+                "topk_dict": {
+                    "top1": 0.9324
+                }
+            },
+            "val": {
+                "accuracy": 0.937,
+                "topk_dict": {
+                    "top1": 0.937
+                }
+            }
+        },
+        "i": 27,
+        "new_checkpoint": true,
+        "num_blocks_active": 26,
+        "num_blocks_removed": 28,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7
+        ],
+        "topk_dict": {
+            "top1": 0.937
+        },
+        "trained": {
+            "accuracy": 0.937,
+            "accuracy_gain": 0.007600000000000051,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_27_removed_28.pth.tar",
+            "duration": 924.420670747757,
+            "epochs": 20,
+            "event": "trained",
+            "i": 27,
+            "iteration": 27,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7
+            ],
+            "topk_dict": {
+                "top1": 0.937
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9374,
+        "accuracy_before_training": 0.9286,
+        "block": 44,
+        "checkpoint": "iter_28_removed_29.pth.tar",
+        "epochs": 19,
+        "evals": {
+            "test": {
+                "accuracy": 0.9308,
+                "topk_dict": {
+                    "top1": 0.9308
+                }
+            },
+            "val": {
+                "accuracy": 0.9374,
+                "topk_dict": {
+                    "top1": 0.9374
+                }
+            }
+        },
+        "i": 28,
+        "new_checkpoint": true,
+        "num_blocks_active": 25,
+        "num_blocks_removed": 29,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44
+        ],
+        "topk_dict": {
+            "top1": 0.9374
+        },
+        "trained": {
+            "accuracy": 0.9374,
+            "accuracy_gain": 0.00880000000000003,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_28_removed_29.pth.tar",
+            "duration": 915.5549123287201,
+            "epochs": 19,
+            "event": "trained",
+            "i": 28,
+            "iteration": 28,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44
+            ],
+            "topk_dict": {
+                "top1": 0.9374
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9386,
+        "accuracy_before_training": 0.9266,
+        "block": 40,
+        "checkpoint": "iter_29_removed_30.pth.tar",
+        "epochs": 47,
+        "evals": {
+            "test": {
+                "accuracy": 0.9304,
+                "topk_dict": {
+                    "top1": 0.9304
+                }
+            },
+            "val": {
+                "accuracy": 0.9386,
+                "topk_dict": {
+                    "top1": 0.9386
+                }
+            }
+        },
+        "i": 29,
+        "new_checkpoint": true,
+        "num_blocks_active": 24,
+        "num_blocks_removed": 30,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40
+        ],
+        "topk_dict": {
+            "top1": 0.9386
+        },
+        "trained": {
+            "accuracy": 0.9386,
+            "accuracy_gain": 0.01200000000000001,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_29_removed_30.pth.tar",
+            "duration": 907.2175145149231,
+            "epochs": 47,
+            "event": "trained",
+            "i": 29,
+            "iteration": 29,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40
+            ],
+            "topk_dict": {
+                "top1": 0.9386
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9372,
+        "accuracy_before_training": 0.9254,
+        "block": 4,
+        "checkpoint": "iter_30_removed_31.pth.tar",
+        "epochs": 29,
+        "evals": {
+            "test": {
+                "accuracy": 0.9292,
+                "topk_dict": {
+                    "top1": 0.9292
+                }
+            },
+            "val": {
+                "accuracy": 0.9372,
+                "topk_dict": {
+                    "top1": 0.9372
+                }
+            }
+        },
+        "i": 30,
+        "new_checkpoint": true,
+        "num_blocks_active": 23,
+        "num_blocks_removed": 31,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4
+        ],
+        "topk_dict": {
+            "top1": 0.9372
+        },
+        "trained": {
+            "accuracy": 0.9372,
+            "accuracy_gain": 0.011800000000000033,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_30_removed_31.pth.tar",
+            "duration": 889.5433259010315,
+            "epochs": 29,
+            "event": "trained",
+            "i": 30,
+            "iteration": 30,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4
+            ],
+            "topk_dict": {
+                "top1": 0.9372
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9354,
+        "accuracy_before_training": 0.924,
+        "block": 20,
+        "checkpoint": "iter_31_removed_32.pth.tar",
+        "epochs": 45,
+        "evals": {
+            "test": {
+                "accuracy": 0.925,
+                "topk_dict": {
+                    "top1": 0.925
+                }
+            },
+            "val": {
+                "accuracy": 0.9354,
+                "topk_dict": {
+                    "top1": 0.9354
+                }
+            }
+        },
+        "i": 31,
+        "new_checkpoint": true,
+        "num_blocks_active": 22,
+        "num_blocks_removed": 32,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20
+        ],
+        "topk_dict": {
+            "top1": 0.9354
+        },
+        "trained": {
+            "accuracy": 0.9354,
+            "accuracy_gain": 0.011399999999999966,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_31_removed_32.pth.tar",
+            "duration": 880.7235369682312,
+            "epochs": 45,
+            "event": "trained",
+            "i": 31,
+            "iteration": 31,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20
+            ],
+            "topk_dict": {
+                "top1": 0.9354
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9358,
+        "accuracy_before_training": 0.9224,
+        "baseline": [
+            [
+                "ResNet-44",
+                21,
+                0.9426,
+                0.9337
+            ]
+        ],
+        "block": 9,
+        "checkpoint": "iter_32_removed_33.pth.tar",
+        "epochs": 13,
+        "evals": {
+            "test": {
+                "accuracy": 0.9245,
+                "topk_dict": {
+                    "top1": 0.9245
+                }
+            },
+            "val": {
+                "accuracy": 0.9358,
+                "topk_dict": {
+                    "top1": 0.9358
+                }
+            }
+        },
+        "i": 32,
+        "new_checkpoint": true,
+        "num_blocks_active": 21,
+        "num_blocks_removed": 33,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9
+        ],
+        "topk_dict": {
+            "top1": 0.9358
+        },
+        "trained": {
+            "accuracy": 0.9358,
+            "accuracy_gain": 0.013399999999999967,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_32_removed_33.pth.tar",
+            "duration": 867.5331020355225,
+            "epochs": 13,
+            "event": "trained",
+            "i": 32,
+            "iteration": 32,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9
+            ],
+            "topk_dict": {
+                "top1": 0.9358
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9356,
+        "accuracy_before_training": 0.9204,
+        "block": 49,
+        "checkpoint": "iter_33_removed_34.pth.tar",
+        "epochs": 50,
+        "evals": {
+            "test": {
+                "accuracy": 0.925,
+                "topk_dict": {
+                    "top1": 0.925
+                }
+            },
+            "val": {
+                "accuracy": 0.9356,
+                "topk_dict": {
+                    "top1": 0.9356
+                }
+            }
+        },
+        "i": 33,
+        "new_checkpoint": true,
+        "num_blocks_active": 20,
+        "num_blocks_removed": 34,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49
+        ],
+        "topk_dict": {
+            "top1": 0.9356
+        },
+        "trained": {
+            "accuracy": 0.9356,
+            "accuracy_gain": 0.015199999999999991,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_33_removed_34.pth.tar",
+            "duration": 857.5951654911041,
+            "epochs": 50,
+            "event": "trained",
+            "i": 33,
+            "iteration": 33,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49
+            ],
+            "topk_dict": {
+                "top1": 0.9356
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9366,
+        "accuracy_before_training": 0.9198,
+        "block": 13,
+        "checkpoint": "iter_34_removed_35.pth.tar",
+        "epochs": 50,
+        "evals": {
+            "test": {
+                "accuracy": 0.926,
+                "topk_dict": {
+                    "top1": 0.926
+                }
+            },
+            "val": {
+                "accuracy": 0.9366,
+                "topk_dict": {
+                    "top1": 0.9366
+                }
+            }
+        },
+        "i": 34,
+        "new_checkpoint": true,
+        "num_blocks_active": 19,
+        "num_blocks_removed": 35,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49,
+            13
+        ],
+        "topk_dict": {
+            "top1": 0.9366
+        },
+        "trained": {
+            "accuracy": 0.9366,
+            "accuracy_gain": 0.016800000000000037,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_34_removed_35.pth.tar",
+            "duration": 845.6035606861115,
+            "epochs": 50,
+            "event": "trained",
+            "i": 34,
+            "iteration": 34,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49,
+                13
+            ],
+            "topk_dict": {
+                "top1": 0.9366
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9366,
+        "accuracy_before_training": 0.9168,
+        "block": 48,
+        "checkpoint": "iter_35_removed_36.pth.tar",
+        "epochs": 29,
+        "evals": {
+            "test": {
+                "accuracy": 0.9254,
+                "topk_dict": {
+                    "top1": 0.9254
+                }
+            },
+            "val": {
+                "accuracy": 0.9366,
+                "topk_dict": {
+                    "top1": 0.9366
+                }
+            }
+        },
+        "i": 35,
+        "new_checkpoint": true,
+        "num_blocks_active": 18,
+        "num_blocks_removed": 36,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49,
+            13,
+            48
+        ],
+        "topk_dict": {
+            "top1": 0.9366
+        },
+        "trained": {
+            "accuracy": 0.9366,
+            "accuracy_gain": 0.01980000000000004,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_35_removed_36.pth.tar",
+            "duration": 835.7889556884766,
+            "epochs": 29,
+            "event": "trained",
+            "i": 35,
+            "iteration": 35,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49,
+                13,
+                48
+            ],
+            "topk_dict": {
+                "top1": 0.9366
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9358,
+        "accuracy_before_training": 0.9136,
+        "block": 0,
+        "checkpoint": "iter_36_removed_37.pth.tar",
+        "epochs": 44,
+        "evals": {
+            "test": {
+                "accuracy": 0.9271,
+                "topk_dict": {
+                    "top1": 0.9271
+                }
+            },
+            "val": {
+                "accuracy": 0.9358,
+                "topk_dict": {
+                    "top1": 0.9358
+                }
+            }
+        },
+        "i": 36,
+        "new_checkpoint": true,
+        "num_blocks_active": 17,
+        "num_blocks_removed": 37,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49,
+            13,
+            48,
+            0
+        ],
+        "topk_dict": {
+            "top1": 0.9358
+        },
+        "trained": {
+            "accuracy": 0.9358,
+            "accuracy_gain": 0.022199999999999998,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_36_removed_37.pth.tar",
+            "duration": 822.2962837219238,
+            "epochs": 44,
+            "event": "trained",
+            "i": 36,
+            "iteration": 36,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49,
+                13,
+                48,
+                0
+            ],
+            "topk_dict": {
+                "top1": 0.9358
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9364,
+        "accuracy_before_training": 0.9104,
+        "block": 14,
+        "checkpoint": "iter_37_removed_38.pth.tar",
+        "epochs": 42,
+        "evals": {
+            "test": {
+                "accuracy": 0.9254,
+                "topk_dict": {
+                    "top1": 0.9254
+                }
+            },
+            "val": {
+                "accuracy": 0.9364,
+                "topk_dict": {
+                    "top1": 0.9364
+                }
+            }
+        },
+        "i": 37,
+        "new_checkpoint": true,
+        "num_blocks_active": 16,
+        "num_blocks_removed": 38,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49,
+            13,
+            48,
+            0,
+            14
+        ],
+        "topk_dict": {
+            "top1": 0.9364
+        },
+        "trained": {
+            "accuracy": 0.9364,
+            "accuracy_gain": 0.026000000000000023,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_37_removed_38.pth.tar",
+            "duration": 809.4444227218628,
+            "epochs": 42,
+            "event": "trained",
+            "i": 37,
+            "iteration": 37,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49,
+                13,
+                48,
+                0,
+                14
+            ],
+            "topk_dict": {
+                "top1": 0.9364
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9328,
+        "accuracy_before_training": 0.9092,
+        "baseline": [
+            [
+                "ResNet-32",
+                15,
+                0.9382,
+                0.9332
+            ]
+        ],
+        "block": 37,
+        "checkpoint": "iter_38_removed_39.pth.tar",
+        "epochs": 13,
+        "evals": {
+            "test": {
+                "accuracy": 0.9216,
+                "topk_dict": {
+                    "top1": 0.9216
+                }
+            },
+            "val": {
+                "accuracy": 0.9328,
+                "topk_dict": {
+                    "top1": 0.9328
+                }
+            }
+        },
+        "i": 38,
+        "new_checkpoint": true,
+        "num_blocks_active": 15,
+        "num_blocks_removed": 39,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49,
+            13,
+            48,
+            0,
+            14,
+            37
+        ],
+        "topk_dict": {
+            "top1": 0.9328
+        },
+        "trained": {
+            "accuracy": 0.9328,
+            "accuracy_gain": 0.023599999999999954,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_38_removed_39.pth.tar",
+            "duration": 800.6672556400299,
+            "epochs": 13,
+            "event": "trained",
+            "i": 38,
+            "iteration": 38,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49,
+                13,
+                48,
+                0,
+                14,
+                37
+            ],
+            "topk_dict": {
+                "top1": 0.9328
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9302,
+        "accuracy_before_training": 0.9022,
+        "block": 19,
+        "checkpoint": "iter_39_removed_40.pth.tar",
+        "epochs": 42,
+        "evals": {
+            "test": {
+                "accuracy": 0.9192,
+                "topk_dict": {
+                    "top1": 0.9192
+                }
+            },
+            "val": {
+                "accuracy": 0.9302,
+                "topk_dict": {
+                    "top1": 0.9302
+                }
+            }
+        },
+        "i": 39,
+        "new_checkpoint": true,
+        "num_blocks_active": 14,
+        "num_blocks_removed": 40,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49,
+            13,
+            48,
+            0,
+            14,
+            37,
+            19
+        ],
+        "topk_dict": {
+            "top1": 0.9302
+        },
+        "trained": {
+            "accuracy": 0.9302,
+            "accuracy_gain": 0.028000000000000025,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_39_removed_40.pth.tar",
+            "duration": 790.0742297172546,
+            "epochs": 42,
+            "event": "trained",
+            "i": 39,
+            "iteration": 39,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49,
+                13,
+                48,
+                0,
+                14,
+                37,
+                19
+            ],
+            "topk_dict": {
+                "top1": 0.9302
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.928,
+        "accuracy_before_training": 0.9006,
+        "block": 53,
+        "checkpoint": "iter_40_removed_41.pth.tar",
+        "epochs": 19,
+        "evals": {
+            "test": {
+                "accuracy": 0.9179,
+                "topk_dict": {
+                    "top1": 0.9179
+                }
+            },
+            "val": {
+                "accuracy": 0.928,
+                "topk_dict": {
+                    "top1": 0.928
+                }
+            }
+        },
+        "i": 40,
+        "new_checkpoint": true,
+        "num_blocks_active": 13,
+        "num_blocks_removed": 41,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49,
+            13,
+            48,
+            0,
+            14,
+            37,
+            19,
+            53
+        ],
+        "topk_dict": {
+            "top1": 0.928
+        },
+        "trained": {
+            "accuracy": 0.928,
+            "accuracy_gain": 0.02740000000000009,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_40_removed_41.pth.tar",
+            "duration": 780.4000022411346,
+            "epochs": 19,
+            "event": "trained",
+            "i": 40,
+            "iteration": 40,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49,
+                13,
+                48,
+                0,
+                14,
+                37,
+                19,
+                53
+            ],
+            "topk_dict": {
+                "top1": 0.928
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9264,
+        "accuracy_before_training": 0.8954,
+        "block": 51,
+        "checkpoint": "iter_41_removed_42.pth.tar",
+        "epochs": 27,
+        "evals": {
+            "test": {
+                "accuracy": 0.9169,
+                "topk_dict": {
+                    "top1": 0.9169
+                }
+            },
+            "val": {
+                "accuracy": 0.9264,
+                "topk_dict": {
+                    "top1": 0.9264
+                }
+            }
+        },
+        "i": 41,
+        "new_checkpoint": true,
+        "num_blocks_active": 12,
+        "num_blocks_removed": 42,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49,
+            13,
+            48,
+            0,
+            14,
+            37,
+            19,
+            53,
+            51
+        ],
+        "topk_dict": {
+            "top1": 0.9264
+        },
+        "trained": {
+            "accuracy": 0.9264,
+            "accuracy_gain": 0.031000000000000028,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_41_removed_42.pth.tar",
+            "duration": 769.5870699882507,
+            "epochs": 27,
+            "event": "trained",
+            "i": 41,
+            "iteration": 41,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49,
+                13,
+                48,
+                0,
+                14,
+                37,
+                19,
+                53,
+                51
+            ],
+            "topk_dict": {
+                "top1": 0.9264
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9248,
+        "accuracy_before_training": 0.8548,
+        "block": 6,
+        "checkpoint": "iter_42_removed_43.pth.tar",
+        "epochs": 41,
+        "evals": {
+            "test": {
+                "accuracy": 0.9157,
+                "topk_dict": {
+                    "top1": 0.9157
+                }
+            },
+            "val": {
+                "accuracy": 0.9248,
+                "topk_dict": {
+                    "top1": 0.9248
+                }
+            }
+        },
+        "i": 42,
+        "new_checkpoint": true,
+        "num_blocks_active": 11,
+        "num_blocks_removed": 43,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49,
+            13,
+            48,
+            0,
+            14,
+            37,
+            19,
+            53,
+            51,
+            6
+        ],
+        "topk_dict": {
+            "top1": 0.9248
+        },
+        "trained": {
+            "accuracy": 0.9248,
+            "accuracy_gain": 0.06999999999999995,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_42_removed_43.pth.tar",
+            "duration": 756.8669815063477,
+            "epochs": 41,
+            "event": "trained",
+            "i": 42,
+            "iteration": 42,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49,
+                13,
+                48,
+                0,
+                14,
+                37,
+                19,
+                53,
+                51,
+                6
+            ],
+            "topk_dict": {
+                "top1": 0.9248
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9214,
+        "accuracy_before_training": 0.8466,
+        "block": 50,
+        "checkpoint": "iter_43_removed_44.pth.tar",
+        "epochs": 38,
+        "evals": {
+            "test": {
+                "accuracy": 0.9132,
+                "topk_dict": {
+                    "top1": 0.9132
+                }
+            },
+            "val": {
+                "accuracy": 0.9214,
+                "topk_dict": {
+                    "top1": 0.9214
+                }
+            }
+        },
+        "i": 43,
+        "new_checkpoint": true,
+        "num_blocks_active": 10,
+        "num_blocks_removed": 44,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49,
+            13,
+            48,
+            0,
+            14,
+            37,
+            19,
+            53,
+            51,
+            6,
+            50
+        ],
+        "topk_dict": {
+            "top1": 0.9214
+        },
+        "trained": {
+            "accuracy": 0.9214,
+            "accuracy_gain": 0.07479999999999998,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_43_removed_44.pth.tar",
+            "duration": 746.2157273292542,
+            "epochs": 38,
+            "event": "trained",
+            "i": 43,
+            "iteration": 43,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49,
+                13,
+                48,
+                0,
+                14,
+                37,
+                19,
+                53,
+                51,
+                6,
+                50
+            ],
+            "topk_dict": {
+                "top1": 0.9214
+            },
+            "total_epochs": 50
+        }
+    },
+    {
+        "accuracy": 0.9204,
+        "accuracy_before_training": 0.824,
+        "baseline": [
+            [
+                "ResNet-20",
+                9,
+                0.9334,
+                0.9246
+            ]
+        ],
+        "block": 16,
+        "checkpoint": "iter_44_removed_45.pth.tar",
+        "epochs": 42,
+        "evals": {
+            "test": {
+                "accuracy": 0.9092,
+                "topk_dict": {
+                    "top1": 0.9092
+                }
+            },
+            "val": {
+                "accuracy": 0.9204,
+                "topk_dict": {
+                    "top1": 0.9204
+                }
+            }
+        },
+        "i": 44,
+        "new_checkpoint": true,
+        "num_blocks_active": 9,
+        "num_blocks_removed": 45,
+        "recalc_cache": true,
+        "removed_blocks": [
+            34,
+            42,
+            35,
+            33,
+            38,
+            17,
+            41,
+            31,
+            30,
+            27,
+            15,
+            45,
+            46,
+            29,
+            8,
+            25,
+            2,
+            43,
+            26,
+            23,
+            52,
+            3,
+            11,
+            21,
+            32,
+            22,
+            28,
+            7,
+            44,
+            40,
+            4,
+            20,
+            9,
+            49,
+            13,
+            48,
+            0,
+            14,
+            37,
+            19,
+            53,
+            51,
+            6,
+            50,
+            16
+        ],
+        "topk_dict": {
+            "top1": 0.9204
+        },
+        "trained": {
+            "accuracy": 0.9204,
+            "accuracy_gain": 0.09640000000000004,
+            "checkpoint": "output/resnet110/cifar10/best_baseline/squeezed/freeze_50_best/s0_e50_4/iter_44_removed_45.pth.tar",
+            "duration": 731.9795813560486,
+            "epochs": 42,
+            "event": "trained",
+            "i": 44,
+            "iteration": 44,
+            "removed_blocks": [
+                34,
+                42,
+                35,
+                33,
+                38,
+                17,
+                41,
+                31,
+                30,
+                27,
+                15,
+                45,
+                46,
+                29,
+                8,
+                25,
+                2,
+                43,
+                26,
+                23,
+                52,
+                3,
+                11,
+                21,
+                32,
+                22,
+                28,
+                7,
+                44,
+                40,
+                4,
+                20,
+                9,
+                49,
+                13,
+                48,
+                0,
+                14,
+                37,
+                19,
+                53,
+                51,
+                6,
+                50,
+                16
+            ],
+            "topk_dict": {
+                "top1": 0.9204
+            },
+            "total_epochs": 50
+        }
+    }
+]
