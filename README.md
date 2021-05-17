@@ -17,3 +17,7 @@ continued, and older experiments won't have values for old args. I've tried my b
 in code (squeeze.py and train.py) are the same as what was used for exps before args were added.
 
 [The code](https://github.com/vladvelici/squeezr) has tools to make tables, plot, and find experiments.
+
+
+
+[![DOI](https://zenodo.org/badge/367949487.svg)](https://zenodo.org/badge/latestdoi/367949487)
